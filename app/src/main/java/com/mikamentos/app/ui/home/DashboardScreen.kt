@@ -213,6 +213,10 @@ fun DashboardScreen(
                 icon = { Icon(Icons.Default.Share, contentDescription = null, modifier = Modifier.size(28.dp)) },
                 label = tr(R.string.share_app),
                 onClick = {
+                    val downloadLink = "https://github.com/Mikidrag1957/Mikamentos/releases/latest/download/app-release.apk"
+                    (context.getSystemService(android.content.Context.CLIPBOARD_SERVICE) as android.content.ClipboardManager).let { clipboard ->
+                        clipboard.setPrimaryClip(android.content.ClipData.newPlainText("Mikamentos APK", downloadLink))
+                    }
                     try {
                         val appInfo = context.packageManager.getApplicationInfo(context.packageName, 0)
                         val srcFile = File(appInfo.publicSourceDir)
@@ -227,8 +231,14 @@ fun DashboardScreen(
                         }.let { intent ->
                             context.startActivity(Intent.createChooser(intent, context.getString(R.string.share_app)))
                         }
+                        android.widget.Toast.makeText(context, "Link copiado al portapapeles como respaldo", android.widget.Toast.LENGTH_SHORT).show()
                     } catch (e: Exception) {
-                        android.widget.Toast.makeText(context, "Error: ${e.message}", android.widget.Toast.LENGTH_LONG).show()
+                        Intent(Intent.ACTION_SEND).apply {
+                            type = "text/plain"
+                            putExtra(Intent.EXTRA_TEXT, downloadLink)
+                        }.let { intent ->
+                            context.startActivity(Intent.createChooser(intent, context.getString(R.string.share_app)))
+                        }
                     }
                 },
                 modifier = Modifier.weight(1f)

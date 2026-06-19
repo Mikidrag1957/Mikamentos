@@ -217,28 +217,11 @@ fun DashboardScreen(
                     (context.getSystemService(android.content.Context.CLIPBOARD_SERVICE) as android.content.ClipboardManager).let { clipboard ->
                         clipboard.setPrimaryClip(android.content.ClipData.newPlainText("Mikamentos APK", downloadLink))
                     }
-                    try {
-                        val appInfo = context.packageManager.getApplicationInfo(context.packageName, 0)
-                        val srcFile = File(appInfo.publicSourceDir)
-                        val cacheDir = File(context.cacheDir, "shared").also { it.mkdirs() }
-                        val destFile = File(cacheDir, "Mikamentos.apk")
-                        srcFile.copyTo(destFile, overwrite = true)
-                        val apkUri = androidx.core.content.FileProvider.getUriForFile(context, "${context.packageName}.fileprovider", destFile)
-                        Intent(Intent.ACTION_SEND).apply {
-                            type = "application/vnd.android.package-archive"
-                            putExtra(Intent.EXTRA_STREAM, apkUri)
-                            addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
-                        }.let { intent ->
-                            context.startActivity(Intent.createChooser(intent, context.getString(R.string.share_app)))
-                        }
-                        android.widget.Toast.makeText(context, "Link copiado al portapapeles como respaldo", android.widget.Toast.LENGTH_SHORT).show()
-                    } catch (e: Exception) {
-                        Intent(Intent.ACTION_SEND).apply {
-                            type = "text/plain"
-                            putExtra(Intent.EXTRA_TEXT, downloadLink)
-                        }.let { intent ->
-                            context.startActivity(Intent.createChooser(intent, context.getString(R.string.share_app)))
-                        }
+                    Intent(Intent.ACTION_SEND).apply {
+                        type = "text/plain"
+                        putExtra(Intent.EXTRA_TEXT, "Te recomiendo Mikamentos, una app para recordar medicamentos: $downloadLink")
+                    }.let { intent ->
+                        context.startActivity(Intent.createChooser(intent, context.getString(R.string.share_app)))
                     }
                 },
                 modifier = Modifier.weight(1f)

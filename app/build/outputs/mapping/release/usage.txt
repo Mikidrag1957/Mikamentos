@@ -36793,15 +36793,11 @@ kotlin.io.CloseableKt:
     private static final java.lang.Object use(java.io.Closeable,kotlin.jvm.functions.Function1)
 kotlin.io.ConsoleKt
 kotlin.io.ConstantsKt
+kotlin.io.ExceptionsKt
 kotlin.io.ExposingBufferByteArrayOutputStream
-kotlin.io.FileAlreadyExistsException:
-    public synthetic void <init>(java.io.File,java.io.File,java.lang.String,int,kotlin.jvm.internal.DefaultConstructorMarker)
+kotlin.io.FileAlreadyExistsException
 kotlin.io.FilePathComponents
-kotlin.io.FileSystemException:
-    public synthetic void <init>(java.io.File,java.io.File,java.lang.String,int,kotlin.jvm.internal.DefaultConstructorMarker)
-    public final java.io.File getFile()
-    public final java.io.File getOther()
-    public final java.lang.String getReason()
+kotlin.io.FileSystemException
 kotlin.io.FileTreeWalk$DirectoryState
 kotlin.io.FileTreeWalk$FileTreeWalkIterator$BottomUpDirectoryState
 kotlin.io.FileTreeWalk$FileTreeWalkIterator$SingleFileState
@@ -36861,6 +36857,8 @@ kotlin.io.FilesKt__UtilsKt:
     public static final boolean copyRecursively(java.io.File,java.io.File,boolean,kotlin.jvm.functions.Function2)
     public static synthetic boolean copyRecursively$default(java.io.File,java.io.File,boolean,kotlin.jvm.functions.Function2,int,java.lang.Object)
     private static final kotlin.Unit copyRecursively$lambda$4$FilesKt__UtilsKt(kotlin.jvm.functions.Function2,java.io.File,java.io.IOException)
+    public static final java.io.File copyTo(java.io.File,java.io.File,boolean,int)
+    public static synthetic java.io.File copyTo$default(java.io.File,java.io.File,boolean,int,int,java.lang.Object)
     public static final java.io.File createTempDir(java.lang.String,java.lang.String,java.io.File)
     public static synthetic java.io.File createTempDir$default(java.lang.String,java.lang.String,java.io.File,int,java.lang.Object)
     public static final java.io.File createTempFile(java.lang.String,java.lang.String,java.io.File)
@@ -36888,6 +36886,7 @@ kotlin.io.FilesKt__UtilsKt:
 kotlin.io.LineReader
 kotlin.io.LinesSequence$iterator$1
 kotlin.io.LinesSequence
+kotlin.io.NoSuchFileException
 kotlin.io.OnErrorAction
 kotlin.io.ReadAfterEOFException
 kotlin.io.SerializableKt
@@ -59333,11 +59332,9 @@ kotlin.internal.jdk7.JDK7PlatformImplementations
 kotlin.internal.jdk8.JDK8PlatformImplementations$ReflectSdkVersion:
     public static final kotlin.internal.jdk8.JDK8PlatformImplementations$ReflectSdkVersion INSTANCE
 kotlin.internal.jdk8.JDK8PlatformImplementations
-kotlin.io.ExceptionsKt
-kotlin.io.FileSystemException:
-    public final java.io.File file
-    public final java.io.File other
-    public final java.lang.String reason
+kotlin.io.ByteStreamsKt
+kotlin.io.FilesKt
+kotlin.io.FilesKt__FileTreeWalkKt
 kotlin.io.FilesKt__UtilsKt
 kotlin.jvm.functions.Function10
 kotlin.jvm.functions.Function11

@@ -149,7 +149,7 @@
 }
 
 # End of content from C:\Proyectos_IA\Proyectos\Mikatementos\app\proguard-rules.pro
-# The proguard configuration file for the following section is C:\Users\1957\.gradle\caches\8.13\transforms\595d0bf1b721a8be3d2878384ae49c03\transformed\navigation-common-2.8.5\proguard.txt
+# The proguard configuration file for the following section is C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\595d0bf1b721a8be3d2878384ae49c03\transformed\navigation-common-2.8.5\proguard.txt
 # Copyright (C) 2019 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -179,8 +179,8 @@
 -keepattributes RuntimeVisibleAnnotations
 -keep,allowobfuscation,allowshrinking class * extends androidx.navigation.Navigator
 
-# End of content from C:\Users\1957\.gradle\caches\8.13\transforms\595d0bf1b721a8be3d2878384ae49c03\transformed\navigation-common-2.8.5\proguard.txt
-# The proguard configuration file for the following section is C:\Users\1957\.gradle\caches\8.13\transforms\75fd25396d5e30cc8b8c65d7884c2152\transformed\hilt-android-2.53.1\proguard.txt
+# End of content from C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\595d0bf1b721a8be3d2878384ae49c03\transformed\navigation-common-2.8.5\proguard.txt
+# The proguard configuration file for the following section is C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\75fd25396d5e30cc8b8c65d7884c2152\transformed\hilt-android-2.53.1\proguard.txt
 # Keep for the reflective cast done in EntryPoints.
 # See b/183070411#comment4 for more info.
 -keep,allowobfuscation,allowshrinking @dagger.hilt.EntryPoint class *# Keep for the reflective cast done in EntryPoints.
@@ -189,8 +189,8 @@
 # See b/183070411#comment4 for more info.
 -keep,allowobfuscation,allowshrinking @dagger.hilt.internal.ComponentEntryPoint class *
 -keep,allowobfuscation,allowshrinking @dagger.hilt.internal.GeneratedEntryPoint class *
-# End of content from C:\Users\1957\.gradle\caches\8.13\transforms\75fd25396d5e30cc8b8c65d7884c2152\transformed\hilt-android-2.53.1\proguard.txt
-# The proguard configuration file for the following section is C:\Users\1957\.gradle\caches\8.13\transforms\7bb8bc2d41b7d2ba37b685b6a235e3e4\transformed\fragment-1.5.1\proguard.txt
+# End of content from C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\75fd25396d5e30cc8b8c65d7884c2152\transformed\hilt-android-2.53.1\proguard.txt
+# The proguard configuration file for the following section is C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\7bb8bc2d41b7d2ba37b685b6a235e3e4\transformed\fragment-1.5.1\proguard.txt
 # Copyright (C) 2020 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -211,8 +211,8 @@
     public <init>();
 }
 
-# End of content from C:\Users\1957\.gradle\caches\8.13\transforms\7bb8bc2d41b7d2ba37b685b6a235e3e4\transformed\fragment-1.5.1\proguard.txt
-# The proguard configuration file for the following section is C:\Users\1957\.gradle\caches\8.13\transforms\3725aa346965a71850d452ede8669c9e\transformed\savedstate-1.2.1\proguard.txt
+# End of content from C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\7bb8bc2d41b7d2ba37b685b6a235e3e4\transformed\fragment-1.5.1\proguard.txt
+# The proguard configuration file for the following section is C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\3725aa346965a71850d452ede8669c9e\transformed\savedstate-1.2.1\proguard.txt
 # Copyright (C) 2019 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -231,12 +231,12 @@
     <init>();
 }
 
-# End of content from C:\Users\1957\.gradle\caches\8.13\transforms\3725aa346965a71850d452ede8669c9e\transformed\savedstate-1.2.1\proguard.txt
-# The proguard configuration file for the following section is C:\Users\1957\.gradle\caches\8.13\transforms\559bd37c05fdc25721c69806d099e14d\transformed\lifecycle-process-2.8.7\proguard.txt
+# End of content from C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\3725aa346965a71850d452ede8669c9e\transformed\savedstate-1.2.1\proguard.txt
+# The proguard configuration file for the following section is C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\559bd37c05fdc25721c69806d099e14d\transformed\lifecycle-process-2.8.7\proguard.txt
 # this rule is need to work properly when app is compiled with api 28, see b/142778206
 -keepclassmembers class * extends androidx.lifecycle.EmptyActivityLifecycleCallbacks { *; }
-# End of content from C:\Users\1957\.gradle\caches\8.13\transforms\559bd37c05fdc25721c69806d099e14d\transformed\lifecycle-process-2.8.7\proguard.txt
-# The proguard configuration file for the following section is C:\Users\1957\.gradle\caches\8.13\transforms\b787412ad1ad53ac5c02bbab0b576233\transformed\lifecycle-viewmodel-release\proguard.txt
+# End of content from C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\559bd37c05fdc25721c69806d099e14d\transformed\lifecycle-process-2.8.7\proguard.txt
+# The proguard configuration file for the following section is C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\b787412ad1ad53ac5c02bbab0b576233\transformed\lifecycle-viewmodel-release\proguard.txt
 -keepclassmembers,allowobfuscation class * extends androidx.lifecycle.ViewModel {
     <init>();
 }
@@ -245,8 +245,8 @@
     <init>(android.app.Application);
 }
 
-# End of content from C:\Users\1957\.gradle\caches\8.13\transforms\b787412ad1ad53ac5c02bbab0b576233\transformed\lifecycle-viewmodel-release\proguard.txt
-# The proguard configuration file for the following section is C:\Users\1957\.gradle\caches\8.13\transforms\a5223c9aee721cb2e08c83ea82ed036b\transformed\lifecycle-runtime-release\proguard.txt
+# End of content from C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\b787412ad1ad53ac5c02bbab0b576233\transformed\lifecycle-viewmodel-release\proguard.txt
+# The proguard configuration file for the following section is C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\a5223c9aee721cb2e08c83ea82ed036b\transformed\lifecycle-runtime-release\proguard.txt
 -keepattributes AnnotationDefault,
                 RuntimeVisibleAnnotations,
                 RuntimeVisibleParameterAnnotations,
@@ -274,8 +274,8 @@
 # Also this rule prevents registerIn from being inlined.
 -keepclassmembers class androidx.lifecycle.ReportFragment$LifecycleCallbacks { *; }
 
-# End of content from C:\Users\1957\.gradle\caches\8.13\transforms\a5223c9aee721cb2e08c83ea82ed036b\transformed\lifecycle-runtime-release\proguard.txt
-# The proguard configuration file for the following section is C:\Users\1957\.gradle\caches\8.13\transforms\9503efa549c100a83c56ef73ed6f4ef8\transformed\lifecycle-viewmodel-savedstate-2.8.7\proguard.txt
+# End of content from C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\a5223c9aee721cb2e08c83ea82ed036b\transformed\lifecycle-runtime-release\proguard.txt
+# The proguard configuration file for the following section is C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\9503efa549c100a83c56ef73ed6f4ef8\transformed\lifecycle-viewmodel-savedstate-2.8.7\proguard.txt
 -keepclassmembers,allowobfuscation class * extends androidx.lifecycle.ViewModel {
     <init>(androidx.lifecycle.SavedStateHandle);
 }
@@ -284,8 +284,8 @@
     <init>(android.app.Application,androidx.lifecycle.SavedStateHandle);
 }
 
-# End of content from C:\Users\1957\.gradle\caches\8.13\transforms\9503efa549c100a83c56ef73ed6f4ef8\transformed\lifecycle-viewmodel-savedstate-2.8.7\proguard.txt
-# The proguard configuration file for the following section is C:\Users\1957\.gradle\caches\8.13\transforms\06530b4eb10eb0449f6ee643fb5c861b\transformed\lifecycle-runtime-compose-release\proguard.txt
+# End of content from C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\9503efa549c100a83c56ef73ed6f4ef8\transformed\lifecycle-viewmodel-savedstate-2.8.7\proguard.txt
+# The proguard configuration file for the following section is C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\06530b4eb10eb0449f6ee643fb5c861b\transformed\lifecycle-runtime-compose-release\proguard.txt
 # Workaround for https://issuetracker.google.com/issues/346808608
 #
 # `androidx.lifecycle.compose.LocalLifecycleOwner` will reflectively lookup for
@@ -305,8 +305,8 @@
     public static *** getLocalLifecycleOwner();
 }
 
-# End of content from C:\Users\1957\.gradle\caches\8.13\transforms\06530b4eb10eb0449f6ee643fb5c861b\transformed\lifecycle-runtime-compose-release\proguard.txt
-# The proguard configuration file for the following section is C:\Users\1957\.gradle\caches\8.13\transforms\d880f02a59128fe24fad8d2a1bc34a87\transformed\ui-release\proguard.txt
+# End of content from C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\06530b4eb10eb0449f6ee643fb5c861b\transformed\lifecycle-runtime-compose-release\proguard.txt
+# The proguard configuration file for the following section is C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\d880f02a59128fe24fad8d2a1bc34a87\transformed\ui-release\proguard.txt
 # Copyright (C) 2020 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -341,14 +341,14 @@
 # reflection to determine the class type. See b/265188224 for more context.
 -keep,allowshrinking class * extends androidx.compose.ui.node.ModifierNodeElement
 
-# End of content from C:\Users\1957\.gradle\caches\8.13\transforms\d880f02a59128fe24fad8d2a1bc34a87\transformed\ui-release\proguard.txt
-# The proguard configuration file for the following section is C:\Users\1957\.gradle\caches\8.13\transforms\d15857945ab0852f41a8aec248bc29db\transformed\graphics-path-1.0.1\proguard.txt
+# End of content from C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\d880f02a59128fe24fad8d2a1bc34a87\transformed\ui-release\proguard.txt
+# The proguard configuration file for the following section is C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\d15857945ab0852f41a8aec248bc29db\transformed\graphics-path-1.0.1\proguard.txt
 -keepclasseswithmembers class androidx.graphics.path.** {
     native <methods>;
 }
 
-# End of content from C:\Users\1957\.gradle\caches\8.13\transforms\d15857945ab0852f41a8aec248bc29db\transformed\graphics-path-1.0.1\proguard.txt
-# The proguard configuration file for the following section is C:\Users\1957\.gradle\caches\8.13\transforms\c88c97038a11531d8ac1dd4b0d791424\transformed\core-1.15.0\proguard.txt
+# End of content from C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\d15857945ab0852f41a8aec248bc29db\transformed\graphics-path-1.0.1\proguard.txt
+# The proguard configuration file for the following section is C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\c88c97038a11531d8ac1dd4b0d791424\transformed\core-1.15.0\proguard.txt
 # Never inline methods, but allow shrinking and obfuscation.
 -keepclassmembernames,allowobfuscation,allowshrinking class androidx.core.view.ViewCompat$Api* {
   <methods>;
@@ -366,14 +366,14 @@
   <methods>;
 }
 
-# End of content from C:\Users\1957\.gradle\caches\8.13\transforms\c88c97038a11531d8ac1dd4b0d791424\transformed\core-1.15.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\1957\.gradle\caches\8.13\transforms\40b8dcac8d381fcb024d6d17fa271ca2\transformed\rules\lib\META-INF\proguard\androidx.datastore_datastore-preferences-core.pro
+# End of content from C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\c88c97038a11531d8ac1dd4b0d791424\transformed\core-1.15.0\proguard.txt
+# The proguard configuration file for the following section is C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\40b8dcac8d381fcb024d6d17fa271ca2\transformed\rules\lib\META-INF\proguard\androidx.datastore_datastore-preferences-core.pro
 -keepclassmembers class * extends androidx.datastore.preferences.protobuf.GeneratedMessageLite {
     <fields>;
 }
 
-# End of content from C:\Users\1957\.gradle\caches\8.13\transforms\40b8dcac8d381fcb024d6d17fa271ca2\transformed\rules\lib\META-INF\proguard\androidx.datastore_datastore-preferences-core.pro
-# The proguard configuration file for the following section is C:\Users\1957\.gradle\caches\8.13\transforms\5d54125401c8c91c1898a3dd4ed76e5a\transformed\runtime-release\proguard.txt
+# End of content from C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\40b8dcac8d381fcb024d6d17fa271ca2\transformed\rules\lib\META-INF\proguard\androidx.datastore_datastore-preferences-core.pro
+# The proguard configuration file for the following section is C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\5d54125401c8c91c1898a3dd4ed76e5a\transformed\runtime-release\proguard.txt
 -assumenosideeffects public class androidx.compose.runtime.ComposerKt {
     void sourceInformation(androidx.compose.runtime.Composer,java.lang.String);
     void sourceInformationMarkerStart(androidx.compose.runtime.Composer,int,java.lang.String);
@@ -389,8 +389,8 @@
 -assumenosideeffects public class androidx.compose.runtime.ComposerImpl {
     void <clinit>();
 }
-# End of content from C:\Users\1957\.gradle\caches\8.13\transforms\5d54125401c8c91c1898a3dd4ed76e5a\transformed\runtime-release\proguard.txt
-# The proguard configuration file for the following section is C:\Users\1957\.gradle\caches\8.13\transforms\bde0fca0548e9953c8cfe467e587c2be\transformed\rules\lib\META-INF\com.android.tools\r8\coroutines.pro
+# End of content from C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\5d54125401c8c91c1898a3dd4ed76e5a\transformed\runtime-release\proguard.txt
+# The proguard configuration file for the following section is C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\bde0fca0548e9953c8cfe467e587c2be\transformed\rules\lib\META-INF\com.android.tools\r8\coroutines.pro
 # When editing this file, update the following files as well:
 # - META-INF/proguard/coroutines.pro
 # - META-INF/com.android.tools/proguard/coroutines.pro
@@ -418,8 +418,8 @@
 
 # An annotation used for build tooling, won't be directly accessed.
 -dontwarn org.codehaus.mojo.animal_sniffer.IgnoreJRERequirement
-# End of content from C:\Users\1957\.gradle\caches\8.13\transforms\bde0fca0548e9953c8cfe467e587c2be\transformed\rules\lib\META-INF\com.android.tools\r8\coroutines.pro
-# The proguard configuration file for the following section is C:\Users\1957\.gradle\caches\8.13\transforms\acd611686731650d30f47e350e7b3042\transformed\rules\lib\META-INF\com.android.tools\r8-from-1.6.0\coroutines.pro
+# End of content from C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\bde0fca0548e9953c8cfe467e587c2be\transformed\rules\lib\META-INF\com.android.tools\r8\coroutines.pro
+# The proguard configuration file for the following section is C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\acd611686731650d30f47e350e7b3042\transformed\rules\lib\META-INF\com.android.tools\r8-from-1.6.0\coroutines.pro
 # Allow R8 to optimize away the FastServiceLoader.
 # Together with ServiceLoader optimization in R8
 # this results in direct instantiation when loading Dispatchers.Main
@@ -443,8 +443,8 @@
     boolean getRECOVER_STACK_TRACES() return false;
 }
 
-# End of content from C:\Users\1957\.gradle\caches\8.13\transforms\acd611686731650d30f47e350e7b3042\transformed\rules\lib\META-INF\com.android.tools\r8-from-1.6.0\coroutines.pro
-# The proguard configuration file for the following section is C:\Users\1957\.gradle\caches\8.13\transforms\ff3334256c0bde03aac2e6ab8444ba56\transformed\startup-runtime-1.1.1\proguard.txt
+# End of content from C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\acd611686731650d30f47e350e7b3042\transformed\rules\lib\META-INF\com.android.tools\r8-from-1.6.0\coroutines.pro
+# The proguard configuration file for the following section is C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\ff3334256c0bde03aac2e6ab8444ba56\transformed\startup-runtime-1.1.1\proguard.txt
 # It's important that we preserve initializer names, given they are used in the AndroidManifest.xml.
 -keepnames class * extends androidx.startup.Initializer
 
@@ -458,15 +458,15 @@
 
 -assumenosideeffects class androidx.startup.StartupLogger { public static <methods>; }
 
-# End of content from C:\Users\1957\.gradle\caches\8.13\transforms\ff3334256c0bde03aac2e6ab8444ba56\transformed\startup-runtime-1.1.1\proguard.txt
-# The proguard configuration file for the following section is C:\Users\1957\.gradle\caches\8.13\transforms\bda7a5aa48f00cc798c07860eae9a183\transformed\versionedparcelable-1.1.1\proguard.txt
+# End of content from C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\ff3334256c0bde03aac2e6ab8444ba56\transformed\startup-runtime-1.1.1\proguard.txt
+# The proguard configuration file for the following section is C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\bda7a5aa48f00cc798c07860eae9a183\transformed\versionedparcelable-1.1.1\proguard.txt
 -keep class * implements androidx.versionedparcelable.VersionedParcelable
 -keep public class android.support.**Parcelizer { *; }
 -keep public class androidx.**Parcelizer { *; }
 -keep public class androidx.versionedparcelable.ParcelImpl
 
-# End of content from C:\Users\1957\.gradle\caches\8.13\transforms\bda7a5aa48f00cc798c07860eae9a183\transformed\versionedparcelable-1.1.1\proguard.txt
-# The proguard configuration file for the following section is C:\Users\1957\.gradle\caches\8.13\transforms\33a0a5e3a5f840860ca2ca67c619579a\transformed\rules\lib\META-INF\proguard\androidx-annotations.pro
+# End of content from C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\bda7a5aa48f00cc798c07860eae9a183\transformed\versionedparcelable-1.1.1\proguard.txt
+# The proguard configuration file for the following section is C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\33a0a5e3a5f840860ca2ca67c619579a\transformed\rules\lib\META-INF\proguard\androidx-annotations.pro
 -keep,allowobfuscation @interface androidx.annotation.Keep
 -keep @androidx.annotation.Keep class * {*;}
 
@@ -486,8 +486,8 @@
   @androidx.annotation.DoNotInline <methods>;
 }
 
-# End of content from C:\Users\1957\.gradle\caches\8.13\transforms\33a0a5e3a5f840860ca2ca67c619579a\transformed\rules\lib\META-INF\proguard\androidx-annotations.pro
-# The proguard configuration file for the following section is C:\Users\1957\.gradle\caches\8.13\transforms\7e56014d7bd1d34706f3501c583ed6f5\transformed\rules\lib\META-INF\com.android.tools\r8\kotlinx-serialization-common.pro
+# End of content from C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\33a0a5e3a5f840860ca2ca67c619579a\transformed\rules\lib\META-INF\proguard\androidx-annotations.pro
+# The proguard configuration file for the following section is C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\7e56014d7bd1d34706f3501c583ed6f5\transformed\rules\lib\META-INF\com.android.tools\r8\kotlinx-serialization-common.pro
 # Keep `Companion` object fields of serializable classes.
 # This avoids serializer lookup through `getDeclaredClasses` as done for named companion objects.
 -if @kotlinx.serialization.Serializable class **
@@ -524,8 +524,8 @@
 # However, since in this case they will not be used, we can disable these warnings
 -dontwarn kotlinx.serialization.internal.ClassValueReferences
 
-# End of content from C:\Users\1957\.gradle\caches\8.13\transforms\7e56014d7bd1d34706f3501c583ed6f5\transformed\rules\lib\META-INF\com.android.tools\r8\kotlinx-serialization-common.pro
-# The proguard configuration file for the following section is C:\Users\1957\.gradle\caches\8.13\transforms\7e56014d7bd1d34706f3501c583ed6f5\transformed\rules\lib\META-INF\com.android.tools\r8\kotlinx-serialization-r8.pro
+# End of content from C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\7e56014d7bd1d34706f3501c583ed6f5\transformed\rules\lib\META-INF\com.android.tools\r8\kotlinx-serialization-common.pro
+# The proguard configuration file for the following section is C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\7e56014d7bd1d34706f3501c583ed6f5\transformed\rules\lib\META-INF\com.android.tools\r8\kotlinx-serialization-r8.pro
 # Rule to save runtime annotations on serializable class.
 # If the R8 full mode is used, annotations are removed from classes-files.
 #
@@ -539,8 +539,8 @@
  -if @kotlinx.serialization.Serializable class **
  -keep, allowshrinking, allowoptimization, allowobfuscation, allowaccessmodification class <1>
 
-# End of content from C:\Users\1957\.gradle\caches\8.13\transforms\7e56014d7bd1d34706f3501c583ed6f5\transformed\rules\lib\META-INF\com.android.tools\r8\kotlinx-serialization-r8.pro
-# The proguard configuration file for the following section is C:\Users\1957\.gradle\caches\8.13\transforms\2c7d209ecfe586246484f42bdb183f9e\transformed\rules\lib\META-INF\proguard\retrofit2.pro
+# End of content from C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\7e56014d7bd1d34706f3501c583ed6f5\transformed\rules\lib\META-INF\com.android.tools\r8\kotlinx-serialization-r8.pro
+# The proguard configuration file for the following section is C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\2c7d209ecfe586246484f42bdb183f9e\transformed\rules\lib\META-INF\proguard\retrofit2.pro
 # Retrofit does reflection on generic parameters. InnerClasses is required to use Signature and
 # EnclosingMethod is required to use InnerClasses.
 -keepattributes Signature, InnerClasses, EnclosingMethod
@@ -590,8 +590,8 @@
 # With R8 full mode generic signatures are stripped for classes that are not kept.
 -keep,allowobfuscation,allowshrinking class retrofit2.Response
 
-# End of content from C:\Users\1957\.gradle\caches\8.13\transforms\2c7d209ecfe586246484f42bdb183f9e\transformed\rules\lib\META-INF\proguard\retrofit2.pro
-# The proguard configuration file for the following section is C:\Users\1957\.gradle\caches\8.13\transforms\576f183ca746575b277b42157a244951\transformed\rules\lib\META-INF\proguard\okhttp3.pro
+# End of content from C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\2c7d209ecfe586246484f42bdb183f9e\transformed\rules\lib\META-INF\proguard\retrofit2.pro
+# The proguard configuration file for the following section is C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\576f183ca746575b277b42157a244951\transformed\rules\lib\META-INF\proguard\okhttp3.pro
 # JSR 305 annotations are for embedding nullability information.
 -dontwarn javax.annotation.**
 
@@ -607,8 +607,8 @@
 -dontwarn org.bouncycastle.**
 -dontwarn org.openjsse.**
 
-# End of content from C:\Users\1957\.gradle\caches\8.13\transforms\576f183ca746575b277b42157a244951\transformed\rules\lib\META-INF\proguard\okhttp3.pro
-# The proguard configuration file for the following section is C:\Users\1957\.gradle\caches\8.13\transforms\485a78cb178fed95300fcfef7485b849\transformed\rules\lib\META-INF\proguard\gson.pro
+# End of content from C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\576f183ca746575b277b42157a244951\transformed\rules\lib\META-INF\proguard\okhttp3.pro
+# The proguard configuration file for the following section is C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\485a78cb178fed95300fcfef7485b849\transformed\rules\lib\META-INF\proguard\gson.pro
 ### Gson ProGuard and R8 rules which are relevant for all users
 ### This file is automatically recognized by ProGuard and R8, see https://developer.android.com/build/shrink-code#configuration-files
 ###
@@ -682,13 +682,13 @@
   <init>();
 }
 
-# End of content from C:\Users\1957\.gradle\caches\8.13\transforms\485a78cb178fed95300fcfef7485b849\transformed\rules\lib\META-INF\proguard\gson.pro
-# The proguard configuration file for the following section is C:\Users\1957\.gradle\caches\8.13\transforms\5595f3cdbcd65320efd2ad3005702e01\transformed\rules\lib\META-INF\com.android.tools\r8\r8.pro
+# End of content from C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\485a78cb178fed95300fcfef7485b849\transformed\rules\lib\META-INF\proguard\gson.pro
+# The proguard configuration file for the following section is C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\5595f3cdbcd65320efd2ad3005702e01\transformed\rules\lib\META-INF\com.android.tools\r8\r8.pro
 -identifiernamestring @dagger.internal.IdentifierNameString class ** {
     static java.lang.String *;
 }
 
-# End of content from C:\Users\1957\.gradle\caches\8.13\transforms\5595f3cdbcd65320efd2ad3005702e01\transformed\rules\lib\META-INF\com.android.tools\r8\r8.pro
+# End of content from C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\8.13\transforms\5595f3cdbcd65320efd2ad3005702e01\transformed\rules\lib\META-INF\com.android.tools\r8\r8.pro
 # The proguard configuration file for the following section is C:\Proyectos_IA\Proyectos\Mikatementos\app\build\intermediates\generated_proguard_file\debug\mergeDebugGeneratedProguardFiles\proguard.txt
 -keep,allowobfuscation,allowshrinking class com.mikamentos.app.ui.catalog.MedicationCatalogViewModel
 

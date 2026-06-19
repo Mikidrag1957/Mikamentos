@@ -1,0 +1,11 @@
+-keep class androidx.compose.ui.tooling.PreviewActivity { <init>(); }
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+-keep class androidx.core.content.FileProvider { <init>(); }
+-keep class androidx.profileinstaller.ProfileInstallReceiver { <init>(); }
+-keep class androidx.startup.InitializationProvider { <init>(); }
+-keep class com.mikamentos.app.MainActivity { <init>(); }
+-keep class com.mikamentos.app.MikamentosApp { <init>(); }
+-keep class com.mikamentos.app.service.AlarmReceiver { <init>(); }
+-keep class com.mikamentos.app.service.AlarmService { <init>(); }
+-keep class com.mikamentos.app.service.BootReceiver { <init>(); }
+-keep class com.mikamentos.app.ui.alarm.AlarmActivity { <init>(); }

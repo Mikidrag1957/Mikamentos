@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transferencia por Wi-Fi</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; text-align: center; background: #f0f4f8; color: #333; }
+        button { background: #28a745; color: white; border: none; padding: 12px 24px; margin: 10px; border-radius: 6px; font-size: 16px; cursor: pointer; font-weight: bold; }
+        button:disabled { background: #ccc; }
+        #status { margin: 20px auto; padding: 15px; background: #fff; border-radius: 8px; max-width: 400px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .hidden { display: none; }
+        input[type="file"] { margin: 15px 0; }
+        #qrcode { margin: 20px auto; display: inline-block; }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+
+    <h1>Transferencia Wi-Fi Directa (P2P)</h1>
+    
+    <div id="status">Estado: Inicializando...</div>
+
+    <!-- Controles de conexión -->
+    <div id="setupSection">
+        <button id="btnCreate">Crear Sala de Envío</button>
+        <p>O introduce el código del otro móvil:</p>
+        <input type="text" id="roomInput" placeholder="Código de sala" style="padding: 10px; font-size: 16px; border-radius: 4px; border: 1px solid #ccc;" />
+        <br>
+        <button id="btnJoin" style="background: #007bff;">Unirse a Sala</button>
+    </div>
+
+    <!-- Zona del Código QR -->
+    <div id="qrcode"></div>
+
+    <!-- Sección de Transferencia -->
+    <div id="transferSection" class="hidden">
+        <h3>Dispositivos enlazados por Wi-Fi</h3>
+        <input type="file" id="fileInput" />
+        <br>
+        <button id="btnSend" disabled style="background: #ffc107; color: #333;">Enviar Archivo</button>
+        <br>
+        <progress id="progressBar" value="0" max="100" style="width: 80%; height: 20px; margin-top: 15px;" class="hidden"></progress>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

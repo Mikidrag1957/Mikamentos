@@ -1,0 +1,3 @@
+-keep,allowobfuscation,allowshrinking class com.mikamentos.app.ui.catalog.MedicationCatalogViewModel
+-keep,allowobfuscation,allowshrinking class com.mikamentos.app.ui.catalog.MedicationCatalogViewModel
+-keep,allowobfuscation,allowshrinking class com.mikamentos.app.ui.editor.MedicationEditorViewModel

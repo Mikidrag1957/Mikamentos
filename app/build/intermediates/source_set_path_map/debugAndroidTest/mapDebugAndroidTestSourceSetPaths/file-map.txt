@@ -1,4 +1,0 @@
-com.mikamentos.app.test.app-androidTest-0 C:\Proyectos_IA\Proyectos\Mikatementos\app\build\generated\res\resValues\androidTest\debug
-com.mikamentos.app.test.app-mergeDebugAndroidTestResources-1 C:\Proyectos_IA\Proyectos\Mikatementos\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-com.mikamentos.app.test.app-mergeDebugAndroidTestResources-2 C:\Proyectos_IA\Proyectos\Mikatementos\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-com.mikamentos.app.test.app-debugAndroidTest-3 C:\Proyectos_IA\Proyectos\Mikatementos\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

@@ -1,8 +1,8 @@
 package com.mikamentos.app.di
 
+import com.mikamentos.app.data.network.BundledDrugData
 import com.mikamentos.app.data.network.CimaApiService
 import com.mikamentos.app.data.network.DrugSearchRepository
-import com.mikamentos.app.data.network.EmaApiService
 import com.mikamentos.app.data.network.FdaApiService
 import com.mikamentos.app.data.network.TranslationService
 import com.mikamentos.app.data.repository.MedicationRepository
@@ -45,16 +45,6 @@ object AppModule {
 
     @Provides
     @Singleton
-    @Named("ema")
-    fun provideEmaRetrofit(): Retrofit {
-        return Retrofit.Builder()
-            .baseUrl("https://epi.developer.ema.europa.eu/")
-            .addConverterFactory(GsonConverterFactory.create())
-            .build()
-    }
-
-    @Provides
-    @Singleton
     @Named("translation")
     fun provideTranslationRetrofit(): Retrofit {
         return Retrofit.Builder()
@@ -77,14 +67,14 @@ object AppModule {
 
     @Provides
     @Singleton
-    fun provideEmaApiService(@Named("ema") retrofit: Retrofit): EmaApiService {
-        return retrofit.create(EmaApiService::class.java)
+    fun provideTranslationService(@Named("translation") retrofit: Retrofit): TranslationService {
+        return retrofit.create(TranslationService::class.java)
     }
 
     @Provides
     @Singleton
-    fun provideTranslationService(@Named("translation") retrofit: Retrofit): TranslationService {
-        return retrofit.create(TranslationService::class.java)
+    fun provideBundledDrugData(@ApplicationContext context: Context): BundledDrugData {
+        return BundledDrugData(context)
     }
 
     @Provides
@@ -92,11 +82,11 @@ object AppModule {
     fun provideDrugSearchRepository(
         fdaApi: FdaApiService,
         cimaApi: CimaApiService,
-        emaApi: EmaApiService,
         translationApi: TranslationService,
-        repository: MedicationRepository
+        repository: MedicationRepository,
+        bundledData: BundledDrugData
     ): DrugSearchRepository {
-        return DrugSearchRepository(fdaApi, cimaApi, emaApi, translationApi, repository)
+        return DrugSearchRepository(fdaApi, cimaApi, translationApi, repository, bundledData)
     }
 
     @Provides

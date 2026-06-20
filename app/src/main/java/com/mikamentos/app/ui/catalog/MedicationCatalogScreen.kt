@@ -2,23 +2,18 @@
 
 import com.mikamentos.app.ui.tr
 
-import android.app.Activity
-import android.content.ActivityNotFoundException
-import android.content.Intent
-import android.speech.RecognizerIntent
-import android.widget.Toast
-import androidx.activity.compose.rememberLauncherForActivityResult
-import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.automirrored.filled.VolumeUp
 import androidx.compose.material.icons.filled.Add
+import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.Edit
-import androidx.compose.material.icons.filled.Mic
-import androidx.compose.material.icons.automirrored.filled.VolumeUp
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.*
@@ -28,7 +23,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalSoftwareKeyboardController
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
@@ -45,7 +39,6 @@ fun MedicationCatalogScreen(
     onNavigateBack: () -> Unit,
     viewModel: MedicationCatalogViewModel = hiltViewModel()
 ) {
-    val context = LocalContext.current
     val catalogMedications by viewModel.catalogMedications.collectAsState()
     val deleteError by viewModel.showDeleteError.collectAsState()
     val isSearching by viewModel.isSearching.collectAsState()
@@ -54,7 +47,6 @@ fun MedicationCatalogScreen(
     val translationVersion by viewModel.translationVersion.collectAsState()
     val isTranslating by viewModel.isTranslating.collectAsState()
     val settings by viewModel.settings.collectAsState()
-    val currentLang = settings.language
 
     val catalogItems = remember(catalogMedications, translatedDescriptions, translationVersion) {
         catalogMedications.map { med ->
@@ -70,6 +62,7 @@ fun MedicationCatalogScreen(
     var dialogTitle by rememberSaveable { mutableStateOf("") }
     var dialogDescription by rememberSaveable { mutableStateOf("") }
     var medicationToDelete by remember { mutableStateOf<CatalogMedication?>(null) }
+    var showFullDescription by remember { mutableStateOf<CatalogItem?>(null) }
 
     val deleteErrorDialog = remember { mutableStateOf(false) }
 
@@ -77,22 +70,12 @@ fun MedicationCatalogScreen(
         if (deleteError != null) deleteErrorDialog.value = true
     }
 
-    val titleLauncher = rememberLauncherForActivityResult(
-        ActivityResultContracts.StartActivityForResult()
-    ) { result ->
-        if (result.resultCode == Activity.RESULT_OK) {
-            val text = result.data?.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS)?.firstOrNull()
-            if (text != null) dialogTitle = text
-        }
-    }
-
-    val descLauncher = rememberLauncherForActivityResult(
-        ActivityResultContracts.StartActivityForResult()
-    ) { result ->
-        if (result.resultCode == Activity.RESULT_OK) {
-            val text = result.data?.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS)?.firstOrNull()
-            if (text != null) dialogDescription = text
-        }
+    if (showFullDescription != null) {
+        MedicationFullDescription(
+            item = showFullDescription!!,
+            onClose = { showFullDescription = null }
+        )
+        return
     }
 
     Scaffold(
@@ -162,6 +145,7 @@ fun MedicationCatalogScreen(
                     CatalogMedCard(
                         medication = item.medication,
                         displayDescription = item.displayDescription,
+                        onRead = { showFullDescription = item },
                         onEdit = {
                             editingMed = item.medication
                             dialogTitle = item.medication.title
@@ -186,28 +170,6 @@ fun MedicationCatalogScreen(
             onDescriptionListen = {
                 val lang = settings.language
                 viewModel.speakDescription(dialogDescription, lang)
-            },
-            onTitleDictate = {
-                try {
-                    val intent = Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH).apply {
-                        putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM)
-                        putExtra(RecognizerIntent.EXTRA_PROMPT, context.getString(R.string.dictate))
-                    }
-                    titleLauncher.launch(intent)
-                } catch (e: ActivityNotFoundException) {
-                    Toast.makeText(context, R.string.speech_not_available, Toast.LENGTH_SHORT).show()
-                }
-            },
-            onDescriptionDictate = {
-                try {
-                    val intent = Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH).apply {
-                        putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM)
-                        putExtra(RecognizerIntent.EXTRA_PROMPT, context.getString(R.string.dictate))
-                    }
-                    descLauncher.launch(intent)
-                } catch (e: ActivityNotFoundException) {
-                    Toast.makeText(context, R.string.speech_not_available, Toast.LENGTH_SHORT).show()
-                }
             },
             onSearchDescription = {
                 viewModel.searchDrugDescription(dialogTitle) { description ->
@@ -289,9 +251,13 @@ fun MedicationCatalogScreen(
 fun CatalogMedCard(
     medication: CatalogMedication,
     displayDescription: String = "",
+    onRead: () -> Unit,
     onEdit: () -> Unit,
     onDelete: () -> Unit
 ) {
+    val principioActivo = displayDescription.split("\n").firstOrNull { it.startsWith("Principio activo:") } ?: ""
+    val dosis = displayDescription.split("\n").firstOrNull { it.startsWith("Dosis:") } ?: ""
+
     Card(
         modifier = Modifier.fillMaxWidth(),
         elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
@@ -302,34 +268,87 @@ fun CatalogMedCard(
         ) {
             Row(
                 modifier = Modifier.fillMaxWidth(),
-                horizontalArrangement = Arrangement.SpaceBetween,
+                horizontalArrangement = Arrangement.End,
                 verticalAlignment = Alignment.CenterVertically
             ) {
-                Text(
-                    text = medication.title,
-                    fontSize = 22.sp,
-                    fontWeight = FontWeight.Bold,
-                    color = MaterialTheme.colorScheme.primary,
-                    modifier = Modifier.weight(1f)
-                )
-                Row {
-                    IconButton(onClick = onEdit, modifier = Modifier.size(36.dp)) {
-                        Icon(Icons.Default.Edit, contentDescription = tr(R.string.edit), modifier = Modifier.size(20.dp))
-                    }
-                    Spacer(modifier = Modifier.width(4.dp))
-                    IconButton(onClick = onDelete, modifier = Modifier.size(36.dp)) {
-                        Icon(Icons.Default.Delete, contentDescription = tr(R.string.delete), tint = MaterialTheme.colorScheme.error, modifier = Modifier.size(20.dp))
-                    }
+                IconButton(onClick = {
+                    if (displayDescription.isNotEmpty()) onRead()
+                }, modifier = Modifier.size(36.dp)) {
+                    Icon(Icons.Default.Search, contentDescription = tr(R.string.read), modifier = Modifier.size(20.dp))
+                }
+                Spacer(modifier = Modifier.width(24.dp))
+                IconButton(onClick = onEdit, modifier = Modifier.size(36.dp)) {
+                    Icon(Icons.Default.Edit, contentDescription = tr(R.string.edit), modifier = Modifier.size(20.dp))
+                }
+                Spacer(modifier = Modifier.width(24.dp))
+                IconButton(onClick = onDelete, modifier = Modifier.size(36.dp)) {
+                    Icon(Icons.Default.Delete, contentDescription = tr(R.string.delete), tint = MaterialTheme.colorScheme.error, modifier = Modifier.size(20.dp))
                 }
             }
-            if (displayDescription.isNotEmpty()) {
-                Spacer(modifier = Modifier.height(8.dp))
-                Text(
-                    text = displayDescription,
-                    fontSize = 16.sp,
-                    color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.8f)
-                )
+            Spacer(modifier = Modifier.height(4.dp))
+            Text(
+                text = medication.title,
+                fontSize = 22.sp,
+                fontWeight = FontWeight.Bold,
+                color = MaterialTheme.colorScheme.primary
+            )
+            if (principioActivo.isNotEmpty() || dosis.isNotEmpty()) {
+                Spacer(modifier = Modifier.height(4.dp))
+                if (principioActivo.isNotEmpty()) {
+                    Text(
+                        text = principioActivo,
+                        fontSize = 14.sp,
+                        color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.7f)
+                    )
+                }
+                if (dosis.isNotEmpty()) {
+                    Text(
+                        text = dosis,
+                        fontSize = 14.sp,
+                        color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.7f)
+                    )
+                }
             }
+        }
+    }
+}
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun MedicationFullDescription(
+    item: CatalogItem,
+    onClose: () -> Unit
+) {
+    Scaffold(
+        topBar = {
+            TopAppBar(
+                title = { Text(item.medication.title) },
+                colors = TopAppBarDefaults.topAppBarColors(
+                    containerColor = MaterialTheme.colorScheme.primary,
+                    titleContentColor = MaterialTheme.colorScheme.onPrimary,
+                    actionIconContentColor = MaterialTheme.colorScheme.onPrimary
+                ),
+                actions = {
+                    IconButton(onClick = onClose) {
+                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr(R.string.back))
+                    }
+                }
+            )
+        }
+    ) { paddingValues ->
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(paddingValues)
+                .padding(16.dp)
+                .verticalScroll(rememberScrollState())
+        ) {
+            Text(
+                text = item.displayDescription.ifEmpty { tr(R.string.no_description) },
+                fontSize = 16.sp,
+                color = MaterialTheme.colorScheme.onSurface,
+                lineHeight = 24.sp
+            )
         }
     }
 }
@@ -343,8 +362,6 @@ fun CatalogMedDialog(
     isEditing: Boolean,
     isSearching: Boolean,
     onDescriptionListen: () -> Unit,
-    onTitleDictate: () -> Unit,
-    onDescriptionDictate: () -> Unit,
     onSearchDescription: () -> Unit,
     onDismiss: () -> Unit,
     onSave: () -> Unit
@@ -379,9 +396,6 @@ fun CatalogMedDialog(
                         singleLine = true,
                         textStyle = MaterialTheme.typography.bodyLarge
                     )
-                    IconButton(onClick = onTitleDictate) {
-                        Icon(Icons.Default.Mic, contentDescription = tr(R.string.dictate), tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(32.dp))
-                    }
                 }
 
                 Spacer(modifier = Modifier.height(8.dp))
@@ -425,13 +439,8 @@ fun CatalogMedDialog(
                         maxLines = 10,
                         textStyle = MaterialTheme.typography.bodyLarge
                     )
-                    Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                        IconButton(onClick = onDescriptionListen) {
-                            Icon(Icons.AutoMirrored.Filled.VolumeUp, contentDescription = tr(R.string.listen), tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(32.dp))
-                        }
-                        IconButton(onClick = onDescriptionDictate) {
-                            Icon(Icons.Default.Mic, contentDescription = tr(R.string.dictate), tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(32.dp))
-                        }
+                    IconButton(onClick = onDescriptionListen) {
+                        Icon(Icons.AutoMirrored.Filled.VolumeUp, contentDescription = tr(R.string.listen), tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(32.dp))
                     }
                 }
             }

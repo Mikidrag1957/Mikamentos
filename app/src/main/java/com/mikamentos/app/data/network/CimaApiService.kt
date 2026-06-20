@@ -1,6 +1,8 @@
 package com.mikamentos.app.data.network
 
+import okhttp3.ResponseBody
 import retrofit2.http.GET
+import retrofit2.http.Headers
 import retrofit2.http.Query
 
 data class CimaResponse(
@@ -46,4 +48,8 @@ interface CimaApiService {
         @Query("pagina") pagina: Int = 1,
         @Query("pagesize") pagesize: Int = 5
     ): CimaResponse
+
+    @Headers("Accept: text/plain")
+    @GET("docSegmentado/contenido/2")
+    suspend fun getProspecto(@Query("nregistro") nregistro: String): ResponseBody
 }

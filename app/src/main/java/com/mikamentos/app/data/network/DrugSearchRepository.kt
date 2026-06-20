@@ -8,9 +8,9 @@ import javax.inject.Singleton
 class DrugSearchRepository @Inject constructor(
     private val fdaApi: FdaApiService,
     private val cimaApi: CimaApiService,
-    private val emaApi: EmaApiService,
     private val translationApi: TranslationService,
-    private val repository: MedicationRepository
+    private val repository: MedicationRepository,
+    private val bundledData: BundledDrugData
 ) {
 
     private val cache = mutableMapOf<String, String>()
@@ -26,7 +26,6 @@ class DrugSearchRepository @Inject constructor(
     }
 
     companion object {
-        private const val MAX_DESCRIPTION_LENGTH = 1000
         private const val RATE_LIMIT_MS = 1000L
         private const val RETRY_COOLDOWN_MS = 120_000L
 
@@ -147,6 +146,15 @@ class DrugSearchRepository @Inject constructor(
 
     suspend fun searchDrugDescription(medicationName: String, targetLanguage: String): Result<String> {
         val cleanName = medicationName.trim()
+
+        val bundled = bundledData.search(cleanName)
+        if (bundled != null) {
+            val text = buildBundledDescription(bundled)
+            val translated = translateIfNeeded(text, targetLanguage)
+            if (translated.isSuccess) return Result.success(translated.getOrThrow())
+            return Result.success(text)
+        }
+
         val searchName = medicationNameMap[cleanName.lowercase()] ?: cleanName
 
         var cimaResult: String? = null
@@ -185,25 +193,25 @@ class DrugSearchRepository @Inject constructor(
             } catch (_: Exception) {}
         }
 
-        try {
-            val emaResult = searchEma(searchName)
-            if (emaResult != null) {
-                val translated = translateIfNeeded(emaResult, targetLanguage)
-                if (translated.isSuccess) {
-                    val best = pickBetter(cimaResult, translated.getOrThrow(), targetLanguage)
-                    return Result.success(best)
-                }
-            }
-        } catch (_: Exception) {}
-
         if (cimaResult != null) return Result.success(cimaResult)
 
         return Result.failure(Exception("Medicamento no encontrado: $cleanName"))
     }
 
+    private fun buildBundledDescription(med: BundledMedication): String {
+        val parts = mutableListOf<String>()
+        parts.add(med.names.first().replaceFirstChar { it.uppercase() })
+        if (med.principioActivo.isNotBlank()) parts.add("Principio activo: ${med.principioActivo}")
+        if (med.dosis.isNotBlank()) parts.add("Dosis: ${med.dosis}")
+        if (med.paraQueSeUsa.isNotBlank()) parts.add("Para qué se usa: ${med.paraQueSeUsa}")
+        if (med.comoSeUsa.isNotBlank()) parts.add("Cómo se usa: ${med.comoSeUsa}")
+        return parts.joinToString("\n\n")
+    }
+
     private fun pickBetter(cimaText: String?, otherText: String, targetLanguage: String): String {
         if (cimaText == null) return otherText
         if (detectLanguage(otherText) != targetLanguage) return cimaText
+        if (targetLanguage == "es") return cimaText
         return if (otherText.length > cimaText.length * 2) otherText else cimaText
     }
 
@@ -222,15 +230,104 @@ class DrugSearchRepository @Inject constructor(
         val med = response.resultados?.firstOrNull() ?: return null
 
         val parts = mutableListOf<String>()
-        med.vtm?.nombre?.let { parts.add("Principio activo: $it") }
-        med.labtitular?.let { parts.add("Laboratorio: $it") }
+        med.nombre?.let { parts.add(it) }
+        med.principioActivo?.let { parts.add("Principio activo: $it") }
+        med.dosis?.let { parts.add("Dosis: $it") }
         med.formaFarmaceutica?.nombre?.let { parts.add("Forma: $it") }
+        med.vtm?.nombre?.let { if (it != med.principioActivo) parts.add("VTM: $it") }
+        med.labtitular?.let { parts.add("Laboratorio: $it") }
+        med.labcomercializador?.let { if (it != med.labtitular) parts.add("Comercializador: $it") }
+        med.estado?.nombre?.let { parts.add("Estado: $it") }
+        val basicInfo = parts.joinToString("\n")
 
-        return if (parts.isNotEmpty()) {
-            parts.joinToString(". ").take(MAX_DESCRIPTION_LENGTH)
-        } else {
-            null
+        val prospecto = try {
+            val body = cimaApi.getProspecto(med.nregistro ?: return basicInfo.ifEmpty { null })
+            body.use { it.string() }
+        } catch (_: Exception) { null }
+
+        if (prospecto != null) {
+            val cleaned = stripHtml(prospecto)
+            val sections = extractSections(cleaned)
+            return basicInfo + "\n\n" + sections
         }
+
+        return basicInfo.ifEmpty { null }
+    }
+
+    private fun stripHtml(html: String): String {
+        return html
+            .replace(Regex("<[^>]*>"), "")
+            .replace(Regex("\\s+"), " ")
+            .trim()
+    }
+
+    private fun extractSections(text: String): String {
+        val wanted = mapOf(
+            "QUÉ ES" to "Para qué se usa",
+            "CÓMO TOMAR" to "Cómo se usa"
+        )
+
+        val blocks = text.split(Regex("\\n\\s*\\n")).map { it.trim() }.filter { it.isNotBlank() }
+
+        val result = mutableListOf<String>()
+        var currentHeader: String? = null
+        var currentContent = StringBuilder()
+        var matchedKey: String? = null
+
+        for (block in blocks) {
+            val upper = block.uppercase()
+            if (upper.contains("CONTENIDO DEL PROSPECTO")) continue
+
+            val key = wanted.keys.firstOrNull { upper.contains(it) }
+            if (key != null) {
+                if (currentHeader != null && matchedKey != null && currentContent.isNotBlank()) {
+                    val body = currentContent.toString().trim()
+                    if (body.isNotBlank()) result.add("${wanted[matchedKey]}: $body")
+                }
+                currentHeader = block
+                matchedKey = key
+                currentContent = StringBuilder()
+            } else if (currentHeader != null) {
+                if (currentContent.isNotBlank()) currentContent.append(" ")
+                currentContent.append(block)
+            }
+        }
+        if (currentHeader != null && matchedKey != null && currentContent.isNotBlank()) {
+            val body = currentContent.toString().trim()
+            if (body.isNotBlank()) result.add("${wanted[matchedKey]}: $body")
+        }
+
+        if (result.isNotEmpty()) return result.joinToString("\n\n")
+
+        val numbered = mapOf(
+            "1." to "Para qué se usa",
+            "3." to "Cómo se usa"
+        )
+        var foundNum: String? = null
+        var numContent = StringBuilder()
+        for (numKey in listOf("1.", "2.", "3.", "4.", "5.", "6.")) {
+            val idx = text.indexOf(numKey)
+            if (idx < 0) continue
+            val titleKey = numbered[numKey]
+            if (titleKey != null) {
+                if (foundNum != null && numContent.isNotBlank()) {
+                    val body = numContent.toString().trim()
+                    if (body.isNotBlank()) result.add("${numbered[foundNum]}: $body")
+                }
+                foundNum = numKey
+                numContent = StringBuilder()
+            } else if (foundNum != null) {
+                numContent.append(text.substring(idx))
+            }
+        }
+        if (foundNum != null && numContent.isNotBlank()) {
+            val body = numContent.toString().trim()
+            if (body.isNotBlank()) result.add("${numbered[foundNum]}: $body")
+        }
+
+        if (result.isNotEmpty()) return result.joinToString("\n\n")
+
+        return text
     }
 
     private suspend fun searchFda(name: String): Result<String> {
@@ -250,22 +347,6 @@ class DrugSearchRepository @Inject constructor(
         return Result.success(buildDescription(response.results.first()))
     }
 
-    private suspend fun searchEma(name: String): String? {
-        val filter = "medication-name:contains:$name"
-        val response = emaApi.searchMedications(filter = filter)
-        val entry = response.entry?.firstOrNull() ?: return null
-        val resource = entry.resource ?: return null
-
-        val parts = mutableListOf<String>()
-        resource.code?.coding?.firstOrNull()?.display?.let { parts.add(it) }
-
-        return if (parts.isNotEmpty()) {
-            parts.joinToString(". ").take(MAX_DESCRIPTION_LENGTH)
-        } else {
-            null
-        }
-    }
-
     private fun buildDescription(result: FdaResult): String {
         val parts = mutableListOf<String>()
 
@@ -273,7 +354,7 @@ class DrugSearchRepository @Inject constructor(
         result.indications_and_usage?.firstOrNull()?.let { parts.add(it) }
         result.description?.firstOrNull()?.let { parts.add(it) }
 
-        return parts.joinToString("\n\n").take(MAX_DESCRIPTION_LENGTH)
+        return parts.joinToString("\n\n")
     }
 
     fun resetTranslateState() {
@@ -331,12 +412,10 @@ class DrugSearchRepository @Inject constructor(
     }
 
     private suspend fun tryTranslationChain(text: String, sourceLang: String, targetLang: String): String? {
-        val truncated = text.take(500)
-
-        val mymemoryResult = tryMyMemory(truncated, sourceLang, targetLang)
+        val mymemoryResult = tryMyMemory(text, sourceLang, targetLang)
         if (mymemoryResult != null) return mymemoryResult
 
-        val googleResult = tryGoogleTranslate(truncated, sourceLang, targetLang)
+        val googleResult = tryGoogleTranslate(text, sourceLang, targetLang)
         if (googleResult != null) return googleResult
 
         return null

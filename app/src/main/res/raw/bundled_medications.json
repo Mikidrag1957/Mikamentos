@@ -1,0 +1,1063 @@
+﻿{
+    "generated":  "2026-06-20",
+    "version":  1,
+    "count":  95,
+    "medications":  [
+                        {
+                            "dosis":  "1000 mg",
+                            "principio_activo":  "paracetamol",
+                            "para_que_se_usa":  "Paracetamol pertenece al grupo de medicamentos llamados analgésicos y antipiréticos. Paracetamol está indicado para el tratamiento de los síntomas del dolor y la fiebre. Debe consultar a un médico si empeora o si no mejora, el dolor después de 5 días, o la fiebre después de 3 días.",
+                            "names":  [
+                                          "paracetamol",
+                                          "acetaminophen",
+                                          "panadol",
+                                          "tylenol",
+                                          "apiretal",
+                                          "gelocatil",
+                                          "efferalgan",
+                                          "termalgin"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico o farmacéutico. En caso de duda, consulte de nuevo a su médico o farmacéutico. Recuerde tomar su medicamento . Paracetamol debe tomarse por vía oral. Según sus preferencias, los comprimidos se pueden ingerir directamente o partidos por la mitad, con ayuda de un vaso de líquido, preferentemente agua. La dosis recomendada es: Adultos y adolescentes mayores de 15 años: la dosis habitual es de 1 comprimido (1 g de paracetamol) 3 veces al día. Las tomas deben espaciarse al menos 4 horas. No se tomarán más de 4 comprimidos (4 g) en 24 horas. Pacientes con enfermedades del hígado: antes de tomar este medicamento tienen que consultar a su médico. Deben tomar la cantidad de medicamento prescrita por su médico con un intervalo mínimo entre cada toma de 8h. No deben tomar más de 2 gramos de paracetamol en 24 horas, repartidos en 2 tomas. Pacientes con enfermedades del riñón: antes de tomar este medica"
+                        },
+                        {
+                            "dosis":  "200 mg/5 mg",
+                            "principio_activo":  "ibuprofeno + fenilefrina",
+                            "para_que_se_usa":  "Grippostad con ibuprofeno contiene ibuprofeno y hidrocloruro de fenilefrina, que están indicados para el alivio de los síntomas asociados a gripe y resfriado, como dolor leve o moderado, congestión nasal (nariz tapada) y para bajar la fiebre, en adultos y adolescentes mayores de 12 años. El ibuprofeno pertenece a un grupo de medicamentos conocidos como medicamentos antiinflamatorios no esteroideos (AINE) y es eficaz contra las molestias y los dolores (incluyendo dolor de cabeza), la inflamación y también puede reducir la fiebre. El hidrocloruro de fenilefrina (descongestionante nasal) reduce la hinchazón en la nariz, alivia la congestión nasal y reduce la presión que puede causar dolor de cabeza.",
+                            "names":  [
+                                          "ibuprofeno",
+                                          "ibuprofen",
+                                          "advil",
+                                          "motrin",
+                                          "nurofen",
+                                          "dalsy",
+                                          "neobrufen"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administración del medicamento contenidas en este prospecto o las indicadas por su médico o farmacéutico. En caso de duda, pregunte a su médico o farmacéutico. Forma de administración Los comprimidos deben ser tragados enteros con agua. Es importante beber líquidos con abundancia cuando tiene resfriado y gripe. Dosis Adultos, personas de edad avanzada y adolescentes mayores de 12 años de edad: Tome 2 comprimidos cada 8 horas. Deje pasar por lo menos 4 horas entre las tomas y no tomar más de 6 comprimidos en 24 horas. Duración del tratamiento Este medicamento es sólo para uso a corto plazo. Se debe utilizar la dosis eficaz más baja durante el menos tiempo necesario para aliviar los síntomas. Si tiene una infección, consulte sin demora a un médico si los síntomas (como fiebre y dolor) persisten o empeoran (sección 2). Adultos: No tome Grippostad con ibuprofeno durante más de 5 días. Los adolescentes mayores de 12 años de edad: No tome Grippostad con "
+                        },
+                        {
+                            "dosis":  "400/240 mg/mg",
+                            "principio_activo":  "ácido acetilsalicílico + ácido ascórbico",
+                            "para_que_se_usa":  "Este medicamento contiene \u0026 cido acetilsalic\u0026 lico y \u0026 cido asc\u0026 rbico (vitamina C) como principios activos y act\u0026 a reduciendo el dolor y la fiebre. Est\u0026 indicado en el alivio sintom\u0026 tico de los dolores ocasionales leves o moderados, como dolores de cabeza, dentales, menstruales, musculares (contracturas) o de espalda (lumbalgia). Estados febriles.",
+                            "names":  [
+                                          "aspirina",
+                                          "aspirin",
+                                          "adiro",
+                                          "disgren",
+                                          "tromalyt",
+                                          "anopyrin"
+                                      ],
+                            "como_se_usa":  "Siga estas instrucciones a menos que su m\u0026 dico le haya dado otras indicaciones distintas. Consulte a su m\u0026 dico o farmac\u0026 utico si tiene dudas. Este medicamento se administra por v\u0026 a oral. Adultos y mayores de 16 a\u0026 os: 1 comprimido efervescente cada 6 horas, si fuera necesario. No se exceder\u0026 de 4 comprimidos efervescentes en 24 horas. Pacientes con las funciones del h\u0026 gado o ri\u0026 \u0026 n reducidas: consultar al m\u0026 dico ya que debe reducir la dosis. Disolver totalmente el comprimido efervescente en un vaso con agua y beber todo el contenido del vaso cuando haya cesado completamente el burbujeo. No tome este medicamento con el est\u0026 mago vac\u0026 o, por lo que se recomienda tomar el medicamento despu\u0026 s de las comidas o con alg\u0026 n alimento, especialmente si se notan molestias digestivas. Utilizar siempre la dosis menor que sea efectiva. La administraci\u0026 n de este preparado est\u0026 supeditada a la aparici\u0026 n de los s\u0026 ntomas dolorosos o febriles. A medida que \u0026 stos desaparezcan debe suspenderse "
+                        },
+                        {
+                            "dosis":  "20 mg",
+                            "principio_activo":  "esomeprazol",
+                            "para_que_se_usa":  "Esomeprazol cinfa contiene un medicamento llamado esomeprazol que pertenece a un grupo de medicamentos llamados \u0026 inhibidores de la bomba de protones\u0026 . Estos funcionan reduciendo la cantidad de \u0026 cido que produce el est\u0026 mago. Esomeprazol se utiliza para el tratamiento de los siguientes trastornos: Adultos Enfermedad por reflujo gastroesof\u0026 gico (ERGE). Se produce cuando el \u0026 cido del est\u0026 mago asciende por el es\u0026 fago (el tubo que va de la garganta al est\u0026 mago) produciendo dolor, inflamaci\u0026 n y ardor. \u0026 lceras en el est\u0026 mago o parte superior del intestino (duodeno) que est\u0026 n infectadas por una bacteria llamada Helicobacter pylori. Si presenta este trastorno, es probable que su m\u0026 dico tambi\u0026 n le prescriba antibi\u0026 ticos para tratar la infecci\u0026 n y permitir que cicatrice la \u0026 lcera. \u0026 lceras g\u0026 stricas provocadas por medicamentos llamados AINE (Antiinflamatorios no esteroideos). Esomeprazol tambi\u0026 n pueden emplearse para prevenir la formaci\u0026 n de \u0026 lceras si est\u0026 tomando AINE. Acid",
+                            "names":  [
+                                          "omeprazol",
+                                          "omeprazole",
+                                          "prilosec",
+                                          "losec",
+                                          "helicid",
+                                          "parlet"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico o farmac\u0026 utico. En caso de duda, consulte de nuevo a su m\u0026 dico o farmac\u0026 utico. Si toma este medicamento durante un periodo largo de tiempo, su m\u0026 dico necesitar\u0026 realizar un seguimiento (especialmente si lo toma durante m\u0026 s de un a\u0026 o). Si su m\u0026 dico le ha indicado que tome este medicamento s\u0026 lo cuando note alg\u0026 n s\u0026 ntoma, informe a su m\u0026 dico si los s\u0026 ntomas cambian. Cu\u0026 nto tomar Su m\u0026 dico le habr\u0026 indicado cuantas c\u0026 psulas debe tomar y cu\u0026 ndo tomarlos. Esto depender\u0026 de su situaci\u0026 n, edad y el funcionamiento de su h\u0026 gado. Las dosis recomendadas se indican a continuaci\u0026 n: Uso en adultos a partir de 18 a\u0026 os de edad Para tratar el tratamiento del ardor provocado por la enfermedad por reflujo gastroesof\u0026 gico (ERGE): Si su m\u0026 dico ha determinado que su es\u0026 fago est\u0026 ligeramente afectado, la dosis recomendada es de una c\u0026 psula de esomeprazol 40 mg una vez al d\u0026 a durante 4 se"
+                        },
+                        {
+                            "dosis":  "250 mg amoxicilina/62,5 mg acido clavulanico",
+                            "principio_activo":  "amoxicilina + ácido clavulánico",
+                            "para_que_se_usa":  "Amoxicilina/Ácido clavulánico Sandoz es un antibiótico que elimina las bacterias que causan infecciones. Contiene dos fármacos diferentes llamados amoxicilina y ácido clavulánico. Amoxicilina pertenece al grupo de medicamentos conocido como “penicilinas” que a veces puede perder su eficacia (se inactiva). El otro componente (ácido clavulánico) evita que esto ocurra. Los antibióticos se utilizan para tratar infecciones bacterianas y no sirven para tratar infecciones víricas como la gripe o el catarro. Es importante que siga las instrucciones relativas a la dosis, las tomas y la duración del tratamiento indicadas por su médico. No guarde ni reutilice este medicamento. Si una vez finalizado el tratamiento le sobra antibiótico, devuélvalo a la farmacia para su correcta eliminación. No debe tirar los medicamentos por el desagüe ni a la basura. Amoxicilina/ácido clavulánico se utiliza en bebés y niños para el tratamiento de las siguientes infecciones: infecciones del oído medio y senos paran",
+                            "names":  [
+                                          "amoxicilina",
+                                          "amoxicillin",
+                                          "clamoxyl",
+                                          "amoxil"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico o farmacéutico. En caso de duda, consulte de nuevo a su médico o farmacéutico. Uso en adultos y niños de 40 kg o más No se recomienda normalmente para adultos y niños que pesen más de 40 kg. Consulte a su médico o farmacéutico. Uso en niños que pesen menos de 40 kg Todas las dosis se expresan en base al peso corporal del niño en kilogramos. La dosis recomendada es de 20 mg/5 mg hasta 60 mg/15 mg por cada kilo de peso corporal y día, administrados en tres dosis divididas. . Su médico le aconsejará cuanto amoxicilina/ácido clavulánico le debe dar a su bebé o niño. Se le proporcionará una cucharilla de plástico dosificadora. Debe utilizarla para darle la dosis correcta a su bebé o niño. Las instrucciones para la preparación de la suspensión a partir del polvo se proporcionan al final de este prospecto. Pacientes con problemas de riñón e hígado Si su hijo tiene problemas de riñón puede que le d"
+                        },
+                        {
+                            "dosis":  "850 mg",
+                            "principio_activo":  "metformina",
+                            "para_que_se_usa":  "metformina cinfa contiene metformina, un medicamento para tratar la diabetes. Pertenece a un grupo de medicamentos llamados biguanidas. La insulina es una hormona producida por el p\u0026 ncreas que hace que su cuerpo capte glucosa (az\u0026 car) de la sangre. Su organismo utiliza la glucosa para producir energ\u0026 a o la almacena para uso futuro. Si usted tiene diabetes, su p\u0026 ncreas no elabora suficiente insulina o su organismo no puede utilizar adecuadamente la insulina que produce. Esto causa niveles altos de glucosa en la sangre. Metformina ayuda a reducir su glucosa en sangre a un nivel lo m\u0026 s normal posible. Si es un adulto con sobrepeso, tomar metformina durante un tiempo prolongado tambi\u0026 n ayuda a reducir el riesgo de complicaciones asociadas a la diabetes. Metformina se asocia a un mantenimiento del peso corporal o a una ligera disminuci\u0026 n del mismo. Metformina se emplea para tratar a los pacientes con diabetes tipo 2 (tambi\u0026 n llamada \u0026 diabetes no insulinodependiente\u0026 ) cuando la die",
+                            "names":  [
+                                          "metformina",
+                                          "metformin",
+                                          "glucophage",
+                                          "dianben"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico o farmac\u0026 utico. En caso de duda, consulte de nuevo a su m\u0026 dico o farmac\u0026 utico. Metformina no puede reemplazar los beneficios de un estilo de vida sano. Contin\u0026 e siguiendo cualquier consejo acerca de la dieta que su m\u0026 dico le haya dado y practique ejercicio con regularidad. Dosis recomendada: Adultos: los adultos comienzan generalmente con 500 mg u 850 mg de metformina, dos o tres veces al d\u0026 a. La dosis diaria m\u0026 xima es de 3.000 mg divididos en tres tomas. Uso en ni\u0026 os a partir de 10 a\u0026 os y adolescentes: los ni\u0026 os 10 a\u0026 os y mayores y los adolescentes comienzan generalmente con 500 mg u 850 mg de metformina una vez al d\u0026 a. La dosis diaria m\u0026 xima es de 2000 mg divididos en 2 o 3 tomas. El tratamiento de ni\u0026 os entre 10 y 12 a\u0026 os est\u0026 s\u0026 lo recomendado bajo consejo espec\u0026 fico de su m\u0026 dico, ya que la experiencia cl\u0026 nica en este grupo de pacientes es limitada. Si usted tiene un"
+                        },
+                        {
+                            "dosis":  "10 MG/10 MG",
+                            "principio_activo":  "atorvastatina + amlodipino",
+                            "para_que_se_usa":  "Amlodipino/Atorvastatina Normon se utiliza para prevenir los eventos cardiovasculares (por ejemplo, angina de pecho, ataque al coraz\u0026 n) en pacientes con la tensi\u0026 n arterial alta y que tengan adem\u0026 s factores de riesgo para padecer una enfermedad cardiovascular, como tabaquismo, sobrepeso, altos niveles de colesterol en sangre, antecedentes familiares de enfermedades del coraz\u0026 n o diabetes. La existencia de estos factores de riesgo asociados a una tensi\u0026 n arterial alta hace que los pacientes tengan un mayor riesgo de sufrir eventos cardiovasculares. Amlodipino/Atorvastatina Normon es un producto que contiene dos principios activos, amlodipino (antagonista del calcio) y atorvastatina (estatina) y que se utiliza cuando su m\u0026 dico considere que es adecuado tomar ambos medicamentos. Amlodipino se utiliza en el tratamiento de la tensi\u0026 n arterial alta (hipertensi\u0026 n) y atorvastatina reduce los niveles de colesterol. La tensi\u0026 n arterial alta (hipertensi\u0026 n) es una enfermedad en la que la",
+                            "names":  [
+                                          "atorvastatina",
+                                          "atorvastatin",
+                                          "lipitor",
+                                          "prevencor",
+                                          "atoris"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico. En caso de duda, consulte de nuevo a su m\u0026 dico o farmac\u0026 utico. Adultos La dosis inicial habitual de Amlodipino/Atorvastatina Normon para adultos es un comprimido diario de 5 mg/10 mg. Si es necesario, su m\u0026 dico podr\u0026 aumentar la dosis a un comprimido diario de Amlodipino/Atorvastatina Normon 10 mg/10 mg. Amlodipino/Atorvastatina Normon debe tragarse entero, con un poco de agua. Los comprimidos pueden tomarse por v\u0026 a oral en cualquier momento del d\u0026 a, con o sin alimentos. No obstante, intente tomar siempre su comprimido cada d\u0026 a a la misma hora. Siga las recomendaciones diet\u0026 ticas de su m\u0026 dico, especialmente respecto a la restricci\u0026 n de grasa en la dieta, dejar de fumar y hacer ejercicio de forma regular. Si estima que la acci\u0026 n de los comprimidos de Amlodipino/Atorvastatina Normon es demasiado fuerte o d\u0026 bil, comun\u0026 queselo a su m\u0026 dico o farmac\u0026 utico. Uso en ni\u0026 os y adolesc"
+                        },
+                        {
+                            "dosis":  "10 mg",
+                            "principio_activo":  "amlodipino",
+                            "para_que_se_usa":  "",
+                            "names":  [
+                                          "amlodipino",
+                                          "amlodipine",
+                                          "norvasc",
+                                          "agen"
+                                      ],
+                            "como_se_usa":  ""
+                        },
+                        {
+                            "dosis":  "10 mg enalapril maleato",
+                            "principio_activo":  "enalapril",
+                            "para_que_se_usa":  "enalapril cinfa contiene un principio activo denominado maleato de enalapril. Pertenece al grupo de medicamentos denominados inhibidores de la enzima de conversi\u0026 n de la angiotensina (inhibidores de la ECA). enalapril cinfa est\u0026 indicado para: Tratar la hipertensi\u0026 n (tensi\u0026 n arterial alta). Tratar la insuficiencia cardiaca (debilitamiento de la funci\u0026 n del coraz\u0026 n). Puede reducir la necesidad de acudir al hospital y puede ayudar a algunos pacientes a vivir m\u0026 s tiempo. Prevenir los signos de la insuficiencia cardiaca. Los signos incluyen: dificultad para respirar, cansancio despu\u0026 s de una ligera actividad f\u0026 sica como caminar o hinchaz\u0026 n de los tobillos y pies. Este medicamento funciona ensanchando sus vasos sangu\u0026 neos. Esto disminuye su presi\u0026 n arterial. Normalmente, el medicamento empieza a funcionar al cabo de una hora y el efecto dura por lo menos 24 horas. Algunas personas necesitar\u0026 n varias semanas de tratamiento hasta que se observe el mayor efecto sobre su presi\u0026 n ar",
+                            "names":  [
+                                          "enalapril",
+                                          "enalapril",
+                                          "renitec"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico o farmac\u0026 utico. En caso de duda, consulte de nuevo a su m\u0026 dico o farmac\u0026 utico. Es muy importante que siga tomando este medicamento durante el tiempo que su m\u0026 dico se lo recete. No tome m\u0026 s comprimidos que los que le han recetado. El comprimido se puede partir en dosis iguales. La dosis recomendada es: Presi\u0026 n arterial elevada Para la mayor\u0026 a de los pacientes la dosis inicial recomendada es de 5 mg a 20 mg una vez al d\u0026 a. Algunos pacientes pueden necesitar una dosis inicial menor. La dosis recomendada a largo plazo es de 20 mg una vez al d\u0026 a. La dosis m\u0026 xima a largo plazo es de 40 mg una vez al d\u0026 a. Insuficiencia cardiaca La dosis inicial recomendada normalmente es de 2,5 mg una vez al d\u0026 a. El m\u0026 dico aumentar\u0026 la dosis poco a poco hasta que se alcance la dosis adecuada en su caso. La dosis recomendada a largo plazo es 20 mg al d\u0026 a en una o dos tomas. La dosis m\u0026 xima a largo "
+                        },
+                        {
+                            "dosis":  "100 losartan potasico/25 mg hidroclorotiazida",
+                            "principio_activo":  "losartán + hidroclorotiazida",
+                            "para_que_se_usa":  "Losart\u0026 n/hidroclorotiazida es una combinaci\u0026 n de un antagonista del receptor de la angiotensina II (losart\u0026 n) y un diur\u0026 tico (hidroclorotiazida). La angiotensina II es una sustancia producida en el organismo que se une a unos receptores presentes en los vasos sangu\u0026 neos, provocando que \u0026 stos se estrechen. Esto provoca un aumento de la presi\u0026 n arterial. Losart\u0026 n impide la uni\u0026 n de la angiotensina II a estos receptores, lo que origina que los vasos sangu\u0026 neos se relajen, lo que a su vez disminuye la presi\u0026 n arterial. Hidroclorotiazida hace que los ri\u0026 ones eliminen mayor cantidad de agua y sales. Esto tambi\u0026 n ayuda a reducir la presi\u0026 n arterial. Losart\u0026 n/hidroclorotiazida est\u0026 indicado para el tratamiento de la hipertensi\u0026 n esencial (presi\u0026 n arterial alta).",
+                            "names":  [
+                                          "losartan",
+                                          "losartan",
+                                          "cozaar"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico o farmac\u0026 utico. En caso de duda, consulte de nuevo a su m\u0026 dico o farmac\u0026 utico. Su m\u0026 dico decidir\u0026 la dosis apropiada de losart\u0026 n/hidroclorotiazida, dependiendo de su estado y de si est\u0026 tomando otros medicamentos. Es importante seguir tomando losart\u0026 n/hidroclorotiazida mientras se lo prescriba su m\u0026 dico para mantener un control constante de la presi\u0026 n arterial. Presi\u0026 n arterial elevada Para la mayor\u0026 a de los pacientes con presi\u0026 n arterial alta, la dosis habitual es de 1 comprimido de losart\u0026 n/hidroclorotiazida 50 mg/12,5 mg al d\u0026 a para controlar su presi\u0026 n arterial durante 24 horas. Puede aumentarse a 2 comprimidos recubiertos con pel\u0026 cula de losart\u0026 n/hidroclorotiazida 50 mg/12,5 mg al d\u0026 a o cambiar a 1 comprimido recubierto con pel\u0026 cula de losart\u0026 n/hidroclorotiazida 100 mg/25 mg (una dosis m\u0026 s fuerte) al d\u0026 a. La dosis m\u0026 xima diaria es 2 comprimidos de 50 mg de losar"
+                        },
+                        {
+                            "dosis":  "10 MG/20 MG",
+                            "principio_activo":  "simvastatina + ezetimiba",
+                            "para_que_se_usa":  "Este medicamento contiene los principios activos ezetimiba y simvastatina. Se utiliza para reducir las concentraciones de colesterol total, colesterol \u0026 malo\u0026 (colesterol LDL) y unas sustancias grasas llamadas triglic\u0026 ridos que circulan en la sangre. Adem\u0026 s, eleva las concentraciones del colesterol \u0026 bueno\u0026 (colesterol HDL). Ezetimiba/simvastatina act\u0026 a reduciendo el colesterol de dos maneras. El principio activo ezetimiba reduce el colesterol que se absorbe en el tubo digestivo. El principio activo simvastatina, que pertenece al grupo de las \u0026 estatinas\u0026 , inhibe la producci\u0026 n del colesterol fabricado por el propio organismo. El colesterol es una de las sustancias grasas que se encuentran en la corriente sangu\u0026 nea. Su colesterol total se compone principalmente del colesterol LDL y el HDL. El colesterol LDL a menudo se denomina colesterol \u0026 malo\u0026 porque puede acumularse en las paredes de sus arterias formando placas. Con el tiempo, esta acumulaci\u0026 n de placa puede provocar un estr",
+                            "names":  [
+                                          "simvastatina",
+                                          "simvastatin",
+                                          "zocor"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico o farmac\u0026 utico. En caso de duda, consulte de nuevo a su m\u0026 dico o farmac\u0026 utico Su m\u0026 dico determinar\u0026 la dosis por comprimido apropiada para usted, dependiendo de su tratamiento actual y de la situaci\u0026 n de su riesgo personal. Los comprimidos no tienen ranura y no se deben dividir. Antes de empezar a tomar ezetimiba/simvastatina, debe estar siguiendo una dieta para reducir el colesterol. Deber\u0026 continuar con esta dieta reductora del colesterol mientras tome este medicamento. Adultos: la dosis es 1 comprimido de ezetimiba/simvastatina una vez al d\u0026 a por v\u0026 a oral. Uso en adolescentes (10 a 17 a\u0026 os de edad): la dosis es 1 comprimido de ezetimiba/simvastatina una vez al d\u0026 a por v\u0026 a oral (no debe excederse una dosis m\u0026 xima de 10 mg/40 mg una vez al d\u0026 a). La dosis de ezetimiba/simvastatina 10 mg/80 mg s\u0026 lo se recomienda a pacientes adultos con niveles muy altos de colesterol y con un "
+                        },
+                        {
+                            "dosis":  "100 microgramos/aplicación",
+                            "principio_activo":  "salbutamol",
+                            "para_que_se_usa":  "El salbutamol pertenece al grupo de medicamentos denominados broncodilatadores que actúan relajando los músculos de las paredes de los pequeños conductos de aire de los pulmones. Facilita la respiración y alivia la tos. Está indicado en: Tratamiento sintomático del broncoespasmo (cierre de conductos de aire en los pulmones) en el asma bronquial y en otros procesos asociados a obstrucción reversible de las vías respiratorias. Estas son un grupo de enfermedades pulmonares que causan inflamación de las vías respiratorias ocasionando un bloqueo en el flujo de aire en los pulmones. Prevención del broncoespasmo (cierre de conductos de aire en los pulmones) inducido por ejercicio físico o antes de exponerse a un estímulo alergénico (sustancia capaz de producir una reacción alérgica) conocido e inevitable.",
+                            "names":  [
+                                          "salbutamol",
+                                          "albuterol",
+                                          "ventolin"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico o farmacéutico. En caso de duda, consulte de nuevo a su médico o farmacéutico. Recuerde tomar su medicamento. Este medicamento se administra por vía inhalatoria. Salbutamol Aldo-Unión 100 microgramos/dosis se debe utilizar a demanda y no de forma regular. Si su asma está activa (por ejemplo, tiene síntomas o crisis frecuentes, como dificultad para respirar que le dificulta hablar, comer o dormir, tos, sibilancias, opresión en el pecho o capacidad física limitada), debe informar inmediatamente a su médico, que le puede empezar a administrar un medicamento o aumentar la dosis de tratamiento, como un corticosteroide inhalado, para controlar su asma. Informe a su médico lo antes posible si su medicamento parece no estar funcionando tan bien como de costumbre (por ejemplo, si necesita dosis más altas para aliviar sus problemas respiratorios o si su inhalador no le proporciona alivio durante al m"
+                        },
+                        {
+                            "dosis":  "5 mg / 5 mg",
+                            "principio_activo":  "prednisona + neomicina",
+                            "para_que_se_usa":  "Oftalmolosa cusí prednisona neomicina es una pomada oftálmica que contiene una combinación de un corticosteroide (prednisona) que inhibe la respuesta inflamatoria y un antibiótico (neomicina) usado para tratar infecciones. Los antibióticos se utilizan para tratar infecciones bacterianas y no sirven para tratar infecciones víricas. Es importante que siga las instrucciones relativas a la dosis, el intervalo de administración y la duración del tratamiento indicadas por su médico. No guarde ni reutilice este medicamento. Si una vez finalizado el tratamiento le sobra antibiótico, devuélvalo a la farmacia para su correcta eliminación. No debe tirar los medicamentos por el desagüe ni a la basura. Este medicamento se utiliza para el tratamiento de procesos inflamatorios superficiales del polo anterior del ojo producidos o asociados a infección por bacterias sensibles a la neomicina.",
+                            "names":  [
+                                          "prednisona",
+                                          "prednisone",
+                                          "dacortin"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico o farmacéutico. En caso de duda, consulte de nuevo a su médico o farmacéutico. La dosis recomendada es: Uso en adultos (incluidos pacientes de edad avanzada) En general aplicar 1 cm de pomada aproximadamente dos o tres veces al día en el ojo(s) afectado(s). No se recomienda utilizar este producto durante más de 14 días, salvo indicación contraria del médico. Uso en insuficiencia hepática y renal No se ha establecido la seguridad y eficacia de este medicamento en pacientes con insuficiencia hepática o renal. Uso en niños y adolescentes No se ha establecido la seguridad y eficacia de este medicamento en niños y adolescentes Recomendaciones de uso: Coja el tubo. Sitúese delante de un espejo y lávese las manos. La pomada debe aplicarse dentro del ojo. Separe hacia abajo el párpado con un dedo limpio. Aplíquese la pomada en la bolsa que se forma entre el párpado y el ojo. Use el espejo si lo nec"
+                        },
+                        {
+                            "dosis":  "1000 UI heparina sodica/ml",
+                            "principio_activo":  "heparina",
+                            "para_que_se_usa":  "Heparina s\u0026 dica pertenece al grupo de medicamentos denominados antitromb\u0026 ticos, es decir, aquellos que se emplean para prevenir y tratar la aparici\u0026 n de co\u0026 gulos (trombos). Este medicamento se presenta en forma de soluci\u0026 n inyectable, con una concentraci\u0026 n de heparina s\u0026 dica de 1.000 UI/ml, en viales de 5 ml. Este medicamento est\u0026 indicado para: Tratamiento y prevenci\u0026 n de la enfermedad tromboemb\u0026 lica venosa: trombosis venosa profunda, tromboembolismo pulmonar. Tratamiento y prevenci\u0026 n del tromboembolismo arterial perif\u0026 rico. Tratamiento de la enfermedad coronaria: angina inestable e infarto agudo de miocardio. Prevenci\u0026 n de la trombosis en el circuito extracorp\u0026 reo durante la cirug\u0026 a cardiaca y vascular y hemodi\u0026 lisis. Heparina s\u0026 dica ROVI est\u0026 indicado en poblaci\u0026 n pedi\u0026 trica a partir de los 28 d\u0026 as del nacimiento y en adultos (ver secci\u0026 n 2).",
+                            "names":  [
+                                          "heparina",
+                                          "heparin"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico o farmac\u0026 utico. En caso de duda, consulte de nuevo a su m\u0026 dico o farmac\u0026 utico. Los viales que contienen Heparina s\u0026 dica ROVI 1.000 UI/ml soluci\u0026 n inyectable est\u0026 n listos para su empleo inmediato por v\u0026 a intravenosa (en infusi\u0026 n continua con bomba de perfusi\u0026 n o en forma de bolus), intraarterial o subcut\u0026 nea. No se debe administrar por v\u0026 a intramuscular y deber\u0026 a evitarse la inyecci\u0026 n intramuscular de otros agentes debido al riesgo de aparici\u0026 n de hematomas durante el tratamiento con heparina s\u0026 dica. Su m\u0026 dico le realizar\u0026 controles de forma regular para controlar las dosis. Siga las instrucciones a menos que su m\u0026 dico le haya dado otras indicaciones distintas. Su m\u0026 dico le indicar\u0026 la duraci\u0026 n de su tratamiento con Heparina s\u0026 dica ROVI 1.000 UI/ml soluci\u0026 n inyectable. No suspenda el tratamiento con antelaci\u0026 n. La dosis de heparina s\u0026 dica debe ser individualizada seg"
+                        },
+                        {
+                            "dosis":  "10 mg",
+                            "principio_activo":  "diazepam",
+                            "para_que_se_usa":  "diazepam cinfa contiene como principio activo diazepam, que pertenece al grupo de medicamentos denominados benzodiazepinas. El diazepam tiene efectos tranquilizantes, sedantes, relajantes musculares y anticonvulsivantes. Los m\u0026 dicos recetan diazepam a las personas que presentan s\u0026 ntomas de ansiedad, agitaci\u0026 n y tensi\u0026 n ps\u0026 quica producidos por estados psiconeur\u0026 ticos y trastornos situacionales transitorios. Las benzodiazepinas s\u0026 lo est\u0026 n indicadas para el tratamiento de un trastorno intenso, que limite su actividad o le someta a una situaci\u0026 n de estr\u0026 s importante. Tambi\u0026 n puede ser \u0026 til para el alivio de los s\u0026 ntomas de agitaci\u0026 n aguda, temblor y alucinaciones en pacientes con s\u0026 ndrome de abstinencia al alcohol. Este medicamento contribuye al alivio del dolor muscular producido por espasmos o inflamaci\u0026 n de m\u0026 sculos o articulaciones, traumas, etc. Tambi\u0026 n puede utilizarse para combatir los espasmos originados por enfermedades como par\u0026 lisis cerebral (grupo de trastorn",
+                            "names":  [
+                                          "diazepam",
+                                          "valium"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico o farmac\u0026 utico. En caso de duda, consulte de nuevo a su m\u0026 dico o farmac\u0026 utico. Dependiendo de la naturaleza de su enfermedad, su edad y peso, su m\u0026 dico le recetar\u0026 la dosis m\u0026 s adecuada y le indicar\u0026 la duraci\u0026 n de su tratamiento con diazepam. Recuerde tomar su medicamento. Siga estas instrucciones a menos que su m\u0026 dico le haya dado otras indicaciones distintas: Adultos S\u0026 ntomas de ansiedad: 2 a 10 mg, 2 a 4 veces al d\u0026 a, dependiendo de la gravedad de los s\u0026 ntomas. Alivio sintom\u0026 tico en la deprivaci\u0026 n alcoh\u0026 lica aguda: 10 mg, 3 o 4 veces durante las primeras 24 horas, reduciendo a 5 mg 3 o 4 veces al d\u0026 a, seg\u0026 n necesidad. Coadyuvante para el alivio del espasmo musculoesquel\u0026 tico: 2 a 10 mg, 3 o 4 veces al d\u0026 a. Coadyuvante en terapia anticonvulsiva: 2 a 10 mg, 2 o 4 veces al d\u0026 a. Posolog\u0026 a en poblaciones especiales Uso en ni\u0026 os: 2 a 2,5 mg, 1 o 2 veces al d\u0026 a, incremen"
+                        },
+                        {
+                            "dosis":  "1 mg  lorazepam",
+                            "principio_activo":  "lorazepam",
+                            "para_que_se_usa":  "",
+                            "names":  [
+                                          "lorazepam",
+                                          "orfiadal"
+                                      ],
+                            "como_se_usa":  ""
+                        },
+                        {
+                            "dosis":  "0,25 mg",
+                            "principio_activo":  "alprazolam",
+                            "para_que_se_usa":  "",
+                            "names":  [
+                                          "alprazolam",
+                                          "xanax",
+                                          "trankimazin"
+                                      ],
+                            "como_se_usa":  ""
+                        },
+                        {
+                            "dosis":  "10 mg zolpidem tartrato",
+                            "principio_activo":  "zolpidem",
+                            "para_que_se_usa":  "Zolpidem es un hipn\u0026 tico que pertenece a un grupo de medicamentos conocidos como an\u0026 logos a las benzodiazepinas. zolpidem cinfa se usa para el tratamiento a corto plazo del insomnio en adultos, en situaciones en las que el insomnio est\u0026 debilitando o causando ansiedad grave. No tome este medicamento durante largo tiempo. El tratamiento debe ser lo m\u0026 s corto posible, porque el riesgo de dependencia aumenta con la duraci\u0026 n del tratamiento. Zolpidem est\u0026 indicado para los trastornos en el ritmo del sue\u0026 o y para todas las formas de insomnio, especialmente cuando existen dificultades para conciliar el sue\u0026 o, bien inicialmente o bien tras un despertar prematuro.",
+                            "names":  [
+                                          "zolpidem",
+                                          "stilnox"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico. En caso de duda, consulte de nuevo a su m\u0026 dico o farmac\u0026 utico. La dosis recomendada es de 10 mg de zolpidem cinfa por cada 24 horas. Se puede prescribir una dosis m\u0026 s baja a algunos pacientes. Zolpidem se debe tomar: \u0026 de una sola vez; y \u0026 justo antes de acostarse. Se debe asegurar de que deja un margen m\u0026 nimo de 8 horas desde que tome el medicamento hasta que realiza actividades que requieran alerta mental. No tome m\u0026 s de 10 mg por cada 24 horas. En pacientes de edad avanzada, en pacientes debilitados y en pacientes que padezcan alg\u0026 n trastorno de h\u0026 gado, el m\u0026 dico prescribir\u0026 una dosis inferior. La dosis diaria recomendada es de medio comprimido, es decir 5 mg de zolpidem. Ni\u0026 os (menores de 18 a\u0026 os): no se recomienda su uso. El tratamiento debe comenzarse con la dosis m\u0026 s baja. No debe excederse la dosis m\u0026 xima. Cada dosis individual no debe rebasar los l\u0026 mites indicados y"
+                        },
+                        {
+                            "dosis":  "50 mg",
+                            "principio_activo":  "tramadol",
+                            "para_que_se_usa":  "Tramadol - el principio activo de este medicamento - es un analg\u0026 sico perteneciente al grupo de los opioides que act\u0026 a sobre el sistema nervioso central. Alivia el dolor actuando sobre c\u0026 lulas nerviosas espec\u0026 ficas de la m\u0026 dula espinal y del cerebro. tramadol cinfa se utiliza en el tratamiento del dolor moderado a intenso.",
+                            "names":  [
+                                          "tramadol",
+                                          "adolonta"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico o farmac\u0026 utico. En caso de duda, consulte de nuevo a su m\u0026 dico o farmac\u0026 utico. Antes de iniciar el tratamiento y de forma regular durante el mismo, su m\u0026 dico tambi\u0026 n le explicar\u0026 lo que puede esperar del uso de tramadol cinfa, cu\u0026 ndo y durante cu\u0026 nto tiempo debe usarlo, cuando debe ponerse en contacto con su m\u0026 dico y cuando debe suspender el uso (ver tambi\u0026 n secci\u0026 n 2). La dosis debe ser ajustada a la intensidad del dolor y su sensibilidad individual. Normalmente se debe tomar la menor dosis posible que produzca alivio del dolor. No tome m\u0026 s de 400 mg de hidrocloruro de tramadol al d\u0026 a, salvo que su m\u0026 dico as\u0026 se lo haya indicado. A menos que su m\u0026 dico le haya dado instrucciones distintas, la dosis recomendada es: Adultos y adolescentes mayores de 12 a\u0026 os Normalmente la dosis inicial es de 1 -2 c\u0026 psulas (equivalente a 50-100 mg de hidrocloruro de tramadol) Dependiendo del "
+                        },
+                        {
+                            "dosis":  "10 MG/ML",
+                            "principio_activo":  "apomorfina",
+                            "para_que_se_usa":  "Apomorfina pertenece a un grupo de medicamentos denominados agonistas dopaminérgicos. Se utiliza para tratar la enfermedad de Parkinson en pacientes que ya reciben tratamiento con otros agonistas dopaminérgicos y/o levodopa. La apomorfina ayuda a reducir el tiempo en estado “off” (periodos de inmovilidad). Su médico o enfermera le ayudarán a darse cuenta de cuándo debe utilizar este medicamento.",
+                            "names":  [
+                                          "morfina",
+                                          "morphine"
+                                      ],
+                            "como_se_usa":  "Antes de usar Apomorfina, su m\u0026 dico verificar\u0026 que tolera este medicamento y un medicamento antiem\u0026 tico que debe tomar simult\u0026 neamente. Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico. En caso de duda, consulte de nuevo a su m\u0026 dico o farmac\u0026 utico. Debe tomar domperidona al menos 2 d\u0026 as antes de usar Apomorfina para evitar tener n\u0026 useas y v\u0026 mitos. Cu\u0026 nta Apomorfina utilizar La cantidad de Apomorfina que debe utilizar y el n\u0026 mero de inyecciones que necesita cada d\u0026 a depender\u0026 n de sus necesidades personales. Su m\u0026 dico hablar\u0026 de esto con usted y le dir\u0026 cu\u0026 nto medicamento debe inyectarse y con qu\u0026 frecuencia. La cantidad que mejor funcione en su caso se habr\u0026 determinado durante su consulta al especialista. La dosis recomendada oscila entre 3 mg y 30 mg al d\u0026 a, inyectada de 1 a 10 veces al d\u0026 a cuando aparezcan los primeros signos de un episodio \u0026 off\u0026 imprevisible. Consulte a su m\u0026 dico si tiene dudas sobre la cantidad de "
+                        },
+                        {
+                            "dosis":  "300 mg paracetamol; 15 mg codeina",
+                            "principio_activo":  "paracetamol + codeína",
+                            "para_que_se_usa":  "",
+                            "names":  [
+                                          "codeina",
+                                          "codeine",
+                                          "codeisan"
+                                      ],
+                            "como_se_usa":  ""
+                        },
+                        {
+                            "dosis":  "40 mg furosemida",
+                            "principio_activo":  "furosemida",
+                            "para_que_se_usa":  "",
+                            "names":  [
+                                          "furosemida",
+                                          "furosemide",
+                                          "lasix"
+                                      ],
+                            "como_se_usa":  ""
+                        },
+                        {
+                            "dosis":  "10 mg",
+                            "principio_activo":  "ramipril",
+                            "para_que_se_usa":  "ramipril cinfa contiene un principio activo denominado ramipril. \u0026 ste pertenece a un grupo de medicamentos llamado inhibidores de la ECA (inhibidores de la enzima conversora de angiotensina). ramipril cinfa act\u0026 a de la siguiente manera: Disminuyendo la producci\u0026 n del organismo de unas sustancias que podr\u0026 an aumentar su presi\u0026 n sangu\u0026 nea. Relajando y ensanchando sus vasos sangu\u0026 neos. Haciendo m\u0026 s f\u0026 cil para su coraz\u0026 n el bombeo de la sangre por su cuerpo. ramipril cinfa puede utilizarse: Para tratar la presi\u0026 n arterial alta (hipertensi\u0026 n). Para reducir el riesgo de sufrir un infarto o derrame cerebral. Para reducir el riesgo o retrasar el empeoramiento de problemas renales (tanto si padece usted diabetes como si no). Para tratar su coraz\u0026 n cuando no puede bombear suficiente sangre al resto de su cuerpo (insuficiencia cardiaca). Como tratamiento despu\u0026 s de un ataque cardiaco (infarto de miocardio) complicado con una insuficiencia cardiaca.",
+                            "names":  [
+                                          "ramipril",
+                                          "acovil"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico o farmac\u0026 utico. En caso de duda, consulte con su m\u0026 dico o farmac\u0026 utico. ramipril cinfa comprimidos de 10 mg: Esta concentraci\u0026 n no es adecuada para dosis inferiores a 5 mg. Cantidad a tomar Tratamiento de la presi\u0026 n arterial elevada La dosis de inicio habitual es de 1,25 mg o 2,5 mg una vez al d\u0026 a. Su m\u0026 dico ajustar\u0026 la cantidad que debe tomar hasta controlar su presi\u0026 n arterial. La dosis m\u0026 xima es de 10 mg una vez al d\u0026 a. Si ya est\u0026 tomando diur\u0026 ticos (comprimidos para orinar), su m\u0026 dico podr\u0026 a interrumpir o reducir la cantidad del diur\u0026 tico antes de iniciar el tratamiento con ramipril cinfa. Para reducir el riesgo de infarto o accidente cerebrovascular La dosis de inicio habitual es de 2,5 mg una vez al d\u0026 a. Posteriormente, su m\u0026 dico podr\u0026 a optar por aumentar la cantidad que toma. La dosis habitual es de 10 mg una vez al d\u0026 a. Tratamiento para reducir o retrasar el agra"
+                        },
+                        {
+                            "dosis":  "10 MG",
+                            "principio_activo":  "bisoprolol",
+                            "para_que_se_usa":  "",
+                            "names":  [
+                                          "bisoprolol",
+                                          "bisoprolol"
+                                      ],
+                            "como_se_usa":  ""
+                        },
+                        {
+                            "dosis":  "100 mg",
+                            "principio_activo":  "metoprolol",
+                            "para_que_se_usa":  "Metoprolol reduce el efecto de las hormonas producidas por estrés en el corazón durante el esfuerzo físico y mental. Esto conduce a que el corazón lata más despacio (la frecuencia de pulso disminuye) en estas situaciones. Metoprolol Aurovitas se utiliza para: El tratamiento de la presión arterial elevada y para prevenir los síntomas de la angina de pecho. El tratamiento de algunos tipos de palpitaciones. El tratamiento de algunos tipos de actividad cardiaca irregular (arritmia). El tratamiento de aumento del metabolismo (tirotoxicosis). En pacientes que han tenido ataque al corazón, metoprolol reduce el riesgo de muerte y la posibilidad de un nuevo ataque. Metoprolol Aurovitas también se puede utilizar para prevenir migrañas.",
+                            "names":  [
+                                          "metoprolol",
+                                          "metoprolol",
+                                          "lopressor",
+                                          "vasocardin"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico. En caso de duda, consulte de nuevo a su médico o farmacéutico. Los comprimidos se deben tomar con el estómago vacío y deben tragarse con, al menos, medio vaso de agua. Si toma más Metoprolol Aurovitas del que debe Si ha tomado más Metoprolol Aurovitas del que debe, o si un niño ha tomado accidentalmente este medicamento, por favor póngase en contacto con el servicio de urgencias más cercano o consulte a su médico. En casos de sobredosis o ingestión accidental, consulte al Servicio de Información Toxicológica, teléfono 91 562 04 20, indicando el medicamento y la cantidad ingerida. Si olvidó tomar Metoprolol Aurovitas No tome una dosis doble para compensar las dosis olvidadas. Si interrumpe el tratamiento con Metoprolol Aurovitas No deje de tomar repentinamente metoprolol sin consultar primero con su médico ya que esto puede empeorar ciertos síntomas (por ejemplo, palpitaciones o angina de p"
+                        },
+                        {
+                            "dosis":  "100 mg",
+                            "principio_activo":  "atenolol",
+                            "para_que_se_usa":  "",
+                            "names":  [
+                                          "atenolol",
+                                          "atenolol",
+                                          "tenormin"
+                                      ],
+                            "como_se_usa":  ""
+                        },
+                        {
+                            "dosis":  "10 mg cetirizina dihidrocloruro",
+                            "principio_activo":  "cetirizina",
+                            "para_que_se_usa":  "",
+                            "names":  [
+                                          "cetirizina",
+                                          "cetirizine",
+                                          "zyrtec"
+                                      ],
+                            "como_se_usa":  ""
+                        },
+                        {
+                            "dosis":  "5 mg",
+                            "principio_activo":  "desloratadina",
+                            "para_que_se_usa":  "",
+                            "names":  [
+                                          "loratadina",
+                                          "loratadine",
+                                          "claritin"
+                                      ],
+                            "como_se_usa":  ""
+                        },
+                        {
+                            "dosis":  "1 MG/ML",
+                            "principio_activo":  "diclofenaco",
+                            "para_que_se_usa":  "Este medicamento pertenece al grupo de medicamentos oftalmol\u0026 gicos t\u0026 picos. Contiene diclofenaco s\u0026 dico como principio activo, que es un antiinflamatorio no esteroideo (AINE). Diclofenaco Abamed se utiliza para: Tratamiento postoperatorio de la inflamaci\u0026 n del segmento anterior del ojo. Tratamiento de inhibici\u0026 n de la miosis (contracci\u0026 n de la pupila) pre y postoperatorio de cataratas. Tratamiento sintom\u0026 tico de las conjuntivitis cr\u0026 nicas no infecciosas. Tratamiento de la inflamaci\u0026 n ocular, del dolor ocular y fotofobia post cirug\u0026 a refractiva (realizada para corregir miop\u0026 a, astigmatismo e hipermetrop\u0026 a).",
+                            "names":  [
+                                          "diclofenaco",
+                                          "diclofenac",
+                                          "voltaren"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico o farmac\u0026 utico. En caso de duda, consulte de nuevo a su m\u0026 dico o farmac\u0026 utico. Su m\u0026 dico le indicar\u0026 la duraci\u0026 n de su tratamiento con Diclofenaco Abamed. No suspenda el tratamiento antes de lo indicado. La dosis recomendada para los casos indicados a continuaci\u0026 n es la siguiente: Antes de la intervenci\u0026 n quir\u0026 rgica: 1 gota del colirio de 3 a 5 veces durante las 3 horas anteriores a la operaci\u0026 n, aplicadas a intervalos regulares de tiempo, lo que significa un m\u0026 ximo de 5 gotas. Despu\u0026 s de la intervenci\u0026 n quir\u0026 rgica: 3 gotas del colirio aplicadas a intervalos regulares de tiempo, comenzando inmediatamente despu\u0026 s de la operaci\u0026 n. Despu\u0026 s, durante el per\u0026 odo de tiempo requerido de 1 a 2 gotas del colirio de 3 a 5 veces al d\u0026 a, lo que significa un m\u0026 ximo diario de 10 gotas. Otras indicaciones: de 1 a 2 gotas del colirio de 3 a 4 veces al d\u0026 a, seg\u0026 n la gravedad del caso, "
+                        },
+                        {
+                            "dosis":  "500 mg",
+                            "principio_activo":  "naproxeno",
+                            "para_que_se_usa":  "Naproxeno pertenece al grupo de medicamentos denominados antiinflamatorios no esteroideos, con propiedades antiinflamatorias (contra la inflamación), analgésicas (contra el dolor) y antipiréticas/antitérmicas (disminución de la fiebre). Naproxeno Normon está indicado para el tratamiento de los procesos inflamatorios y dolorosos de las articulaciones, músculos, tendones y ligamentos tales como artritis reumatoide, artrosis y espondolitis anquilosante. Naproxeno Normon también está indicado para el tratamiento de los ataques agudos de gota, síndromes reumatoides y para los dolores menstruales.",
+                            "names":  [
+                                          "naproxeno",
+                                          "naproxen",
+                                          "naproxyn"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico. En caso de duda, consulte de nuevo a su médico o farmacéutico. La dosis recomendada es: Artritis reumatoide, artrosis y espondilitis anquilosante: La dosis inicial habitual es de uno a dos comprimidos (500-1000 mg de naproxeno) dos veces al día (mañana y noche). En pacientes con dolor nocturno grave y/o entumecimiento matinal, pacientes que pasan de otro tratamiento antirreumático a Naproxeno Normon y en artrosis con el dolor como síntoma predominante, se recomienda iniciar la terapia con dosis de un comprimido y medio a dos comprimidos (750-1000 mg) diarios durante varias semanas. Como terapia de mantenimiento se puede administrar una dosis única diaria de uno a dos comprimidos (500-1000 mg) por la mañana o por la noche. Gota aguda: Se recomienda una dosis inicial de un comprimido y medio (750 mg), seguida tras 8 horas de un comprimido (500 mg) y luego seguir con medio comprimido (250 mg)"
+                        },
+                        {
+                            "dosis":  "20 mg",
+                            "principio_activo":  "citalopram",
+                            "para_que_se_usa":  "Citalopram es un inhibidor selectivo de la recaptaci\u0026 n de serotonina (ISRS) y pertenece al grupo de medicamentos conocidos como antidepresivos. Estos medicamentos ayudan a corregir ciertos desequilibrios qu\u0026 micos en el cerebro, que causan los s\u0026 ntomas de su enfermedad. Citalopram est\u0026 indicado en el tratamiento de: Depresi\u0026 n y prevenci\u0026 n de reca\u0026 das y recurrencias. Trastorno de angustia con o sin agorafobia. Trastorno obsesivo-compulsivo (TOC). Su m\u0026 dico, de todas formas, puede prescribirle citalopram para cualquier otro prop\u0026 sito. Pregunte a su m\u0026 dico si tiene alguna duda de por qu\u0026 le ha prescrito citalopram.",
+                            "names":  [
+                                          "citalopram",
+                                          "citalopram",
+                                          "celexa",
+                                          "citalec"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico. En caso de duda, consulte de nuevo a su m\u0026 dico o farmac\u0026 utico. Adultos Depresi\u0026 n La dosis habitual es de 20 mg al d\u0026 a. Si as\u0026 lo estima necesario, su m\u0026 dico podr\u0026 aumentarle esta dosis hasta alcanzar un m\u0026 ximo de 40 mg al d\u0026 a. Trastorno de angustia La dosis inicial es de 10 mg al d\u0026 a durante la primera semana antes de aumentarla a 20 \u0026 30 mg al d\u0026 a. Su m\u0026 dico, si lo considera necesario, podr\u0026 aumentar esta dosis hasta alcanzar un m\u0026 ximo de 40 mg al d\u0026 a. Trastorno obsesivo-compulsivo (TOC) La dosis inicial es de 20 mg al d\u0026 a. Su m\u0026 dico, si lo considera necesario, podr\u0026 aumentar esta dosis hasta alcanzar un m\u0026 ximo de 40 mg al d\u0026 a. Edad avanzada (mayores de 65 a\u0026 os) En los pacientes de edad avanzada se debe iniciar el tratamiento con la mitad de la dosis recomendada por ejemplo 10 o 20 mg al d\u0026 a. En t\u0026 rminos generales los pacientes de edad avanzada no deben tomar m\u0026 s de "
+                        },
+                        {
+                            "dosis":  "100 mg sertralina",
+                            "principio_activo":  "sertralina",
+                            "para_que_se_usa":  "sertralina cinfa contiene sertralina como principio activo. Sertralina pertenece al grupo de medicamentos denominados inhibidores selectivos de la recaptaci\u0026 n de serotonina (ISRS); estos medicamentos se usan para tratar la depresi\u0026 n y/o trastornos de ansiedad. sertralina cinfa se puede usar para tratar: Depresi\u0026 n y prevenci\u0026 n de la reaparici\u0026 n de depresi\u0026 n (en adultos). Trastorno de ansiedad social (en adultos). Trastorno por estr\u0026 s postraum\u0026 tico (TEPT) (en adultos). Trastorno de angustia (en adultos). Trastorno obsesivo compulsivo (TOC) (en adultos, y en ni\u0026 os y adolescentes de 6-17 a\u0026 os). La depresi\u0026 n es una enfermedad de tipo cl\u0026 nico con s\u0026 ntomas como sentimientos de tristeza, incapacidad para dormir bien o para disfrutar de la vida como sol\u0026 a hacerlo. El TOC y los trastornos por angustia son enfermedades ligadas a la ansiedad, con s\u0026 ntomas como estar constantemente preocupado por ideas reiteradas (man\u0026 as) que hacen que lleve a cabo rituales repetitivos (obsesiones).",
+                            "names":  [
+                                          "sertralina",
+                                          "sertraline",
+                                          "zoloft"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico o farmac\u0026 utico. En caso de duda, consulte de nuevo a su m\u0026 dico o farmac\u0026 utico. La dosis recomendada es: Adultos: Depresi\u0026 n y Trastorno Obsesivo-Compulsivo: Para la depresi\u0026 n y el TOC, la dosis habitualmente eficaz es de 50 mg al d\u0026 a. La dosis diaria se puede aumentar en incrementos de 50 mg, a intervalos de al menos una semana, y as\u0026 durante varias semanas. La dosis m\u0026 xima recomendada es de 200 mg al d\u0026 a. Trastorno de angustia, trastorno de ansiedad social y trastorno por estr\u0026 s postraum\u0026 tico: Para el trastorno de angustia, el trastorno de ansiedad social y el trastorno por estr\u0026 s postraum\u0026 tico, el tratamiento debe iniciarse con una dosis de 25 mg al d\u0026 a y aumentarse a 50 mg al d\u0026 a tras una semana. La dosis diaria se puede aumentar en intervalos de 50 mg a lo largo de un periodo de varias semanas. La dosis m\u0026 xima recomendada es de 200 mg al d\u0026 a. Uso en ni\u0026 os y adolescente"
+                        },
+                        {
+                            "dosis":  "20 mg fluoxetina",
+                            "principio_activo":  "fluoxetina",
+                            "para_que_se_usa":  "",
+                            "names":  [
+                                          "fluoxetina",
+                                          "fluoxetine",
+                                          "prozac"
+                                      ],
+                            "como_se_usa":  ""
+                        },
+                        {
+                            "dosis":  "100 µg",
+                            "principio_activo":  "levotiroxina",
+                            "para_que_se_usa":  "",
+                            "names":  [
+                                          "levotiroxina",
+                                          "levothyroxine",
+                                          "eutirox"
+                                      ],
+                            "como_se_usa":  ""
+                        },
+                        {
+                            "dosis":  "0.5 mg/0.4 mg",
+                            "principio_activo":  "dutasterida + tamsulosina",
+                            "para_que_se_usa":  "dutasterida/tamsulosina cinfa se utiliza en hombres para tratar la pr\u0026 stata aumentada de tama\u0026 o (hiperplasia benigna de pr\u0026 stata) - un crecimiento no cancer\u0026 geno de la pr\u0026 stata causado por producir en exceso una hormona llamada dihidrotestosterona. Dutasterida/tamsulosina es una combinaci\u0026 n de dos medicamentos diferentes denominados dutasterida y tamsulosina. La dutasterida pertenece al grupo de medicamentos denominados inhibidores de la enzima 5-alfa reductasa y la tamsulosina pertenece al grupo de medicamentos denominados alfa bloqueantes. A medida que la pr\u0026 stata aumenta de tama\u0026 o, puede producir problemas urinarios tales como dificultad en el flujo de la orina y una necesidad de orinar con m\u0026 s frecuencia. Tambi\u0026 n puede causar que el chorro de la orina sea menor y menos fuerte. Si no se trata la hiperplasia benigna de pr\u0026 stata, hay riesgo de que el flujo de la orina se bloquee por completo (retenci\u0026 n aguda de orina). Esto requiere de tratamiento m\u0026 dico inmediato. En alg",
+                            "names":  [
+                                          "tamsulosina",
+                                          "tamsulosin",
+                                          "omnic"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico o farmac\u0026 utico. Si no toma dutasterida/tamsulosina de forma regular, el control de sus niveles de PSA se puede ver afectado. En caso de duda, consulte de nuevo a su m\u0026 dico o farmac\u0026 utico. Qu\u0026 dosis debe tomar La dosis recomendada es de una c\u0026 psula una vez al d\u0026 a, 30 minutos despu\u0026 s de la misma comida cada d\u0026 a. C\u0026 mo tomarlo Las c\u0026 psulas deben ser tragadas enteras, con agua. No mastique ni abra las c\u0026 psulas. El contacto con el contenido de las c\u0026 psulas puede irritar su boca o garganta. Si toma m\u0026 s dutasterida/tamsulosina cinfa del que debe En caso de sobredosis o ingesti\u0026 n accidental, consulte inmediatamente a su m\u0026 dico o farmac\u0026 utico o llame al Servicio de Informaci\u0026 n Toxicol\u0026 gica, tel\u0026 fono 91 562 04 20, indicando el medicamento y la cantidad ingerida. Si olvid\u0026 tomar dutasterida/tamsulosina cinfa No tome una dosis doble para compensar las dosis olvidadas. Tome la siguien"
+                        },
+                        {
+                            "dosis":  "1 MG/COMPRIMIDO",
+                            "principio_activo":  "finasterida",
+                            "para_que_se_usa":  "finasterida cinfa contiene el principio activo finasterida. finasterida cinfa es para uso exclusivo en varones. Finasterida se usa para el tratamiento de p\u0026 rdida de pelo de tipo masculino (tambi\u0026 n conocida como alopecia androgen\u0026 tica) en varones de 18 a 41 a\u0026 os. Si despu\u0026 s de leer este prospecto, tiene alguna pregunta sobre la p\u0026 rdida de pelo de tipo masculino, consulte a su m\u0026 dico. La p\u0026 rdida de pelo de tipo masculino es un trastorno frecuente que se cree que est\u0026 causado por una combinaci\u0026 n de factores gen\u0026 ticos y una hormona particular, llamada dihidrotestosterona (DHT). La DHT contribuye a acortar la fase de crecimiento del pelo y hace que el pelo sea m\u0026 s fino. En el cuero cabelludo, finasterida disminuye espec\u0026 ficamente los niveles de DHT bloqueando una enzima (Tipo II 5-alfa-reductasa) que convierte la testosterona a DHT. Solamente los varones con p\u0026 rdida de pelo leve a moderada, pero no completa, pueden esperar un beneficio en el uso de finasterida. En muchos de los",
+                            "names":  [
+                                          "finasterida",
+                                          "finasteride",
+                                          "proscar"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico o farmac\u0026 utico. En caso de duda, consulte de nuevo a su m\u0026 dico o farmac\u0026 utico. La dosis recomendada es un comprimido cada d\u0026 a. Los comprimidos se pueden tomar con o sin alimentos. Su m\u0026 dico le ayudar\u0026 a determinar si finasterida da resultados en su caso. Es importante tomar finasterida durante todo el tiempo que su m\u0026 dico le indique. Finasterida s\u0026 lo act\u0026 a a largo plazo si se mantiene su administraci\u0026 n. Si toma m\u0026 s finasterida cinfa del que debe Si toma demasiados comprimidos por equivocaci\u0026 n acuda al m\u0026 dico inmediatamente. Finasterida no actuar\u0026 m\u0026 s r\u0026 pido ni mejor por tomar m\u0026 s de un comprimido al d\u0026 a. En caso de sobredosis o ingesti\u0026 n accidental consulte inmediatamente a su m\u0026 dico o farmac\u0026 utico o llame al Servicio de Informaci\u0026 n Toxicol\u0026 gica, tel\u0026 fono 91 562 04 20, indicando el medicamento y la cantidad ingerida. Se recomendar\u0026 llevar el envase y el prospecto del"
+                        },
+                        {
+                            "dosis":  "100 mg",
+                            "principio_activo":  "sildenafilo",
+                            "para_que_se_usa":  "Sildenafilo Bexal contiene el principio activo sildenafilo que pertenece a un grupo de medicamentos denominados inhibidores de la fosfodiesterasa tipo 5 (PDE5). Actúa dilatando los vasos sanguíneos del pene, permitiendo la afluencia de sangre cuando se está sexualmente estimulado. Sildenafilo Bexal solo le ayudará a conseguir una erección si se encuentra sexualmente estimulado. Sildenafilo Bexal está indicado en el tratamiento de la disfunción eréctil en hombres adultos, a veces denominada impotencia. Esto sucede cuando un varón no puede obtener o mantener una erección firme, adecuada para una actividad sexual satisfactoria.",
+                            "names":  [
+                                          "sildenafilo",
+                                          "sildenafil",
+                                          "viagra"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico o farmacéutico. En caso de duda, consulte de nuevo a su médico o farmacéutico. La dosis de inicio recomendada es de 50 mg. No debe tomar Sildenafilo Bexal más de una vez al día. No tome Sildenafilo Bexal comprimidos junto medicamentos que contengan sildenafilo en comprimidos bucodispersables. Debe tomar sildenafilo aproximadamente una hora antes de que planee tener relaciones sexuales. Trague el comprimido con un vaso de agua. El comprimido se puede dividir en cuartos para facilitar la deglución. La ranura sirve únicamente para partir el comprimido si le resulta difícil tragarlo entero y no para dividirlo en partes iguales. En caso de que el comprimido no se puedan tragar entero, el comprimido se puede dividir y todos los trozos se deben tomar juntos al mismo tiempo (o secuencialmente). División del comprimido Coloque el comprimido sobre una superficie dura y lisa con la ranura más profunda"
+                        },
+                        {
+                            "dosis":  "20 mg",
+                            "principio_activo":  "tadalafilo",
+                            "para_que_se_usa":  "Tadalafilo Accord contiene el principio activo tadalafilo, el cual pertenece a un grupo de medicamentos denominados inhibidores de la fosfodiesterasa tipo 5. Tadalafilo Accord se utiliza para el tratamiento de: Disfunci\u0026 n er\u0026 ctil en hombres adultos: Esta se produce cuando un var\u0026 n no puede obtener o mantener una erecci\u0026 n firme, adecuada para una actividad sexual satisfactoria. Tadalafilo ha demostrado una mejora significativa en la capacidad para obtener una erecci\u0026 n duradera del pene adecuada para la actividad sexual. Despu\u0026 s de la estimulaci\u0026 n sexual tadalafilo act\u0026 a ayudando a relajar los vasos sangu\u0026 neos de su pene, permitiendo la afluencia de sangre al pene. El resultado es la mejor\u0026 a de la funci\u0026 n er\u0026 ctil. Tadalafilo no le ayudar\u0026 si no padece disfunci\u0026 n er\u0026 ctil. Es importante advertirle de que tadalafilo no es efectivo si no existe estimulaci\u0026 n sexual. Por lo tanto usted y su pareja deber\u0026 n estimularse del mismo modo en el que lo har\u0026 an si no estuviese tomando u",
+                            "names":  [
+                                          "tadalafilo",
+                                          "tadalafil",
+                                          "cialis"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico. En caso de duda, consulte de nuevo a su m\u0026 dico o farmac\u0026 utico. Trague los comprimidos enteros con un poco de agua. Los comprimidos se pueden tomar con o sin comida. Para tratar la disfunci\u0026 n er\u0026 ctil La dosis de inicio recomendada es de un comprimido de 10 mg antes de la actividad sexual. Sin embargo, si usted ha recibido la dosis de 20 mg es porque su m\u0026 dico ha decidido que la dosis recomendada de 10 mg es demasiado baja. Usted debe tomar el comprimido de Tadalafilo Accord al menos 30 minutos antes de la actividad sexual. Tadalafilo puede ser efectivo hasta 36 horas despu\u0026 s de tomar el comprimido. No tome Tadalafilo Accord m\u0026 s de una vez al d\u0026 a. Tadalafilo 10 mg y 20 mg est\u0026 indicado para su uso antes de la actividad sexual prevista y no se recomienda su uso diario continuo. Es importante advertirle de que tadalafilo no es efectivo si no existe estimulaci\u0026 n sexual. Por tanto ust"
+                        },
+                        {
+                            "dosis":  "575 mg",
+                            "principio_activo":  "metamizol",
+                            "para_que_se_usa":  "",
+                            "names":  [
+                                          "metamizol",
+                                          "dipyrone",
+                                          "nolotil"
+                                      ],
+                            "como_se_usa":  ""
+                        },
+                        {
+                            "dosis":  "20 mg",
+                            "principio_activo":  "pantoprazol",
+                            "para_que_se_usa":  "pantoprazol cinfa contiene el principio activo pantoprazol. Pantoprazol es un inhibidor selectivo de la \u0026 bomba de protones\u0026 , un medicamento que reduce la cantidad de \u0026 cido producido en su est\u0026 mago. Se utiliza para el tratamiento de enfermedades relacionadas con el \u0026 cido del est\u0026 mago e intestino. pantoprazol cinfa se utiliza para: Adultos y adolescentes a partir de 12 a\u0026 os: Tratamiento de s\u0026 ntomas asociados a la enfermedad por reflujo gastroesof\u0026 gico (por ejemplo ardor de est\u0026 mago, regurgitaci\u0026 n \u0026 cida, dolor al tragar) causada por el reflujo del \u0026 cido desde el est\u0026 mago. Tratamiento a largo plazo y prevenci\u0026 n de las reca\u0026 das de la esofagitis por reflujo (inflamaci\u0026 n del es\u0026 fago acompa\u0026 ada de regurgitaci\u0026 n \u0026 cida del est\u0026 mago). Adultos: Prevenci\u0026 n de \u0026 lceras gastroduodenales inducidas por medicamentos antiinflamatorios no esteroideos (AINEs, por ejemplo, ibuprofeno) en pacientes de riesgo que necesitan tratamiento continuado con este tipo de medicamentos.",
+                            "names":  [
+                                          "pantoprazol",
+                                          "pantoprazole",
+                                          "pantoc"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico o farmac\u0026 utico. En caso de duda, consulte de nuevo a su m\u0026 dico o farmac\u0026 utico. Forma de administraci\u0026 n: Tome los comprimidos enteros, sin masticarlos o romperlos y tragarlos con ayuda de un poco de agua, 1 hora antes de las comidas. La dosis recomendada es: Adultos y adolescentes a partir de 12 a\u0026 os Para tratar s\u0026 ntomas asociados a la enfermedad por reflujo gastroesof\u0026 gico (ardor de est\u0026 mago, regurgitaci\u0026 n \u0026 cida, dolor al tragar) La dosis recomendada es de 1 comprimido al d\u0026 a. Esta dosis, por lo general, proporciona un alivio en un plazo de 2-4 semanas y si no, como m\u0026 ximo, a las 4 semanas siguientes. Su m\u0026 dico le indicar\u0026 cu\u0026 nto tiempo debe seguir tomando el medicamento. Posteriormente, cualquier s\u0026 ntoma que se repita puede controlarse cuando sea necesario, tomando un comprimido al d\u0026 a. Para el tratamiento a largo plazo y prevenci\u0026 n de las reca\u0026 das de la esofagitis por "
+                        },
+                        {
+                            "dosis":  "10 mg ESCITALOPRAM/OXALATO",
+                            "principio_activo":  "escitalopram",
+                            "para_que_se_usa":  "",
+                            "names":  [
+                                          "escitalopram",
+                                          "escitalopram",
+                                          "lexapro"
+                                      ],
+                            "como_se_usa":  ""
+                        },
+                        {
+                            "dosis":  "75 mg",
+                            "principio_activo":  "clopidogrel",
+                            "para_que_se_usa":  "",
+                            "names":  [
+                                          "clopidogrel",
+                                          "clopidogrel",
+                                          "plavix"
+                                      ],
+                            "como_se_usa":  ""
+                        },
+                        {
+                            "dosis":  "10 mg/160 mg/12,5 mg",
+                            "principio_activo":  "valsartán + amlodipino + hidroclorotiazida",
+                            "para_que_se_usa":  "",
+                            "names":  [
+                                          "hidroclorotiazida",
+                                          "hydrochlorothiazide"
+                                      ],
+                            "como_se_usa":  ""
+                        },
+                        {
+                            "dosis":  "16 mg/12.5 mg",
+                            "principio_activo":  "candesartán + hidroclorotiazida",
+                            "para_que_se_usa":  "Su medicamento se llama Candesartán cilexetilo/Hidroclorotiazida NORMON. Se utiliza para el tratamiento de la presión arterial elevada (hipertensión) en pacientes adultos. Contiene dos principios activos: candesartán cilexetilo e hidroclorotiazida. Ambos actúan juntos para disminuir la presión arterial. El candesartán cilexetilo pertenece a un grupo de medicamentos denominados antagonistas de los receptores de angiotensina II. Hace que los vasos sanguíneos se relajen y dilaten. Esto facilita la disminución de la presión arterial. La hidroclorotiazida pertenece a un grupo de medicamentos denominados diuréticos. Favorece que el cuerpo elimine agua y sales como el sodio en la orina. Esto facilita la disminución de la presión arterial. Su médico puede prescribirle Candesartán cilexetilo/Hidroclorotiazida NORMON si su presión arterial no ha sido controlada adecuadamente con candesartán cilexetilo o hidroclorotiazida solos.",
+                            "names":  [
+                                          "candesartan",
+                                          "candesartan",
+                                          "atacand"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico. En caso de duda, consulte de nuevo a su médico o farmacéutico. Es importante que siga tomando Candesartán cilexetilo/Hidroclorotiazida NORMON todos los días. La dosis recomendada de Candesartán cilexetilo/Hidroclorotiazida NORMON es un comprimido una vez al día. Trague el comprimido con un vaso de agua. Intente tomar el comprimido a la misma hora cada día. Esto le ayudará a acordarse de que tiene que tomárselo. La ranura sirve únicamente para partir el comprimido si le resulta difícil tragarlo entero. Si toma más Candesartán cilexetilo/Hidroclorotiazida NORMON del que debe Si toma más Candesartán cilexetilo/Hidroclorotiazida NORMON de lo prescrito por su médico, contacte con su médico o farmacéutico inmediatamente. En caso de sobredosis o ingestión accidental consulte inmediatamente con su médico o farmacéutico o llame al Servicio de información Toxicológica, teléfono: 91 562 04 20, indica"
+                        },
+                        {
+                            "dosis":  "100 mg",
+                            "principio_activo":  "pregabalina",
+                            "para_que_se_usa":  "Pregabalina cinfa pertenece a un grupo de medicamentos que se utilizan para el tratamiento de la epilepsia, del dolor neurop\u0026 tico y del trastorno de ansiedad generalizada (TAG) en adultos. Dolor neurop\u0026 tico perif\u0026 rico y central: pregabalina se utiliza para el tratamiento del dolor cr\u0026 nico causado por da\u0026 os en los nervios. Hay diversas enfermedades que pueden causar dolor neurop\u0026 tico perif\u0026 rico, como la diabetes o el herpes. La sensaci\u0026 n de dolor se podr\u0026 a describir como calor, quemaz\u0026 n, dolor puls\u0026 til, dolor fulgurante, dolor punzante, dolor agudo, espasmos, dolor continuo, hormigueo, entumecimiento y sensaci\u0026 n de pinchazos. El dolor neurop\u0026 tico perif\u0026 rico y central podr\u0026 a estar tambi\u0026 n asociado con cambios de humor, alteraciones del sue\u0026 o, fatiga (cansancio) y puede tener efecto sobre la actividad f\u0026 sica y social y sobre la calidad de vida en general. Epilepsia: pregabalina se utiliza en el tratamiento de ciertas clases de epilepsia (crisis parciales con o sin genera",
+                            "names":  [
+                                          "pregabalina",
+                                          "pregabalin",
+                                          "lyrica"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico. En caso de duda, consulte de nuevo a su m\u0026 dico o farmac\u0026 utico. No tome m\u0026 s medicamento del recetado. Su m\u0026 dico determinar\u0026 qu\u0026 dosis es la adecuada para usted. Este medicamento es exclusivamente para uso oral. Dolor neurop\u0026 tico perif\u0026 rico y central, epilepsia o trastorno de ansiedad generalizada: Tome el n\u0026 mero de c\u0026 psulas que le haya indicado su m\u0026 dico. La dosis, que ha sido ajustada para usted y su estado, estar\u0026 generalmente entre 150 mg y 600 mg diarios. Su m\u0026 dico le indicar\u0026 que tome pregabalina dos o tres veces al d\u0026 a. En el caso de dos veces al d\u0026 a, tome pregabalina una vez por la ma\u0026 ana y otra por la noche, aproximadamente a la misma hora todos los d\u0026 as. En el caso de tres veces al d\u0026 a, tome pregabalina por la ma\u0026 ana, al mediod\u0026 a y por la noche, aproximadamente a la misma hora todos los d\u0026 as. Si estima que la acci\u0026 n de este medicamento es demasiado fuerte o d\u0026 "
+                        },
+                        {
+                            "dosis":  "300 mg",
+                            "principio_activo":  "gabapentina",
+                            "para_que_se_usa":  "gabapentina cinfa pertenece a un grupo de medicamentos que se utilizan para tratar la epilepsia y el dolor neurop\u0026 tico perif\u0026 rico (dolor cr\u0026 nico causado por da\u0026 os en los nervios). El principio activo de gabapentina cinfa es gabapentina. gabapentina cinfa se utiliza para tratar: Ciertas clases de epilepsia (crisis que est\u0026 n inicialmente limitadas a ciertas partes del cerebro, tanto si la crisis se extiende a otras partes del cerebro o no). El m\u0026 dico que le trate a usted o a su hijo de 6 a\u0026 os de edad o mayor le recetar\u0026 gabapentina cinfa para ayudar a tratar su epilepsia cuando su tratamiento actual no controle totalmente la enfermedad. Usted o su hijo de 6 a\u0026 os de edad o mayor deben tomar gabapentina cinfa en combinaci\u0026 n con su tratamiento actual a menos que se le indique lo contrario. Gabapentina tambi\u0026 n se puede administrar como \u0026 nico f\u0026 rmaco en el tratamiento de adultos y ni\u0026 os mayores de 12 a\u0026 os. Dolor neurop\u0026 tico perif\u0026 rico (dolor cr\u0026 nico causado por da\u0026 os en los ",
+                            "names":  [
+                                          "gabapentina",
+                                          "gabapentin",
+                                          "neurontin"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico o farmac\u0026 utico. En caso de duda, consulte de nuevo a su m\u0026 dico o farmac\u0026 utico. No tome una cantidad de medicamento superior a la prescrita. Su m\u0026 dico determinar\u0026 qu\u0026 dosis es la adecuada para usted. Epilepsia, la dosis recomendada es Adultos y adolescentes: Tome el n\u0026 mero de c\u0026 psulas que le haya indicado su m\u0026 dico. Normalmente su m\u0026 dico le ir\u0026 incrementando su dosis gradualmente. La dosis inicial ser\u0026 generalmente de 300 a 900 mg al d\u0026 a. A partir de ah\u0026 , la dosis podr\u0026 aumentarse seg\u0026 n le indique su m\u0026 dico, hasta una dosis m\u0026 xima de 3.600 mg al d\u0026 a, que se divide en tres tomas iguales, por ejemplo, una por la ma\u0026 ana, otra al mediod\u0026 a y otra por la noche. Ni\u0026 os de 6 a\u0026 os o m\u0026 s: Su m\u0026 dico decidir\u0026 la dosis a administrar a su hijo en funci\u0026 n del peso del ni\u0026 o. El tratamiento comenzar\u0026 con una dosis inicial baja que ser\u0026 aumentada gradualmente durante un per\u0026 odo aproxim"
+                        },
+                        {
+                            "dosis":  "100 mg",
+                            "principio_activo":  "quetiapina",
+                            "para_que_se_usa":  "quetiapina cinfa contiene una sustancia denominada quetiapina. Pertenece a un grupo de medicamentos denominados antipsic\u0026 ticos. Quetiapina se puede utilizar para tratar varias enfermedades, tales como: Depresi\u0026 n bipolar: por la que usted se siente triste. Puede encontrar que se siente deprimido, se siente culpable, con falta de energ\u0026 a, pierde el apetito o no puede dormir. Man\u0026 a: por la que usted puede sentirse muy excitado, euf\u0026 rico, agitado, entusiasta o hiperactivo o presentar poco juicio lo que incluye estar agresivo o violento. Esquizofrenia: por la que usted puede o\u0026 r o sentir cosas que no est\u0026 n ah\u0026 , creer cosas que no son verdad o sentirse anormalmente receloso, ansioso, confuso, culpable, tenso o deprimido. Su m\u0026 dico puede continuar recet\u0026 ndole quetiapina incluso cuando usted se encuentre mejor.",
+                            "names":  [
+                                          "quetiapina",
+                                          "quetiapine",
+                                          "seroquel",
+                                          "derin",
+                                          "kuentiax"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico. En caso de duda, consulte de nuevo a su m\u0026 dico o farmac\u0026 utico. Su m\u0026 dico decidir\u0026 su dosis inicial. La dosis de mantenimiento (dosis diaria) depender\u0026 de su enfermedad y de sus necesidades pero normalmente estar\u0026 entre 150 mg y 800 mg. Tomar\u0026 sus comprimidos una vez al d\u0026 a, al acostarse o dos veces al d\u0026 a, dependiendo de su enfermedad. Trague sus comprimidos enteros con ayuda de agua. Puede tomar los comprimidos con o sin alimentos. No tome zumo de pomelo mientras est\u0026 tomando quetiapina. Puede afectar a\u0026 la forma en la que el medicamento act\u0026 a. No deje de tomar sus comprimidos incluso si se siente mejor, a menos que su m\u0026 dico se lo diga. Problemas de h\u0026 gado Si tiene problemas de h\u0026 gado su m\u0026 dico puede cambiar su dosis. Personas de edad avanzada Si tiene una edad avanzada su m\u0026 dico puede cambiar su dosis. Uso en ni\u0026 os y adolescentes Quetiapina no se debe utilizar en ni\u0026 os y "
+                        },
+                        {
+                            "dosis":  "100 MG",
+                            "principio_activo":  "hidrocortisona",
+                            "para_que_se_usa":  "y para qué se utiliza Hidrocortisona Normon contiene hidrocortisona como succinato sódico. Hidrocortisona pertenece a un grupo de medicamentos llamados corticoesteroides o esteroides. Los corticosteroides se producen de forma natural en nuestro cuerpo y son importantes para muchas funciones de nuestro cuerpo. El uso de corticoesteroides extra, tales como hidrocortisona, es una forma eficaz de tratar diversas enfermedades que implican procesos inflamatorios del organismo. La hidrocortisona reduce esta inflamación, que de lo contrario podría empeorar. Debe tomar este medicamento regularmente para obtener el máximo beneficio. Los corticosteroides también pueden ayudar a tratar shocks tras cirugías o lesiones, las reacciones de hipersensibilidad (anafilácticas) u otras condiciones estresantes. Estos incluyen afecciones inflamatorias o alérgicas que afectan a: Intestino, por ejemplo, enfermedad de Crohn (inflamación del intestino) o colitis ulcerosa (inflamación de la parte inferior del int",
+                            "names":  [
+                                          "cortisona",
+                                          "cortisone"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico. En caso de duda, consulte de nuevo a su médico o farmacéutico. Información de dosificación Su médico decidirá el lugar de la inyección, la cantidad de medicamento y cuantas inyecciones recibirá, según la afección que se esté tratando y su gravedad. Su médico le inyectará la dosis más baja durante el menor tiempo posible para obtener un alivio eficaz de sus síntomas. Es posible que su médico también quiera que tome un segundo tipo de esteroide o un suplemento de sal para ayudarlo a equilibrar la sal. Adultos Su médico o enfermero le administrará este medicamento en forma de inyección, ya sea en una vena (intravenosa) o en un músculo (intramuscular). Por lo general, la primera dosis se administra en una vena, especialmente en caso de emergencia. Se administrará lentamente durante un período de 1 - 10 minutos. Dependiendo de su situación, se puede inyectar una dosis repetida a intervalos de e"
+                        },
+                        {
+                            "dosis":  "20 mg",
+                            "principio_activo":  "trimetazidina",
+                            "para_que_se_usa":  "",
+                            "names":  [
+                                          "trimetazidina",
+                                          "trimetazidine",
+                                          "vastarel"
+                                      ],
+                            "como_se_usa":  ""
+                        },
+                        {
+                            "dosis":  "10 MG",
+                            "principio_activo":  "memantina",
+                            "para_que_se_usa":  "C\u0026 mo act\u0026 a Memantina Cinfa Memantina Cinfa contiene el principio activo memantina hidrocloruro. Pertenece a un grupo de medicamentos conocidos como medicamentos anti-demencia. La p\u0026 rdida de memoria en la enfermedad de Alzheimer se debe a una alteraci\u0026 n en las se\u0026 ales del cerebro. El cerebro contiene los llamados receptores N-metil-D-aspartato (NMDA) que participan en la transmisi\u0026 n de se\u0026 ales nerviosas importantes en el aprendizaje y la memoria. Memantina Cinfa pertenece al grupo de medicamentos llamados antagonistas de los receptores NMDA. Memantina Cinfa act\u0026 a sobre estos receptores mejorando la transmisi\u0026 n de las se\u0026 ales nerviosas y la memoria. Para qu\u0026 se utiliza memantina cinfa Memantina Cinfa se utiliza en el tratamiento de pacientes con enfermedad de Alzheimer de moderada a grave.",
+                            "names":  [
+                                          "memantina",
+                                          "memantine",
+                                          "memolan"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico. En caso de duda, consulte de nuevo a su m\u0026 dico. Posolog\u0026 a La dosis recomendada de Memantina Cinfa en pacientes adultos y pacientes de edad avanzada es de 20 mg administrados una vez al d\u0026 a. Para reducir el riesgo de aparici\u0026 n de efectos adversos, esta dosis se alcanza gradualmente siguiendo el siguiente esquema diario: semana 1 medio comprimido de 10 mg semana 2 un comprimido de 10 mg semana 3 un comprimido y medio de 10 mg semana 4 y siguientes dos comprimidos de 10 mg una vez al d\u0026 a La dosis normal de inicio es de medio comprimido una vez al d\u0026 a (1 x 5mg) la primera semana. Se aumenta un comprimido al d\u0026 a (1 x 10 mg) la segunda semana y a 1 comprimido y medio una vez al d\u0026 a en la tercera semana. De la cuarta semana en adelante, la dosis normal es de 2 comprimidos administrados una vez al d\u0026 a (1 x 20 mg). Posolog\u0026 a para pacientes con insuficiencia renal Si padece problemas de "
+                        },
+                        {
+                            "dosis":  "1,5 mg",
+                            "principio_activo":  "bromacepam",
+                            "para_que_se_usa":  "El principio activo de bromazepam NORMON, bromazepam, pertenece al grupo de fármacos llamados benzodiazepinas. El bromazepam, administrado a dosis bajas, alivia la tensión psíquica, la ansiedad y el nerviosismo. A dosis más altas presenta un efecto sedante y relajante muscular. Los médicos recetan bromazepam NORMON a las personas que presentan síntomas de ansiedad, tensión, depresión, nerviosismo, agitación y que tienen dificultades para dormir. Algunos pacientes con ansiedad o nerviosismo pueden presentar también problemas con su ritmo cardiaco, respiración o digestivos. Bromazepam NORMON puede también ayudar a aliviar estos síntomas. En la mayoría de los casos sólo se necesita un tratamiento de corta duración con bromazepam NORMON (en general no debe superar las dos semanas). El tratamiento debe comenzarse con la dosis más baja. No debe excederse la dosis máxima.",
+                            "names":  [
+                                          "bromazepam",
+                                          "lexaurin",
+                                          "lexatin"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administración de bromazepam NORMON indicadas por su médico. Consulte a su médico o farmacéutico si tiene dudas. Dependiendo de la naturaleza de su enfermedad, su edad y peso, su médico recetará la dosis adecuada. Recuerde tomar su medicamento. En los pacientes ancianos o que padezcan algún trastorno de hígado o riñón, o bien debilidad muscular, el médico prescribirá una dosis inferior. Siga estas instrucciones a menos que su médico le haya dado otras indicaciones distintas. Las dosis normales son las siguientes: La mayoría de los pacientes no necesitan más de tres cápsulas (4,5 mg) al día, aunque su médico podría prescribir dosis mayores. En el caso de pacientes que han sido hospitalizados puede necesitarse una dosis mayor, pero siempre han de ser prescritas por el médico. Cada dosis individual no debe rebasar los límites indicados y la dosis diaria total tampoco, a menos que su médico le recete una dosis superior. Las cápsulas de bromazepam NORMO"
+                        },
+                        {
+                            "dosis":  "4 mg",
+                            "principio_activo":  "perindopril",
+                            "para_que_se_usa":  "Perindopril TecniGenes un inhibidor del enzima convertidor de angiotensina (IECA). Actúa ensanchando los vasos sanguíneos, por lo que su corazón bombeará sangre más fácilmente a través de los mismos. Perindopril TecniGen se utiliza para: tratar la tensión arterial elevada (hipertensión), reducir el riesgo de acontecimientos cardiacos, tales como ataques de corazón, en pacientes con enfermedad coronaria estable (una enfermedad en la que la aportación de sangre al corazón está reducida o bloqueada) que han sufrido ya un ataque de corazón y/o una operación para mejorar el aporte de sangre al corazón ensanchando los vasos sanguíneos que llegan a él.",
+                            "names":  [
+                                          "perindopril",
+                                          "prestarium"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico o farmacéutico. En caso de duda, consulte de nuevo a su médico o farmacéutico. Trague el comprimido con la ayuda de un vaso de agua, preferiblemente a la misma hora cada día, por la mañana, antes del desayuno. Su médico decidirá la dosis correcta para usted. Las dosis normales son las siguientes: Hipertensión arterial: La dosis inicial y de mantenimiento generalmente es de 4 mg al día. Si es necesario, después de un mes de tratamiento, su médico podrá aumentar la dosis a 8 mg al día. La dosis máxima recomendada para la hipertensión arterial es de 8 mg al día. Si usted tiene 65 años o más, la dosis inicial generalmente es de 2 mg al día. Si es necesario, después de un mes de tratamiento, su médico podrá aumentar la dosis a 4 mg al día, y si fuese necesario hasta 8 mg al día. Enfermedad coronaria estable: La dosis inicial generalmente es de 4 mg al día. Si es necesario, después de dos semanas"
+                        },
+                        {
+                            "dosis":  "30 MG",
+                            "principio_activo":  "gliclazida",
+                            "para_que_se_usa":  "",
+                            "names":  [
+                                          "gliclazida",
+                                          "gliclazide",
+                                          "diamicron"
+                                      ],
+                            "como_se_usa":  ""
+                        },
+                        {
+                            "dosis":  "0,25 mg",
+                            "principio_activo":  "digoxina",
+                            "para_que_se_usa":  "Digoxina Kern Pharma pertenece al grupo de medicamentos denominados gluc\u0026 sidos cardiot\u0026 nicos. Su principio activo es la digoxina que aumenta la fuerza de contracci\u0026 n del m\u0026 sculo card\u0026 aco mediante la inhibici\u0026 n espec\u0026 fica de una enzima denominada adenosina trifosfatasa Na+/K+ dependiente. Este medicamento est\u0026 indicado en el tratamiento de ciertos problemas del coraz\u0026 n, tales como: \u0026 insuficiencia card\u0026 aca cr\u0026 nica\u0026 donde el problema principal es la \u0026 disfunci\u0026 n sist\u0026 lica\u0026 (alteraciones en la contracci\u0026 n del coraz\u0026 n), cuando la insuficiencia card\u0026 aca est\u0026 acompa\u0026 ada por \u0026 fibrilaci\u0026 n auricular\u0026 (ritmo o frecuencia cardiacos anormales que se originan cuando la musculatura de las c\u0026 maras superiores del coraz\u0026 n (aur\u0026 culas) no se contrae de forma uniforme), en el tratamiento de ciertas \u0026 arritmias supraventriculares\u0026 (trastornos de la frecuencia cardiaca o del ritmo cardiaco que se originan en las aur\u0026 culas), especialmente aleteo (ritmo card\u0026 aco acelerado) y fibrilaci\u0026 ",
+                            "names":  [
+                                          "digoxina",
+                                          "digoxin"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico o farmac\u0026 utico. En caso de duda, consulte de nuevo a su m\u0026 dico o farmac\u0026 utico. La dosis de digoxina para cada paciente debe establecerse de forma individual de acuerdo a la edad, peso corporal neto y funci\u0026 n renal. Las dosis sugeridas s\u0026 lo pretenden servir de gu\u0026 a inicial. Su m\u0026 dico debe tener en cuenta la diferencia de los efectos entre la administraci\u0026 n de digoxina en formas orales y como inyectable al cambiar de una forma farmac\u0026 utica a otra. Por ejemplo, si se pasa un paciente de la formulaci\u0026 n oral a la intravenosa la dosis debe reducirse al menos en un 33%. La dosis normal es: Adultos y ni\u0026 os mayores de 10 a\u0026 os: Dosis de carga (dosis inicial): Administraci\u0026 n r\u0026 pida por v\u0026 a oral: 750 a 1500 microgramos (0,75 a 1,5 mg) como dosis \u0026 nica. Administraci\u0026 n lenta por v\u0026 a oral: Se deben administrar de 250 a 750 microgramos (0,25 a 0,75 mg) diariamente durante 1 semana. Dosi"
+                        },
+                        {
+                            "dosis":  "5 mg/ml",
+                            "principio_activo":  "levometadona",
+                            "para_que_se_usa":  "Levometadona Molteni contiene el principio activo levometadona hidrocloruro. \u0026 ste pertenece a un grupo de medicamentos que act\u0026 an sobre el sistema nervioso. Levometadona Molteni se utiliza para tratar a los adultos adictos a sustancias llamadas \u0026 opioides\u0026 o \u0026 analg\u0026 sicos narc\u0026 ticos\u0026 , como la hero\u0026 na o la morfina. Act\u0026 a como un sustituto de las drogas adictivas.",
+                            "names":  [
+                                          "metadona",
+                                          "methadone"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico. En caso de duda, consulte de nuevo a su m\u0026 dico o farmac\u0026 utico. Cu\u0026 nto tomar Su dosis la decidir\u0026 su m\u0026 dico: se escoge para usted de forma individual se basa en lo pronto que se inician sus s\u0026 ntomas de abstinencia. Tome siempre la dosis que su m\u0026 dico le diga: no tome m\u0026 s o menos cantidad de este medicamento de lo que se la ha dicho no tome este medicamento con mayor o menor frecuencia de lo que se la ha dicho. Dosis inicial: La dosis inicial habitual es entre 3 y 4 ml de la soluci\u0026 n oral al d\u0026 a (igual a entre 15 y 20 mg de levometadona hidrocloruro). Aumento de la dosis: Su m\u0026 dico puede aumentar su dosis entre 1 y 2 ml al d\u0026 a (igual a entre 5 y 10 mg de levometadona hidrocloruro). Esto depender\u0026 de c\u0026 mo le afecte el medicamento. La dosis habitual puede ser de hasta 12 ml de la soluci\u0026 n oral al d\u0026 a (igual a 60 mg de levometadona hidrocloruro). En algunos casos, su m\u0026 dico pue"
+                        },
+                        {
+                            "dosis":  "500 mg",
+                            "principio_activo":  "azitromicina",
+                            "para_que_se_usa":  "",
+                            "names":  [
+                                          "azitromicina",
+                                          "azithromycin",
+                                          "zitromax"
+                                      ],
+                            "como_se_usa":  ""
+                        },
+                        {
+                            "dosis":  "150 mg",
+                            "principio_activo":  "ranitidina",
+                            "para_que_se_usa":  "ranitidina cinfa pertenece a un grupo de medicamentos llamados antagonistas de los receptores H2 de la histamina. Antiulceroso, reduce la producci\u0026 n de \u0026 cido en el est\u0026 mago. ranitidina cinfa 150 mg est\u0026 indicado en: Adultos Tratamiento de la \u0026 lcera duodenal, \u0026 lcera de est\u0026 mago benigna y reflujo gastroesof\u0026 gico. Tratamiento del s\u0026 ndrome de Zollinger-Ellison (aumento de la secreci\u0026 n de \u0026 cido g\u0026 strico). Prevenci\u0026 n de la hemorragia recurrente en pacientes con \u0026 lcera sangrante. Prevenci\u0026 n de la hemorragia gastrointestinal debida a \u0026 lcera de estr\u0026 s, en enfermos graves. En el preoperatorio, en pacientes con riesgo de s\u0026 ndrome de aspiraci\u0026 n \u0026 cida (s\u0026 ndrome de Mendelson), sobre todo en mujeres embarazadas durante el parto. En ni\u0026 os y adolescentes (entre 3 y 18 a\u0026 os) Tratamiento a corto plazo de la \u0026 lcera duodenal y \u0026 lcera de est\u0026 mago. Tratamiento del reflujo gastroesof\u0026 gico, incluyendo esofagitis por reflujo y alivio de los s\u0026 ntomas relacionados. Esta presentaci\u0026 n re",
+                            "names":  [
+                                          "ranitidina",
+                                          "ranitidine",
+                                          "zantac"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico o farmac\u0026 utico. En caso de duda, consulte de nuevo a su m\u0026 dico o farmac\u0026 utico. Adultos \u0026 lcera duodenal activa La dosis recomendada es de un comprimido de ranitidina cinfa 150 mg dos veces al d\u0026 a (ma\u0026 ana y noche) sin que sea necesario ajustarla a las comidas. O bien\u0026 se\u0026 pueden administrar dos comprimidos de ranitidina cinfa 150 mg por la noche. Estas pautas se mantendr\u0026 n en general durante 4 a 6 semanas, incluso si se ha conseguido alivio de los s\u0026 ntomas en menos tiempo. En pacientes con \u0026 lcera recurrente, se recomienda el tratamiento de mantenimiento con un comprimido de ranitidina cinfa 150 mg por la noche. \u0026 lcera g\u0026 strica activa benigna La dosis recomendada es un comprimido de ranitidina cinfa 150 mg dos veces al d\u0026 a (uno por la ma\u0026 ana y otro por la noche) sin que sea necesario ajustar la toma de los comprimidos a las comidas. Tambi\u0026 n puede tomar dos comprimidos de raniti"
+                        },
+                        {
+                            "dosis":  "50/25 mg/mg",
+                            "principio_activo":  "captopril + hidroclorotiazida",
+                            "para_que_se_usa":  "Captopril/Hidroclorotiazida Normon es un medicamento que contiene una asociación de dos sustancias, captopril e hidroclorotiazida. Captopril es una sustancia que pertenece al grupo de los llamados inhibidores de la enzima convertidora de la angiotensina (IECA) que produce una relajación de los vasos sanguíneos y reduce la presión arterial. Hidroclorotiazida es una sustancia que pertenece al grupo de los llamados diuréticos tiazídicos, los cuales actúan aumentando la eliminación de orina y disminuyendo por tanto la presión arterial. Las dos sustancias activas de este medicamento actúan conjuntamente para lograr una disminución de la presión arterial, superior a la obtenida con cada uno de ellos por separado. Este medicamento está indicado para el tratamiento de la presión arterial elevada (hipertensión esencial) cuando su presión arterial no se ha controlado adecuadamente con cada uno de los componentes, captopril e hidroclorotiazida, por separado.",
+                            "names":  [
+                                          "captopril",
+                                          "captopril",
+                                          "tensiomin"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico. Consulte a su médico o farmacéutico si tiene dudas. Su médico le ha prescrito este medicamento ya que el tratamiento anterior para la hipertensión arterial no proporcionó la disminución adecuada de la presión arterial. Su médico le indicará cómo pasar de tratamientos anteriores a este medicamento. Dosificación La dosis habitual es de un comprimido al día (que corresponde a 50 mg de captopril y 25 mg de hidroclorotiazida). No debe excederse la dosis máxima diaria de un comprimido. Método de administración Los comprimidos son exclusivamente para uso oral. Los comprimidos deben tragarse con suficiente cantidad de líquido (por ejemplo un vaso de agua). Este medicamento puede administrarse con o sin alimentos. Debe intentar tomar su dosis diaria aproximada a la misma hora cada día, preferiblemente por la mañana. Es importante que continúe tomando este medicamento hasta que su médico le aconseje"
+                        },
+                        {
+                            "dosis":  "10 mg/160 mg",
+                            "principio_activo":  "valsartán + amlodipino",
+                            "para_que_se_usa":  "",
+                            "names":  [
+                                          "valsartan",
+                                          "valsartan",
+                                          "diovan"
+                                      ],
+                            "como_se_usa":  ""
+                        },
+                        {
+                            "dosis":  "1 mg",
+                            "principio_activo":  "acenocumarol",
+                            "para_que_se_usa":  "",
+                            "names":  [
+                                          "acenocumarol",
+                                          "acenocoumarol",
+                                          "sintrom"
+                                      ],
+                            "como_se_usa":  ""
+                        },
+                        {
+                            "dosis":  "100 mg",
+                            "principio_activo":  "alopurinol",
+                            "para_que_se_usa":  "alopurinol cinfa pertenece a un grupo de medicamentos llamados inhibidores enzimáticos, que actúan controlando la velocidad a la que un determinado proceso químico ocurre en el cuerpo, en este caso lo que se produce es una disminución del nivel de ácido úrico en plasma y en orina. alopurinol cinfa se utiliza para prevenir la aparición de gota y otras situaciones producidas por el exceso de ácido úrico en el organismo, como por ejemplo piedras en el riñón y ciertos tipos de enfermedades renales o metabólicas. ANTES DE TOMAR alopurinol cinfa Se han notificado reacciones cutáneas graves (síndrome de hipersensibilidad, síndrome de Stevens- Johnson, necrólisis epidérmica tóxica) con el uso de alopurinol. Con frecuencia, la erupción puede incluir úlceras en la boca, la garganta, la nariz, los genitales y conjuntivitis (inflamación y enrojecimiento de los ojos). Estas erupciones cutáneas graves son a menudo precedidas por síntomas gripales como fiebre, dolor de cabeza, dolor corporal. La erup",
+                            "names":  [
+                                          "alopurinol",
+                                          "allopurinol",
+                                          "zyloric"
+                                      ],
+                            "como_se_usa":  ""
+                        },
+                        {
+                            "dosis":  "1 mg domperidona/ml",
+                            "principio_activo":  "domperidona",
+                            "para_que_se_usa":  "Este medicamento se utiliza en adultos y adolescentes (12 a\u0026 os de edad y mayores y que pesen 35 kg o m\u0026 s) para tratar las n\u0026 useas (ganas de vomitar) y los v\u0026 mitos.",
+                            "names":  [
+                                          "domperidona",
+                                          "domperidone",
+                                          "motilium"
+                                      ],
+                            "como_se_usa":  "Siga exactamente estas instrucciones de administraci\u0026 n a no ser que su m\u0026 dico le indique otra cosa. . Duraci\u0026 n del tratamiento Los s\u0026 ntomas se suelen resolver 3-4 d\u0026 as despu\u0026 s de tomar este medicamento. No tome Domperidona Gamir durante m\u0026 s de 7 d\u0026 as sin consultar a su m\u0026 dico. Instrucciones de uso: Agitar antes de usar. El envase incluye un vaso dosificador. Utilice el vasito dosificador para medir la dosis necesaria en adultos y adolescentes. Adultos y adolescentes de 12 o m\u0026 s a\u0026 os de edad con un peso corporal de 35 kg o superior: Mida la cantidad requerida en el vaso dosificador o con la jeringa. No diluya Domperidona Gamir y no lo mezcle con otros l\u0026 quidos. La dosis habitual es de 10 mililitros administrada hasta tres veces al d\u0026 a, si es posible antes de las comidas. No tome m\u0026 s de 30 mililitros al d\u0026 a. Limpie el vaso dosificador despu\u0026 s de su uso. Si toma m\u0026 s Domperidona Gamir del que debe Si ha utilizado o tomado demasiado Domperidona Gamir, p\u0026 ngase en contacto i"
+                        },
+                        {
+                            "dosis":  "10 MG",
+                            "principio_activo":  "metoclopramida",
+                            "para_que_se_usa":  "Metoclopramida Accord es un antiemético. Contiene un medicamento denominado “metoclopramida”. Actúa en una zona del cerebro que previene las náuseas o los vómitos. Población adulta: Metoclopramida está indicada en adultos: - para prevenir las náuseas y vómitos retardados que pueden aparecer después de la quimioterapia - para prevenir las náuseas y vómitos provocados por la radioterapia - para tratar náuseas y vómitos, incluyendo las náuseas y vómitos que pueden aparecer con una migraña. Se puede tomar metoclopramida en combinación con analgésicos orales en el caso de migraña para que los analgésicos sean más efectivos. Población pediátrica Metoclopramida está indicada en niños (de 1 a 18 años de edad) si otros tratamientos no funcionan o no se pueden utilizar para prevenir las náuseas y vómitos que pueden aparecer después de la quimioterapia.",
+                            "names":  [
+                                          "metoclopramida",
+                                          "metoclopramide",
+                                          "primperan"
+                                      ],
+                            "como_se_usa":  "Siempre tome este medicamento exactamente como su médico o farmacéutico se lo ha indicado. Consulte con su médico o farmacéutico si no está seguro. Población adulta: Se recomienda una dosis única de 10 mg, que se puede repetir hasta tres veces al día. La dosis máxima diaria recomendada es de 30 mg ó 0,5mg/kg de peso corporal. La duración máxima del tratamiento es de 5 días. Para prevenir las náuseas y vómitos retardados que pueden aparecer después de la quimioterapia (niños de 1 – 18 años de edad) La dosis recomendada es de 0,1 a 0,15 mg/kg de peso corporal, que se puede repetir hasta un máximo de 3 veces al día por vía oral. La dosis máxima en 24 horas es de 0,5 mg/kg de peso corporal. Tabla de dosis: Edad Peso corporal Dosis Frecuencia 1-3 años 10-14 kg 1 mg Hasta 3 veces al día 3-5 años 15-19 kg 2 mg Hasta3 veces al día 5-9 años 20-29 kg 2,5 mg Hasta3 veces al día 9-18 años 30-60 kg 5 mg Hasta3 veces al día 15-18 años Mas de 60 kg 10 mg Hasta3 veces al día Instrucciones de uso No de"
+                        },
+                        {
+                            "dosis":  "16 mg",
+                            "principio_activo":  "betahistina",
+                            "para_que_se_usa":  "",
+                            "names":  [
+                                          "betahistina",
+                                          "betahistine",
+                                          "serc"
+                                      ],
+                            "como_se_usa":  ""
+                        },
+                        {
+                            "dosis":  "100 mg",
+                            "principio_activo":  "desvenlafaxina",
+                            "para_que_se_usa":  "Desvenlafaxina cinfa es un antidepresivo que pertenece a un grupo de medicamentos denominados inhibidores de la recaptaci\u0026 n de la serotonina y la noradrenalina (IRSN). Este grupo de medicamentos se utiliza para tratar la depresi\u0026 n. Las personas con depresi\u0026 n pueden presentar niveles bajos de serotonina y noradrenalina (tambi\u0026 n conocida como norepinefrina) en el cerebro. No se conoce completamente c\u0026 mo funcionan los antidepresivos, pero pueden ayudar a aumentar los niveles de serotonina y noradrenalina en el cerebro. Este medicamento es un tratamiento para adultos.",
+                            "names":  [
+                                          "venlafaxina",
+                                          "venlafaxine",
+                                          "dobupal"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico o farmac\u0026 utico. En caso de duda, consulte de nuevo a su m\u0026 dico o farmac\u0026 utico. La dosis recomendada es de 50 mg una vez al d\u0026 a. Su m\u0026 dico puede aumentarle la dosis hasta 100 mg una vez al d\u0026 a o incluso hasta un m\u0026 ximo de 200 mg una vez al d\u0026 a en caso necesario. Si tiene problemas renales, o antecedentes de problemas renales, consulte a su m\u0026 dico dado que puede que deba tomar una dosis diferente de desvenlafaxina. Desvenlafaxina debe tomarse por v\u0026 a oral, aproximadamente a la misma hora cada d\u0026 a. Los comprimidos deben tragarse enteros con l\u0026 quido, sin dividirlos, machacarlos, masticarlos ni disolverlos. No se preocupe si observa la estructura de un comprimido en sus heces despu\u0026 s de tomar desvenlafaxina. A medida que el comprimido viaja a lo largo de su tracto gastrointestinal, el principio activo desvenlafaxina se libera lentamente. La estructura del comprimido no se disuelve"
+                        },
+                        {
+                            "dosis":  "30 MG/CÁPSULA",
+                            "principio_activo":  "duloxetina",
+                            "para_que_se_usa":  "",
+                            "names":  [
+                                          "duloxetina",
+                                          "duloxetine",
+                                          "cymbalta"
+                                      ],
+                            "como_se_usa":  ""
+                        },
+                        {
+                            "dosis":  "15 mg",
+                            "principio_activo":  "mirtazapina",
+                            "para_que_se_usa":  "",
+                            "names":  [
+                                          "mirtazapina",
+                                          "mirtazapine",
+                                          "remeron"
+                                      ],
+                            "como_se_usa":  ""
+                        },
+                        {
+                            "dosis":  "100 mg",
+                            "principio_activo":  "topiramato",
+                            "para_que_se_usa":  "",
+                            "names":  [
+                                          "topiramato",
+                                          "topiramate",
+                                          "topamax"
+                                      ],
+                            "como_se_usa":  ""
+                        },
+                        {
+                            "dosis":  "200 mg carbamazepina",
+                            "principio_activo":  "carbamazepina",
+                            "para_que_se_usa":  "",
+                            "names":  [
+                                          "carbamazepina",
+                                          "carbamazepine",
+                                          "tegretol"
+                                      ],
+                            "como_se_usa":  ""
+                        },
+                        {
+                            "dosis":  "100 mg/25 mg/200 mg",
+                            "principio_activo":  "levodopa + carbidopa + entacapona",
+                            "para_que_se_usa":  "",
+                            "names":  [
+                                          "levodopa",
+                                          "levodopa",
+                                          "sinemet"
+                                      ],
+                            "como_se_usa":  ""
+                        },
+                        {
+                            "dosis":  "10 mg",
+                            "principio_activo":  "donepezilo",
+                            "para_que_se_usa":  "",
+                            "names":  [
+                                          "donepezilo",
+                                          "donepezil",
+                                          "aricept"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico o farmacéutico. En caso de duda, consulte de nuevo a su médico o farmacéutico. Donepezilo se administra por vía oral. El tratamiento con donepezilo se inicia con un comprimido de 5 mg, tomado una sola vez al día con un poco de agua, por la noche inmediatamente antes de acostarse. Después de un mes de tratamiento su médico podría indicarle un incremento de la dosis a un comprimido de 10 mg , una vez al día y por la noche. La dosis máxima recomendada es de un comprimido de 10 mg al día. Si tiene sueños anormales, pesadillas o dificultad para dormir (ver sección 4), su médico puede recomendarle que tome donepezilo por la mañana. Si usted padece insuficiencia hepática (enfermedad que afecta al hígado) de intensidad leve o moderada o una insuficiencia renal (enfermedad que afecta al riñón), puede tomar donepezilo. Informe a su médico antes de iniciar el tratamiento si tiene problemas de hígado o"
+                        },
+                        {
+                            "dosis":  "13,3 mg/24 h",
+                            "principio_activo":  "rivastigmina",
+                            "para_que_se_usa":  "El principio activo de Rivastigmina cinfa es rivastigmina. La rivastigmina pertenece al grupo de los inhibidores de la colinesterasa. En pacientes con demencia de Alzheimer, determinadas c\u0026 lulas nerviosas mueren en el cerebro, provocando bajos niveles de neurotransmisores de acetilcolina (una substancia que permite que las c\u0026 lulas nerviosas se comuniquen entre ellas). La rivastigmina act\u0026 a bloqueando las enzimas que rompen la acetilcolina: acetilcolinesterasa y butirilcolinesterasa. Bloqueando estas enzimas, Rivastigmina cinfa permite el aumento de acetilcolina en el cerebro, ayudando a reducir los s\u0026 ntomas de la enfermedad de Alzheimer. Rivastigmina cinfa se utiliza para el tratamiento de pacientes adultos con demencia de Alzheimer de leve a moderadamente grave, un trastorno progresivo del cerebro que afecta gradualmente a la memoria, capacidad intelectual y el comportamiento.",
+                            "names":  [
+                                          "rivastigmina",
+                                          "rivastigmine",
+                                          "exelon"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico o farmac\u0026 utico. En caso de duda, consulte de nuevo a su m\u0026 dico o farmac\u0026 utico. IMPORTANTE: Qu\u0026 tese el parche anterior antes de ponerse UN parche nuevo. Solo un parche al d\u0026 a. No corte el parche en trozos. Presione firmemente el parche contra la piel con la palma de la mano durante un m\u0026 nimo de 30 segundos. C\u0026 mo iniciar el tratamiento Su m\u0026 dico le indicar\u0026 la dosis de rivastigmina parches transd\u0026 rmicos m\u0026 s adecuada en su caso. Normalmente se comienza el tratamiento con rivastigmina 4,6 mg/24 h. La dosis diaria recomendada es rivastigmina 9,5 mg/24 h. Si esta dosis es bien tolerada, el m\u0026 dico que lo trata puede considerar incrementar la dosis a 13,3 mg/24 h. Lleve s\u0026 lo un parche de rivastigmina al mismo tiempo y sustituya el parche por otro nuevo a las 24 horas. Durante el tratamiento, su m\u0026 dico podr\u0026 a ajustar la dosis dependiendo de sus necesidades individuales. Si no ha util"
+                        },
+                        {
+                            "dosis":  "16 mg",
+                            "principio_activo":  "galantamina",
+                            "para_que_se_usa":  "galantamina cinfa contiene el principio activo \u0026 galantamina\u0026 , un medicamento antidemencia. Se utiliza en adultos para tratar los s\u0026 ntomas de la enfermedad de Alzheimer de leve a moderadamente grave, un tipo de demencia que altera la funci\u0026 n cerebral. La enfermedad de Alzheimer provoca aumento de la p\u0026 rdida de memoria, confusi\u0026 n y cambios de comportamiento, que hacen que sea cada vez m\u0026 s dif\u0026 cil realizar actividades rutinarias de la vida cotidiana. Se cree que estos efectos son causados por una falta de \u0026 acetilcolina\u0026 , una sustancia responsable de la transmisi\u0026 n de mensajes entre las c\u0026 lulas del cerebro. Galantamina cinfa aumenta la cantidad de acetilcolina en el cerebro y de esta manera trata los signos de la enfermedad.",
+                            "names":  [
+                                          "galantamina",
+                                          "galantamine",
+                                          "razadyne"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico o farmac\u0026 utico. En caso de duda, consulte de nuevo a su m\u0026 dico o farmac\u0026 utico. Si est\u0026 tomando galantamina comprimidos o soluci\u0026 n oral y su m\u0026 dico le ha comentado que le va a cambiar a galantamina cinfa c\u0026 psulas de liberaci\u0026 n prolongada, lea cuidadosamente las instrucciones que aparecen en \u0026 Cambio de galantamina comprimidos o soluci\u0026 n oral a galantamina c\u0026 psulas\u0026 en esta secci\u0026 n. Cu\u0026 nto tomar Usted empezar\u0026 el tratamiento con galantamina cinfa a una dosis baja. La dosis inicial habitual es de 8 mg, tomada una vez al d\u0026 a. Su m\u0026 dico le incrementar\u0026 gradualmente su dosis, cada 4 semanas o m\u0026 s, hasta que alcance la dosis m\u0026 s adecuada para usted. La dosis m\u0026 xima es 24 mg, tomada una vez al d\u0026 a. Su m\u0026 dico le explicar\u0026 con qu\u0026 dosis debe empezar y cu\u0026 ndo debe aumentarla. Si no est\u0026 seguro de qu\u0026 hacer o encuentra que el efecto de galantamina cinfa es demasiado fuerte o d\u0026 bil"
+                        },
+                        {
+                            "dosis":  "30 mg",
+                            "principio_activo":  "deflazacort",
+                            "para_que_se_usa":  "deflazacort cinfa es un medicamento perteneciente a un grupo de medicamentos conocidos como corticosteroides, que tiene propiedades antiinflamatorias y antialérgicas. Tiene un perfil de seguridad distinto a otros corticoides por tener una menor actividad sobre azúcares y sobre el hueso. deflazacort cinfa está indicado para el tratamiento de: Enfermedades reumáticas y del colágeno: tales como artritis reumatoide, artritis psoriásica y lupus eritematoso sistémico. Enfermedades de la piel: tales como pénfigo, dermatitis exfoliativas generalizadas y psoriasis grave. Enfermedades alérgicas: asma bronquial que no responde al tratamiento convencional. Enfermedades pulmonares: sarcoidosis, neumoconiosis por polvo orgánico, fibrosis pulmonar idiopática. Enfermedades oculares: coroiditis, coriorretinitis, iritis e iridociclitis Enfermedades de la sangre: trombocitopenia idiopática, anemias hemolíticas y tratamiento paliativo de leucemias y linfomas. Enfermedades gastrointestinales y hepáticas: c",
+                            "names":  [
+                                          "deflazacort",
+                                          "deflazacort",
+                                          "deflazacort"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico o farmacéutico. En caso de duda, consulte de nuevo a su médico o farmacéutico. Este medicamento se administra por vía oral. Los comprimidos se ingerirán sin masticar, con ayuda de un poco de líquido. El comprimido se puede partir en dosis iguales. La dosis debe ser individualizada. Por ello, el número y la frecuencia de comprimidos que debe tomar serán fijados por su médico en función del tipo y la gravedad de su enfermedad, así como de la respuesta al tratamiento. En el adulto, la dosis puede oscilar entre 6 y 90 mg al día y en el niño entre 0,25 y 1,15 mg/kg. Es importante, por tanto, que comprenda perfectamente las instrucciones de su médico referentes a la administración del medicamento y en caso de duda no dude en consultarle. Su médico le indicará la duración del tratamiento. No lo suspenda antes, ni sin autorización y nunca lo haga bruscamente. En situaciones especiales (estrés, infe"
+                        },
+                        {
+                            "dosis":  "10 mg",
+                            "principio_activo":  "ezetimiba",
+                            "para_que_se_usa":  "",
+                            "names":  [
+                                          "ezetimiba",
+                                          "ezetimibe",
+                                          "ezetrol"
+                                      ],
+                            "como_se_usa":  ""
+                        },
+                        {
+                            "dosis":  "145 MG",
+                            "principio_activo":  "fenofibrato",
+                            "para_que_se_usa":  "Fenofibrato Aurovitas pertenece a un grupo de medicamentos, com\u0026 nmente conocidos como \u0026 fibratos\u0026 . Estos medicamentos se usan para reducir el nivel de grasas (l\u0026 pidos) en la sangre. Por ejemplo, las grasas denominadas triglic\u0026 ridos. Fenofibrato Aurovitas se usa, junto con una dieta baja en grasas y otros tratamientos no m\u0026 dicos como ejercicio y p\u0026 rdida de peso, para reducir los niveles de grasas en la sangre. Fenofibrato Aurovitas puede usarse junto con otros medicamentos (estatinas) en ciertas circunstancias cuando una estatina sola no controla los niveles de grasa en la sangre.",
+                            "names":  [
+                                          "fenofibrato",
+                                          "fenofibrate",
+                                          "lipidil"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico o farmac\u0026 utico. En caso de duda, consulte de nuevo a su m\u0026 dico o farmac\u0026 utico. Su m\u0026 dico determinar\u0026 la dosis adecuada para usted, dependiendo de su condici\u0026 n, su tratamiento actual y su estado de riesgo personal. Toma del medicamento El comprimido se puede tomar con o sin comida a cualquier hora del d\u0026 a. - Tragar el comprimido con un vaso de agua. - No triture ni mastique el comprimido. Recuerde que adem\u0026 s de tomar Fenofibrato Aurovitas tambi\u0026 n es importante que: - Tenga una dieta baja en grasas. - Haga ejercicio regularmente. Cu\u0026 nto tomar La dosis recomendada es un comprimido al d\u0026 a. Si est\u0026 tomando actualmente una c\u0026 psula de fenofibrato 200 mg o un comprimido de fenofibrato 160 mg al d\u0026 a, usted puede cambiar a un comprimido de Fenofibrato Aurovitas 145 mg al d\u0026 a. Usted seguir\u0026 recibiendo la misma cantidad de medicamento. Pacientes con problemas renales Si tiene problemas d"
+                        },
+                        {
+                            "dosis":  "100 mg",
+                            "principio_activo":  "espironolactona",
+                            "para_que_se_usa":  "El principio activo de los comprimidos es espironolactona. La espironolactona pertenece a un grupo determinado de medicamentos, conocidos como antagonistas de la aldosterona, que inhiben la acción de la hormona aldosterona. Una de las funciones de la aldosterona es garantizar que el cuerpo retiene el sodio. Forma parte de un sistema que regula el equilibrio de líquidos y sales en el cuerpo (sistema renina angiotensina aldosterona, «SRAA»). La espironolactona favorece la excreción de orina en pacientes en los que hay una acumulación de líquido en los tejidos (edema) o en la cavidad abdominal (ascitis) mediante el aumento del sodio (sal) excretado en la orina. Se reduce la pérdida de potasio como posible consecuencia del uso de determinados diuréticos. El efecto antihipertensivo depende de la excreción de agua y sal. Su médico puede recetarle Espironolactona Accord para el tratamiento de: • acumulación de líquido en los tejidos como consecuencia de trastornos cardíacos; • insuficiencia c",
+                            "names":  [
+                                          "espironolactona",
+                                          "spironolactone",
+                                          "aldactone"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico o farmacéutico. En caso de duda, consulte de nuevo a su médico o farmacéutico. La dosis recomendada es: Adultos La dosis recomendada es de 100 mg al día, administrada en una o varias tomas. La dosis para adultos varía de 25 mg a 400 mg de espironolactona al día. Si no está seguro de la cantidad que debe tomar, consulte a su médico o farmacéutico. Debe tomar los comprimidos con las comidas. Si la dosis total es superior a 100 mg al día, debe administrarse en varias tomas repartidas a lo largo del día. Uso en niños La dosis recomendada es de 3 mg por kg de peso corporal al día, dividida en varias tomas. Los comprimidos pueden triturarse o machacarse y luego suspenderse en un vaso de agua para facilitar que los niños los tomen. Pacientes de edad avanzada Se recomienda que los pacientes de edad avanzada comiencen con la dosis más baja posible y la aumenten gradualmente hasta que se logre el efe"
+                        },
+                        {
+                            "dosis":  "250 mg claritromicina",
+                            "principio_activo":  "claritromicina",
+                            "para_que_se_usa":  "claritromicina cinfa es un antibi\u0026 tico que pertenece al grupo de los macr\u0026 lidos y act\u0026 a eliminando bacterias. Los antibi\u0026 ticos se utilizan para tratar infecciones bacterianas y no sirven para tratar infecciones v\u0026 ricas como la gripe o el catarro. Es importante que siga las instrucciones relativas a la dosis, el intervalo de administraci\u0026 n y la duraci\u0026 n del tratamiento indicadas por su m\u0026 dico. No guarde ni reutilice este medicamento. Si una vez finalizado el tratamiento le sobra antibi\u0026 tico, devu\u0026 lvalo a la farmacia para su correcta eliminaci\u0026 n. No debe tirar los medicamentos por el desag\u0026 e ni a la basura. claritromicina cinfa se utiliza para el tratamiento de las infecciones causadas por g\u0026 rmenes sensibles en adultos y adolescentes de 12 a 18 a\u0026 os: Infecciones del tracto respiratorio superior, tales como faringitis (infecci\u0026 n de la faringe que provoca dolor de garganta), amigdalitis (infecci\u0026 n de las anginas) y sinusitis (infecci\u0026 n de los senos paranasales que est\u0026 n a",
+                            "names":  [
+                                          "claritromicina",
+                                          "clarithromycin",
+                                          "klaricid"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico o farmac\u0026 utico. En caso de duda, consulte de nuevo a su m\u0026 dico o farmac\u0026 utico. claritromicina cinfa se administra por v\u0026 a oral. Adultos y ni\u0026 os mayores de 12 a\u0026 os: Pacientes con infecciones del tracto respiratorio, piel y tejidos blandos La dosis recomendada es de 250 mg 2 veces al d\u0026 a durante 7 d\u0026 as aunque en infecciones m\u0026 s graves, la dosis puede incrementarse a 500 mg 2 veces al d\u0026 a. La duraci\u0026 n habitual del tratamiento es de 5 a 14 d\u0026 as, excluyendo la neumon\u0026 a adquirida en la comunidad y la sinusitis que requieren de 6 a 14 d\u0026 as de terapia. Erradicaci\u0026 n de Helicobacter pylori en pacientes con \u0026 lceras duodenales (adultos): En pacientes con \u0026 lcera p\u0026 ptica asociada a Helicobacter pylori los tratamientos recomendados son: Terapia triple: un comprimido de claritromicina 500 mg comprimidos dos veces al d\u0026 a, con 30 mg de lansoprazol, 2 veces al d\u0026 a y 1.000 mg de amoxicili"
+                        },
+                        {
+                            "dosis":  "500 mg",
+                            "principio_activo":  "levofloxacino",
+                            "para_que_se_usa":  "",
+                            "names":  [
+                                          "levofloxacino",
+                                          "levofloxacin",
+                                          "tavanic"
+                                      ],
+                            "como_se_usa":  ""
+                        },
+                        {
+                            "dosis":  "100 mg fluconazol",
+                            "principio_activo":  "fluconazol",
+                            "para_que_se_usa":  "fluconazol cinfa es uno de los medicamentos del grupo llamado \u0026 antif\u0026 ngicos\u0026 . El principio activo es fluconazol. Fluconazol se utiliza para tratar infecciones producidas por hongos, y tambi\u0026 n puede utilizarse para prevenir la aparici\u0026 n de una infecci\u0026 n por Candida. La causa m\u0026 s frecuente de las infecciones f\u0026 ngicas es una levadura llamada Candida. Adultos Su m\u0026 dico puede recetarle este medicamento para tratar los siguientes tipos de infecciones f\u0026 ngicas: Meningitis criptoc\u0026 cica \u0026 una infecci\u0026 n f\u0026 ngica en el cerebro. Coccidioidomicosis \u0026 una enfermedad del sistema broncopulmonar. Infecciones producidas por Candida localizadas en el torrente sangu\u0026 neo, en \u0026 rganos del cuerpo (p.ej. coraz\u0026 n, pulmones) o en el tracto urinario. Candidiasis de las mucosas \u0026 infecci\u0026 n que afecta al recubrimiento de la boca, de la garganta o asociadas a pr\u0026 tesis dentales. Candidiasis genital \u0026 infecci\u0026 n de la vagina o del pene. Infecciones de la piel \u0026 p.ej. pie de atleta, ti\u0026 a, ti\u0026 a inguin",
+                            "names":  [
+                                          "fluconazol",
+                                          "fluconazole",
+                                          "diflucan"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico o farmac\u0026 utico. En caso de duda, consulte de nuevo a su m\u0026 dico o farmac\u0026 utico. Las c\u0026 psulas deben tragarse enteras con ayuda de un vaso de agua. Es mejor que tome sus medicamentos siempre a la misma hora del d\u0026 a. A continuaci\u0026 n se indican las dosis recomendadas de este medicamento para los distintos tipos de infecciones: Adultos Afecci\u0026 n Dosis Para tratar la meningitis criptoc\u0026 cica 400 mg el primer d\u0026 a y posteriormente 200 mg a 400 mg una vez al d\u0026 a durante 6 a 8 semanas o m\u0026 s tiempo si es necesario. En ocasiones se incrementa la dosis hasta 800 mg Para evitar la reaparici\u0026 n de meningitis criptoc\u0026 cica 200 mg una vez al d\u0026 a hasta que le indique su m\u0026 dico Para tratar coccidioidomicosis 200 mg a 400 mg una vez al d\u0026 a desde 11 meses hasta 24 meses o m\u0026 s tiempo si fuese necesario. En ocasiones se incrementa la dosis hasta 800 mg Para tratar infecciones f\u0026 ngicas internas produ"
+                        },
+                        {
+                            "dosis":  "200 mg",
+                            "principio_activo":  "aciclovir",
+                            "para_que_se_usa":  "Aciclovir pertenece a un grupo de medicamentos conocidos como antivirales. Se utiliza para tratar y prevenir infecciones causadas por el virus del herpes simplex, herpes genital, herpes z\u0026 ster y el virus varicela.",
+                            "names":  [
+                                          "aciclovir",
+                                          "acyclovir",
+                                          "zovirax"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico. En caso de duda, consulte de nuevo a su m\u0026 dico o farmac\u0026 utico. Su medico decidir\u0026 la dosis correcta, la frecuencia y la duraci\u0026 n del tratamiento. Recuerde tomar su medicamento. Su m\u0026 dico le indicar\u0026 la duraci\u0026 n de su tratamiento con aciclovir.\u0026 No\u0026 suspenda el tratamiento antes. Las dosis habituales para adultos son: para el tratamiento de infecciones producidas por herpes simplex: un comprimido de 200 mg cinco veces al d\u0026 a cada cuatro horas, omitiendo la dosis nocturna para la supresi\u0026 n de recurrencias producidas por virus herpes simplex: un comprimido de 200 mg cuatro veces al d\u0026 a cada seis horas, o bien, dos comprimidos de 200 mg dos veces al d\u0026 a cada doce horas para la prevenci\u0026 n de infecciones producidas por herpes simplex en pacientes inmunodeprimidos: un comprimido de 200 mg cuatro veces al d\u0026 a cada seis horas para el tratamiento de la varicela e infecciones por herpes "
+                        },
+                        {
+                            "dosis":  "10 mg",
+                            "principio_activo":  "montelukast",
+                            "para_que_se_usa":  "",
+                            "names":  [
+                                          "montelukast",
+                                          "montelukast",
+                                          "singulair"
+                                      ],
+                            "como_se_usa":  ""
+                        },
+                        {
+                            "dosis":  "2 mg budesonida/ ml",
+                            "principio_activo":  "budesonida",
+                            "para_que_se_usa":  "Este medicamento contiene budesonida, con actividad antiinflamatoria y antialérgica cuando se aplica en la mucosa nasal. Está indicado en el alivio de la congestión, la irritación y las molestias localizadas en la mucosa nasal (rinitis), que son consecuencia de procesos alérgicos estacionales y crónicos. También en rinitis vasomotora y en el tratamiento de los pólipos nasales y su prevención tras una polipectomía.",
+                            "names":  [
+                                          "budesonida",
+                                          "budesonide",
+                                          "pulmicort"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administración de BUDESONIDA ALCON 100 microgramos/dosis indicadas por su médico. En caso de duda, consulte a su médico o farmacéutico. La posología debe ser individualizada y puede modificarse según criterio médico. En adultos y niños a partir de 6 años la dosis habitual recomendada es de dos aplicaciones (200 mcg) en cada fosa nasal una vez al día, por la mañana (total 400 mcg). Cuando los síntomas empiecen a remitir, puede reducirse la dosis a una aplicación (100 mcg) en cada fosa nasal (total 200 mcg). Para que los síntomas desaparezcan por completo se precisan varios días, utilizándose en las dosis e intervalos recomendados. El tratamiento de la rinitis estacional debe iniciarse, siempre que sea posible, antes de la exposición al alergeno. En el tratamiento de los pólipos nasales la dosis diaria puede incrementarse hasta 800 mcg. La dosis diaria total podrá ser dividida, administrándose por la mañana y por la noche, según criterio médico. Inst"
+                        },
+                        {
+                            "dosis":  "20 mg",
+                            "principio_activo":  "nifedipino",
+                            "para_que_se_usa":  "El principio activo, nifedipino, pertenece a una serie de medicamentos conocidos como calcioantagonistas. Los f\u0026 rmacos de este grupo dilatan las arterias coronarias, lo que aumenta el flujo sangu\u0026 neo y mejora el suministro de ox\u0026 geno al coraz\u0026 n. Por otro lado, el nifedipino dilata los vasos arteriales perif\u0026 ricos, lo que disminuye la presi\u0026 n arterial elevada. Nifedipino Retard STADA est\u0026 indicado para el tratamiento de la angina de pecho cr\u0026 nica estable (angina de esfuerzo) y de la hipertensi\u0026 n arterial.",
+                            "names":  [
+                                          "nifedipino",
+                                          "nifedipine",
+                                          "adalat"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico o farmac\u0026 utico. En caso de duda, consulte de nuevo a su m\u0026 dico o farmac\u0026 utico. Su m\u0026 dico determinar\u0026 la dosis adecuada a su caso particular. En general, el comprimido se ingiere sin masticar con ayuda de un poco de l\u0026 quido (que no sea zumo de pomelo). Procure tomar el medicamento todos los d\u0026 as a la misma hora. Siga estas instrucciones a menos que su m\u0026 dico le haya dado otras indicaciones distintas. Recuerde tomar su medicamento. Su m\u0026 dico le indicar\u0026 la duraci\u0026 n del tratamiento con nifedipino as\u0026 como la dosis con la que debe empezar. En caso de precisar suspender el tratamiento, se recomienda disminuir la dosis de forma gradual. Como norma general la pauta de tratamiento es un comprimido dos veces al d\u0026 a (20 mg cada 12 horas). Si se necesitaran dosis m\u0026 s elevadas, su m\u0026 dico le prescribir\u0026 la dosis que precise. Su m\u0026 dico le prescribir\u0026 la dosis adecuada. Poblaciones especial"
+                        },
+                        {
+                            "dosis":  "0,5 mg",
+                            "principio_activo":  "colchicina",
+                            "para_que_se_usa":  "Colchicina Indoco contiene el principio activo colchicina. Pertenece al grupo de medicamentos antigotosos y se utiliza para prevenir o controlar los ataques de gota. En pacientes con gota, la concentración de ácido úrico en la sangre aumenta. Esto puede causar que los cristales de ácido úrico se precipiten en el líquido sinovial de las articulaciones. La colchicina inhibe la respuesta inflamatoria resultante. Colchicina Indoco está indicada en adultos: - Para el tratamiento de la gota aguda - Para la prevención de los ataques de gota durante un tratamiento hipouricemiante",
+                            "names":  [
+                                          "colchicina",
+                                          "colchicine",
+                                          "colchicina"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administración del medicamento contenidas en este prospecto o las indicadas por su médico o farmacéutico. En caso de duda, pregunte a su médico o farmacéutico. La colchicina es potencialmente tóxica, por lo que es importante no superar la dosis recetada por su médico. Adultos: Posología para un ataque agudo de gota: La dosis recomendada es de 0,5 mg dos a tres veces por día. Su médico puede decidir recetarle una dosis adicional de 1 mg para el primer día de tratamiento. El tratamiento debe interrumpirse si se presentan efectos adversos gastrointestinales, si no se observa ningún efecto después de 2-3 días o si los síntomas desaparecen. Posología para prevención de un ataque de gota: La dosis recomendada es de 0,5 mg a 1 mg al día. Se debe tomar por la noche. Posología en pacientes con insuficiencia renal o hepática: En pacientes con insuficiencia hepática o renal de leve a moderada, la dosis recomendada es de 1 comprimido (0,5 mg de colchicina) al "
+                        },
+                        {
+                            "dosis":  "50 mg sumatriptan succinato",
+                            "principio_activo":  "sumatriptán",
+                            "para_que_se_usa":  "",
+                            "names":  [
+                                          "sumatriptan",
+                                          "sumatriptan",
+                                          "imigran"
+                                      ],
+                            "como_se_usa":  ""
+                        },
+                        {
+                            "dosis":  "0,18 mg / comprimido",
+                            "principio_activo":  "pramipexol",
+                            "para_que_se_usa":  "Pramipexol cinfa contiene el principio activo pramipexol y pertenece a un grupo de medicamentos denominados agonistas dopamin\u0026 rgicos, que estimulan los receptores de la dopamina en el cerebro. La estimulaci\u0026 n de los receptores dopamin\u0026 rgicos desencadena impulsos nerviosos en el cerebro que ayudan a controlar los movimientos del cuerpo. pramipexol cinfa se utiliza para: tratar los s\u0026 ntomas de la enfermedad de Parkinson idiop\u0026 tica en adultos. Puede utilizarse solo o en combinaci\u0026 n con levodopa (otro medicamento para la enfermedad de Parkinson). tratar los s\u0026 ntomas del S\u0026 ndrome de Piernas Inquietas idiop\u0026 tico de moderado a grave en adultos.",
+                            "names":  [
+                                          "pramipexol",
+                                          "pramipexole",
+                                          "sifrol"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico o farmac\u0026 utico. En caso de duda, consulte de nuevo a su m\u0026 dico o farmac\u0026 utico. Su m\u0026 dico le indicar\u0026 la posolog\u0026 a correcta. Puede tomar pramipexol con o sin alimentos. Los comprimidos deben tragarse con agua. El comprimido se puede partir en dosis iguales. Enfermedad de Parkinson La dosis diaria debe tomarse repartida en 3 dosis iguales. Durante la primera semana, la dosis habitual es de 1 comprimido de pramipexol\u0026 0,088 mg tres veces al d\u0026 a (equivalente a 0,264 mg diarios): 1a semana N\u0026 mero de comprimidos 1/2 comprimido de 0,18 mg tres veces al d\u0026 a (equivalente a una dosis de 0.088mg tres veces al d\u0026 a) Dosis diaria total (mg) 0,264 Esta dosis se incrementar\u0026 cada 5-7 d\u0026 as seg\u0026 n las indicaciones de su m\u0026 dico, hasta que sus s\u0026 ntomas est\u0026 n controlados (dosis de mantenimiento). 2a semana 3a semana N\u0026 mero de comprimidos 1 comprimido de 0,18 mg tres veces al d\u0026 a (equivalente a "
+                        },
+                        {
+                            "dosis":  "0,25 mg",
+                            "principio_activo":  "ropinirol",
+                            "para_que_se_usa":  "El principio activo de ropinirol cinfa es ropinirol, que pertenece a un grupo de medicamentos denominados agonistas de la dopamina. Los agonistas de la dopamina act\u0026 an del mismo modo que una sustancia natural que se encuentra en el cerebro denominada dopamina. ropinirol cinfa se utiliza para el tratamiento de la enfermedad de Parkinson. Las personas con enfermedad de Parkinson tienen bajos niveles de dopamina en algunas partes del cerebro. Ropinirol tiene un efecto similar a la dopamina natural y, de esta manera, reduce los s\u0026 ntomas de la enfermedad de Parkinson.",
+                            "names":  [
+                                          "ropinirol",
+                                          "ropinirole",
+                                          "requip"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico o farmac\u0026 utico. En caso de duda, consulte de nuevo a su m\u0026 dico o farmac\u0026 utico. Puede que se le haya prescrito ropinirol, s\u0026 lo, para el tratamiento de los s\u0026 ntomas de su enfermedad de Parkinson, o puede que tambi\u0026 n se le haya prescrito otro medicamento denominado L-dopa (levodopa). No debe dar ropinirol a los ni\u0026 os. Ropinirol normalmente no se prescribe a menores de 18 a\u0026 os. Qu\u0026 dosis de ropinirol cinfa debe tomar Puede ser necesario un tiempo para determinar qu\u0026 dosis de ropinirol es la mejor para usted. La dosis inicial recomendada es de 0,25 mg tres veces al d\u0026 a durante la primera semana. A partir de aqu\u0026 , su m\u0026 dico aumentar\u0026 su dosis cada semana, durante las pr\u0026 ximas tres semanas. Despu\u0026 s, su m\u0026 dico aumentar\u0026 gradualmente la dosis hasta que tome la dosis m\u0026 s adecuada para usted. La dosis recomendada es de 1 mg a 3 mg tres veces al d\u0026 a (lo que hace una dosis total diaria"
+                        },
+                        {
+                            "dosis":  "25 mg carvedilol",
+                            "principio_activo":  "carvedilol",
+                            "para_que_se_usa":  "",
+                            "names":  [
+                                          "carvedilol",
+                                          "carvedilol",
+                                          "carvedilol"
+                                      ],
+                            "como_se_usa":  ""
+                        },
+                        {
+                            "dosis":  "2 mg",
+                            "principio_activo":  "doxazosina",
+                            "para_que_se_usa":  "Doxazosina es un f\u0026 rmaco con acci\u0026 n vasodilatadora para el tratamiento de la hipertensi\u0026 n arterial y de la hiperplasia benigna de pr\u0026 stata. Doxazosina est\u0026 indicado en el tratamiento de la tensi\u0026 n elevada de la sangre en las arterias (hipertensi\u0026 n arterial) y en el tratamiento de la obstrucci\u0026 n al flujo urinario y en los s\u0026 ntomas irritativos asociados con hiperplasia benigna de pr\u0026 stata (HBP). Doxazosina puede ser utilizado en pacientes con HBP, hipertensos o normotensos. Aquellos pacientes con ambas patolog\u0026 as pueden ser tratados con doxazosina como monoterapia.",
+                            "names":  [
+                                          "doxazosina",
+                                          "doxazosin",
+                                          "carduran"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico o farmac\u0026 utico. En caso de duda, consulte de nuevo a su m\u0026 dico o farmac\u0026 utico. Su m\u0026 dico decidir\u0026 qu\u0026 dosis de doxazosina es la m\u0026 s aconsejable para usted. No debe tomar m\u0026 s comprimidos que los especificados por su m\u0026 dico. Dependiendo de la respuesta individual, el m\u0026 dico podr\u0026 modificar la dosificaci\u0026 n de doxazosina. Doxazosina se administra por v\u0026 a oral. Doxazosina se puede administrar tanto por la ma\u0026 ana como por la noche. Hipertensi\u0026 n arterial Doxazosina se administra por v\u0026 a oral. La dosis recomendada es de 2-4 mg una vez al d\u0026 a. Se recomienda iniciar el tratamiento con la administraci\u0026 n de 1 mg una vez al d\u0026 a, durante 1 o 2 semanas. Seg\u0026 n la respuesta de cada paciente, la dosis puede aumentarse a 2 mg, 4 mg, 8 mg, o 16 mg al d\u0026 a como dosis m\u0026 xima, a intervalos de 1 o 2 semanas entre ellas, hasta conseguir la reducci\u0026 n deseada en la presi\u0026 n arterial del paciente."
+                        },
+                        {
+                            "dosis":  "200 mg",
+                            "principio_activo":  "celecoxib",
+                            "para_que_se_usa":  "celecoxib cinfa está indicado en adultos para aliviar los signos y síntomas de la artritis reumatoide, de la artrosis, y de la espondilitis anquilosante. celecoxib cinfa pertenece a una clase de medicamentos denominados antiinflamatorios no esteroideos (AINEs), y concretamente al subgrupo conocido como inhibidores selectivos de la ciclooxigenasa-2 (COX-2). Su cuerpo produce prostaglandinas que pueden producir dolor e inflamación. En afecciones como la artritis reumatoide o la artrosis su cuerpo las produce en mayor cantidad. celecoxib cinfa actúa reduciendo la producción de prostaglandinas, disminuyendo así el dolor y la inflamación. El medicamento empezará a hacer efecto unas horas después de haber tomado la primera dosis, pero puede que no experimente un efecto completo hasta pasados varios días.",
+                            "names":  [
+                                          "celecoxib",
+                                          "celecoxib",
+                                          "celebrex"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administración de este medicamento indicadas por su médico o farmacéutico. En caso de duda, consulte de nuevo a su médico o farmacéutico. Si piensa o cree que la acción de celecoxib es demasiado fuerte o débil, comuníqueselo a su médico o farmacéutico. Su médico le indicará la dosis que debe tomar. Dado que el riesgo de efectos adversos asociados con problemas de corazón puede incrementar con la dosis y duración del tratamiento, es importante que use la dosis más baja que controla su dolor y no debe tomar celecoxib más tiempo del necesario para controlar los síntomas. Forma de administración: Celecoxib debe administrarse por vía oral. Las cápsulas se toman a cualquier hora del día, con o sin comida. No obstante, intente tomar cada dosis de celecoxib a la misma hora cada día. Si tiene dificultad para tragar las cápsulas: puede esparcir todo el contenido de la cápsula en una cucharadita rasa de algún alimento semisólido (como compota de manzana, arro"
+                        },
+                        {
+                            "dosis":  "0,5 mg/ml",
+                            "principio_activo":  "betametasona",
+                            "para_que_se_usa":  "Este medicamento contiene el principio activo betametasona, pertenece al grupo de medicamentos llamados corticosteroides. Betametasona Sonphar se utiliza en ciertas enfermedades, por su acción antiinflamatoria, como por ejemplo enfermedades del colágeno y del tejido conjuntivo, dermatológicas, respiratorias, ORL o reumatológicas, reacciones alérgicas graves y en general en aquellas afecciones que requieran tratamiento con glucocorticoides.",
+                            "names":  [
+                                          "betametasona",
+                                          "betamethasone",
+                                          "celestoderm"
+                                      ],
+                            "como_se_usa":  "). Antes del tratamiento Advierta a su médico: en caso de haberse vacunado recientemente o si tiene programada una vacunación (especialmente en caso de tratarse de vacunas con virus atenuados) en caso de úlcera digestiva, enfermedades del intestino o cirugía intestinal reciente si padece diabetes o la han padecido familiares cercanos, o, sufre de hipertensión arterial o alguna enfermedad del corazón, porque su médico puede tener que hacerle controles de forma regular si padece cualquier tipo de infección (particularmente antecedentes de tuberculosis y las infecciones por virus como hepatitis, herpes, varicela) o si ha estado en contacto recientemente con personas afectadas por esas infecciones si tiene un problema de tiroides, insuficiencia hepática o insuficiencia renal ya que puede requerir menor dosis del medicamento si padece miastenia gravis (enfermedad de los músculos con fatiga muscular) u osteoporosis si padece epilepsia si padece o ha padecido problemas mentales, en particular"
+                        },
+                        {
+                            "dosis":  "50 mg/ml",
+                            "principio_activo":  "minoxidil",
+                            "para_que_se_usa":  "",
+                            "names":  [
+                                          "minoxidil",
+                                          "minoxidil",
+                                          "minoxidil"
+                                      ],
+                            "como_se_usa":  ""
+                        },
+                        {
+                            "dosis":  "15 mg lansoprazol",
+                            "principio_activo":  "lansoprazol",
+                            "para_que_se_usa":  "El principio activo de Lansoprazol cinfa es lansoprazol, un inhibidor de la bomba de protones. Los inhibidores de la bomba de protones disminuyen la cantidad de \u0026 cido que genera el est\u0026 mago. Su m\u0026 dico puede recetarle este medicamento para las indicaciones siguientes en adultos: -\u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 Tratamiento de la \u0026 lcera del duodeno y del est\u0026 mago. -\u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 Tratamiento de la inflamaci\u0026 n del es\u0026 fago (esofagitis por reflujo). -\u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 Prevenci\u0026 n de la inflamaci\u0026 n del es\u0026 fago (esofagitis por reflujo). -\u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 Tratamiento del ardor de est\u0026 mago y la regurgitaci\u0026 n \u0026 cida (paso del contenido \u0026 cido que asciende desde el est\u0026 mago). -\u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 Tratamiento de infecciones causadas por la bacteria Helicobacter pylori, en combinaci\u0026 n con antibi\u0026 ticos. -\u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 \u0026 Tratamiento o prevenci\u0026 n de la \u0026 lcera del duodeno o del est\u0026 mago en pacientes que requieren tratamiento continuo con antiinflam",
+                            "names":  [
+                                          "lansoprazol",
+                                          "lansoprazole",
+                                          "prevas"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico o farmac\u0026 utico. En caso de duda, consulte de nuevo a su m\u0026 dico o farmac\u0026 utico. La dosis de lansoprazol depende de su estado general. Las dosis recomendadas de lansoprazol para adultos se indican m\u0026 s abajo. En ocasiones, puede que su m\u0026 dico le recete una dosis diferente y le indique una duraci\u0026 n distinta del tratamiento. Tratamiento del ardor de est\u0026 mago y la regurgitaci\u0026 n \u0026 cida: una c\u0026 psula de 15 mg o 30 mg de lansoprazol al d\u0026 a durante 4 semanas. Si los s\u0026 ntomas no mejoran al cabo de 4 semanas, consulte a su m\u0026 dico. Tratamiento de la \u0026 lcera de duodeno: una c\u0026 psula de 30 mg de lansoprazol al d\u0026 a durante 2 semanas. Tratamiento de la \u0026 lcera de est\u0026 mago: una c\u0026 psula de 30 mg de lansoprazol al d\u0026 a durante 4 semanas. Tratamiento de la inflamaci\u0026 n del es\u0026 fago (esofagitis por reflujo): una c\u0026 psula de 30 mg de lansoprazol al d\u0026 a durante 4 semanas. Prevenci\u0026 n a largo plazo"
+                        },
+                        {
+                            "dosis":  "10 mg ebastina",
+                            "principio_activo":  "ebastina",
+                            "para_que_se_usa":  "Ebastina pertenece a un grupo de medicamentos denominados antihistam\u0026 nicos (antial\u0026 rgicos). ebastina cinfa est\u0026 indicado en el tratamiento sintom\u0026 tico de procesos al\u0026 rgicos tales como rinitis al\u0026 rgica estacional o perenne asociada o no a conjuntivitis al\u0026 rgica (como goteo nasal, picor de nariz, picor de ojos, lagrimeo, ganas de estornudar), urticaria cr\u0026 nica y dermatitis al\u0026 rgica.",
+                            "names":  [
+                                          "ebastina",
+                                          "ebastine",
+                                          "ebastel"
+                                      ],
+                            "como_se_usa":  "Siga exactamente las instrucciones de administraci\u0026 n de este medicamento indicadas por su m\u0026 dico o farmac\u0026 utico. En caso de duda, consulte de nuevo a su m\u0026 dico o farmac\u0026 utico. Recuerde tomar su medicamento. Su m\u0026 dico le indicar\u0026 la duraci\u0026 n de su tratamiento con ebastina. ebastina cinfa no es adecuada para la administraci\u0026 n de dosis inferiores a 10 mg, ni para aquellos pacientes con problemas al tragar. Posolog\u0026 a La dosis recomendada en adultos y ni\u0026 os mayores de 12 a\u0026 os es de 10 mg de ebastina (1 comprimido de ebastina cinfa 10 mg), una vez al d\u0026 a aunque algunos pacientes pueden requerir una dosis de 20 mg (1 comprimido de ebastina cinfa 20 mg) una vez al d\u0026 a. Uso en pacientes con enfermedad grave del h\u0026 gado: No se debe superar la dosis de 10 mg de ebastina al d\u0026 a (1 comprimido). Forma de administraci\u0026 n Los comprimidos de ebastina son para administraci\u0026 n por v\u0026 a oral. Se pueden tomar con o sin alimentos. Los comprimidos deben tragarse enteros, sin masticarlos, con ay"
+                        }
+                    ]
+}

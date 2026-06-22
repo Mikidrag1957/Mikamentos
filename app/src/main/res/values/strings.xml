@@ -120,5 +120,6 @@
     <string name="read">Read</string>
     <string name="no_description">No description available</string>
     <string name="data_management">Data management</string>
+    <string name="translate">Translate</string>
 </resources>
 

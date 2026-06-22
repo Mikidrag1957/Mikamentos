@@ -16,6 +16,7 @@ import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.Search
+import androidx.compose.material.icons.filled.Translate
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.runtime.saveable.rememberSaveable
@@ -73,7 +74,8 @@ fun MedicationCatalogScreen(
     if (showFullDescription != null) {
         MedicationFullDescription(
             item = showFullDescription!!,
-            onClose = { showFullDescription = null }
+            onClose = { showFullDescription = null },
+            viewModel = viewModel
         )
         return
     }
@@ -317,8 +319,18 @@ fun CatalogMedCard(
 @Composable
 fun MedicationFullDescription(
     item: CatalogItem,
-    onClose: () -> Unit
+    onClose: () -> Unit,
+    viewModel: MedicationCatalogViewModel
 ) {
+    val settings by viewModel.settings.collectAsState()
+    val targetLang = settings.language
+
+    val currentLang = remember(item) { viewModel.detectLanguage(item.displayDescription) }
+    val needsTranslate = currentLang != targetLang
+
+    var translatedText by remember { mutableStateOf<String?>(null) }
+    var isTranslating by remember { mutableStateOf(false) }
+
     Scaffold(
         topBar = {
             TopAppBar(
@@ -329,6 +341,31 @@ fun MedicationFullDescription(
                     actionIconContentColor = MaterialTheme.colorScheme.onPrimary
                 ),
                 actions = {
+                    if (needsTranslate) {
+                        IconButton(
+                            onClick = {
+                                isTranslating = true
+                                viewModel.translateSingleDescription(
+                                    text = item.displayDescription,
+                                    onResult = { translated ->
+                                        translatedText = translated
+                                        isTranslating = false
+                                    }
+                                )
+                            },
+                            enabled = !isTranslating
+                        ) {
+                            if (isTranslating) {
+                                CircularProgressIndicator(
+                                    modifier = Modifier.size(24.dp),
+                                    color = MaterialTheme.colorScheme.onPrimary,
+                                    strokeWidth = 2.dp
+                                )
+                            } else {
+                                Icon(Icons.Default.Translate, contentDescription = tr(R.string.translate))
+                            }
+                        }
+                    }
                     IconButton(onClick = onClose) {
                         Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr(R.string.back))
                     }
@@ -343,8 +380,20 @@ fun MedicationFullDescription(
                 .padding(16.dp)
                 .verticalScroll(rememberScrollState())
         ) {
+            val displayText = translatedText ?: item.displayDescription
+            if (translatedText != null) {
+                Text(
+                    text = item.displayDescription,
+                    fontSize = 13.sp,
+                    color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.5f),
+                    lineHeight = 18.sp
+                )
+                Spacer(modifier = Modifier.height(8.dp))
+                HorizontalDivider()
+                Spacer(modifier = Modifier.height(8.dp))
+            }
             Text(
-                text = item.displayDescription.ifEmpty { tr(R.string.no_description) },
+                text = displayText.ifEmpty { tr(R.string.no_description) },
                 fontSize = 16.sp,
                 color = MaterialTheme.colorScheme.onSurface,
                 lineHeight = 24.sp

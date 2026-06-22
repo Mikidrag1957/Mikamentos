@@ -94,5 +94,6 @@
     <string name="default_repetition_minutes">Minuts entre repeticions</string>
     <string name="notes_label">Dosi, instruccions...</string>
     <string name="menu_history">Historial</string>
+    <string name="translate">Traduir</string>
 </resources>
 

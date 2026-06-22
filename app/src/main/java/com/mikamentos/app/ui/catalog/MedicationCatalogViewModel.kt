@@ -105,6 +105,18 @@ class MedicationCatalogViewModel @Inject constructor(
         ttsManager.stop()
     }
 
+    fun detectLanguage(text: String): String = drugSearchRepository.detectLanguage(text)
+
+    fun translateSingleDescription(text: String, onResult: (String) -> Unit) {
+        viewModelScope.launch {
+            val language = repository.prefs.getString("language", "es") ?: "es"
+            val detected = drugSearchRepository.detectLanguage(text)
+            val result = if (detected == language) text
+            else drugSearchRepository.translateDescription(text, language, force = true)
+            onResult(result)
+        }
+    }
+
     fun searchDrugDescription(name: String, onResult: (String) -> Unit) {
         if (name.isBlank()) return
         viewModelScope.launch {

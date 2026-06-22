@@ -412,8 +412,10 @@ class DrugSearchRepository @Inject constructor(
     }
 
     private suspend fun tryTranslationChain(text: String, sourceLang: String, targetLang: String): String? {
-        val mymemoryResult = tryMyMemory(text, sourceLang, targetLang)
-        if (mymemoryResult != null) return mymemoryResult
+        if (text.length <= 500) {
+            val mymemoryResult = tryMyMemory(text, sourceLang, targetLang)
+            if (mymemoryResult != null) return mymemoryResult
+        }
 
         val googleResult = tryGoogleTranslate(text, sourceLang, targetLang)
         if (googleResult != null) return googleResult

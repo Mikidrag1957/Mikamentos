@@ -41,6 +41,11 @@ class MedicationCatalogViewModel @Inject constructor(
     private val _isTranslating = MutableStateFlow(false)
     val isTranslating: StateFlow<Boolean> = _isTranslating.asStateFlow()
 
+    private val _translateError = MutableStateFlow<String?>(null)
+    val translateError: StateFlow<String?> = _translateError.asStateFlow()
+
+    fun clearTranslateError() { _translateError.value = null }
+
     fun loadTranslations() {
         if (_isTranslating.value) return
         val prefs = repository.prefs
@@ -113,6 +118,9 @@ class MedicationCatalogViewModel @Inject constructor(
             val detected = drugSearchRepository.detectLanguage(text)
             val result = if (detected == language) text
             else drugSearchRepository.translateDescription(text, language, force = true)
+            if (result == text && detected != language) {
+                _translateError.value = "No se pudo traducir (texto demasiado largo o servicio no disponible)"
+            }
             onResult(result)
         }
     }

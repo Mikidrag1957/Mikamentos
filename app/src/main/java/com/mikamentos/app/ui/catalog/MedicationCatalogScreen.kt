@@ -324,6 +324,7 @@ fun MedicationFullDescription(
 ) {
     val settings by viewModel.settings.collectAsState()
     val targetLang = settings.language
+    val translateError by viewModel.translateError.collectAsState()
 
     val currentLang = remember(item) { viewModel.detectLanguage(item.displayDescription) }
     val needsTranslate = currentLang != targetLang
@@ -345,6 +346,7 @@ fun MedicationFullDescription(
                         IconButton(
                             onClick = {
                                 isTranslating = true
+                                viewModel.clearTranslateError()
                                 viewModel.translateSingleDescription(
                                     text = item.displayDescription,
                                     onResult = { translated ->
@@ -380,8 +382,10 @@ fun MedicationFullDescription(
                 .padding(16.dp)
                 .verticalScroll(rememberScrollState())
         ) {
-            val displayText = translatedText ?: item.displayDescription
-            if (translatedText != null) {
+            val translated = translatedText
+            val displayText = translated?.takeIf { it != item.displayDescription } ?: item.displayDescription
+            val showOriginal = translated != null && translated != item.displayDescription
+            if (showOriginal) {
                 Text(
                     text = item.displayDescription,
                     fontSize = 13.sp,
@@ -399,6 +403,19 @@ fun MedicationFullDescription(
                 lineHeight = 24.sp
             )
         }
+    }
+
+    if (translateError != null) {
+        AlertDialog(
+            onDismissRequest = { viewModel.clearTranslateError() },
+            title = { Text(tr(R.string.search_error_title)) },
+            text = { Text(translateError ?: "") },
+            confirmButton = {
+                TextButton(onClick = { viewModel.clearTranslateError() }) {
+                    Text(tr(R.string.close))
+                }
+            }
+        )
     }
 }
 

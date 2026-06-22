@@ -451,34 +451,69 @@ class DrugSearchRepository @Inject constructor(
     }
 
     private suspend fun tryGoogleTranslate(text: String, sourceLang: String, targetLang: String): String? {
+        val chunkSize = 1200
         return try {
-            val googleResult = kotlinx.coroutines.withContext(kotlinx.coroutines.Dispatchers.IO) {
-                val encoded = java.net.URLEncoder.encode(text, "UTF-8")
-                val url = java.net.URL("https://translate.googleapis.com/translate_a/single?client=gtx&sl=$sourceLang&tl=$targetLang&dt=t&q=$encoded")
-                val conn = url.openConnection() as java.net.HttpURLConnection
-                conn.setRequestProperty("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64)")
-                conn.connectTimeout = 7000
-                conn.readTimeout = 7000
-                val responseCode = conn.responseCode
-                if (responseCode == 200) {
-                    val response = conn.inputStream.bufferedReader().readText()
-                    conn.disconnect()
-                    parseGoogleTranslateResponse(response)
-                } else {
-                    android.util.Log.w("DrugSearch", "Google Translate returned HTTP $responseCode")
-                    conn.disconnect()
-                    null
-                }
+            val chunks = if (text.length <= chunkSize) listOf(text)
+            else chunkText(text, chunkSize)
+
+            val results = mutableListOf<String>()
+            for (chunk in chunks) {
+                val translated = translateGoogleChunk(chunk, sourceLang, targetLang) ?: return null
+                results.add(translated)
             }
-            if (googleResult != null && googleResult.isNotBlank() && !googleResult.equals(text, ignoreCase = true)) {
+
+            val combined = results.joinToString("")
+            if (combined.isNotBlank() && !combined.equals(text, ignoreCase = true)) {
                 lastTranslationTime = System.currentTimeMillis()
-                android.util.Log.d("DrugSearch", "Google OK: $sourceLang->$targetLang")
-                googleResult
+                android.util.Log.d("DrugSearch", "Google OK ($sourceLang->$targetLang, ${chunks.size} chunks)")
+                combined
             } else null
         } catch (e: Exception) {
             android.util.Log.e("DrugSearch", "Google failed: ${e.message}")
             null
         }
+    }
+
+    private suspend fun translateGoogleChunk(text: String, sourceLang: String, targetLang: String): String? {
+        return kotlinx.coroutines.withContext(kotlinx.coroutines.Dispatchers.IO) {
+            val encoded = java.net.URLEncoder.encode(text, "UTF-8")
+            val url = java.net.URL("https://translate.googleapis.com/translate_a/single?client=gtx&sl=$sourceLang&tl=$targetLang&dt=t&q=$encoded")
+            val conn = url.openConnection() as java.net.HttpURLConnection
+            conn.setRequestProperty("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64)")
+            conn.connectTimeout = 10000
+            conn.readTimeout = 10000
+            try {
+                val responseCode = conn.responseCode
+                if (responseCode == 200) {
+                    val response = conn.inputStream.bufferedReader().readText()
+                    parseGoogleTranslateResponse(response)
+                } else {
+                    android.util.Log.w("DrugSearch", "Google chunk returned HTTP $responseCode")
+                    null
+                }
+            } finally {
+                conn.disconnect()
+            }
+        }
+    }
+
+    private fun chunkText(text: String, maxSize: Int): List<String> {
+        val chunks = mutableListOf<String>()
+        var start = 0
+        while (start < text.length) {
+            var end = minOf(start + maxSize, text.length)
+            if (end < text.length) {
+                val nl = text.lastIndexOf('\n', end)
+                if (nl > start) end = nl + 1
+                else {
+                    val dot = text.lastIndexOf('.', end)
+                    if (dot > start) end = dot + 1
+                }
+            }
+            chunks.add(text.substring(start, end))
+            start = end
+        }
+        return chunks
     }
 
     fun detectLanguage(text: String): String {

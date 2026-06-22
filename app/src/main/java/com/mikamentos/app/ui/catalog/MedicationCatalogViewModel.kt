@@ -57,7 +57,7 @@ class MedicationCatalogViewModel @Inject constructor(
                     if (detected == language) {
                         results[med.id] = med.description
                     } else {
-                        val translated = drugSearchRepository.translateDescription(med.description, language)
+                        val translated = drugSearchRepository.translateDescription(med.description, language, force = true)
                         results[med.id] = translated
                     }
                     _translatedDescriptions.value = results.toMap()

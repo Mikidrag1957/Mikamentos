@@ -36,7 +36,7 @@ class HomeViewModel @Inject constructor(
             val results = mutableMapOf<String, String>()
             for (med in meds) {
                 if (med.description.isNotBlank()) {
-                    results[med.id] = drugSearchRepository.translateDescription(med.description, language)
+                    results[med.id] = drugSearchRepository.translateDescription(med.description, language, force = true)
                 }
             }
             _translatedDescriptions.value = results

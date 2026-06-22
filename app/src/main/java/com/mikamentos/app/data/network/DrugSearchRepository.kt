@@ -372,10 +372,10 @@ class DrugSearchRepository @Inject constructor(
         return translationCache.containsKey(key) || repository.getTranslationFromCache(key) != null
     }
 
-    suspend fun translateDescription(text: String, targetLang: String): String {
+    suspend fun translateDescription(text: String, targetLang: String, force: Boolean = false): String {
         if (text.isBlank()) return text
 
-        if (translateFailing) {
+        if (!force && translateFailing) {
             val elapsed = System.currentTimeMillis() - translateFailTimestamp
             if (elapsed < RETRY_COOLDOWN_MS) return text
             translateFailing = false

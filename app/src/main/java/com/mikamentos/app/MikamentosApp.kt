@@ -17,12 +17,23 @@ class MikamentosApp : Application() {
     @Inject lateinit var repository: MedicationRepository
     @Inject lateinit var scheduler: AlarmScheduler
 
+    private var initialized = false
+
     override fun onCreate() {
         super.onCreate()
+        initialized = true
         createNotificationChannel()
         Handler(Looper.getMainLooper()).postDelayed({
             rescheduleAllAlarms()
         }, 500)
+    }
+
+    fun runOnInit(callback: () -> Unit) {
+        if (initialized) {
+            callback()
+        } else {
+            Handler(Looper.getMainLooper()).post(callback)
+        }
     }
 
     private fun rescheduleAllAlarms() {

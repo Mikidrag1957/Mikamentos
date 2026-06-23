@@ -75,30 +75,36 @@ class MedicationRepository @Inject constructor(
     // --- CATALOG ---
 
     private fun loadCatalog() {
+        var json: String? = null
+        var items: List<CatalogMedication>? = null
+
         try {
-            var json = prefs.getString(KEY_CATALOG, null)
-            var items: List<CatalogMedication>? = null
+            json = prefs.getString(KEY_CATALOG, null)
             if (json != null) {
                 val type = object : TypeToken<List<CatalogMedication>>() {}.type
                 items = gson.fromJson(json, type)
             }
-            if (items.isNullOrEmpty()) {
-                try {
-                    json = if (catalogFile.exists()) catalogFile.readText() else null
-                    if (json != null) {
-                        val type = object : TypeToken<List<CatalogMedication>>() {}.type
-                        items = gson.fromJson(json, type)
-                        if (!items.isNullOrEmpty()) {
-                            prefs.edit().putString(KEY_CATALOG, json).apply()
-                        }
-                    }
-                } catch (_: Exception) {}
-            }
-            if (!items.isNullOrEmpty()) {
-                _catalogMedications.value = items
-            }
         } catch (e: Exception) {
-            _catalogMedications.value = emptyList()
+            android.util.Log.e("MedicationRepo", "Catalog SP failed: ${e.message}")
+        }
+
+        if (items.isNullOrEmpty()) {
+            try {
+                json = if (catalogFile.exists()) catalogFile.readText() else null
+                if (json != null) {
+                    val type = object : TypeToken<List<CatalogMedication>>() {}.type
+                    items = gson.fromJson(json, type)
+                    if (!items.isNullOrEmpty()) {
+                        prefs.edit().putString(KEY_CATALOG, json).apply()
+                    }
+                }
+            } catch (e: Exception) {
+                android.util.Log.e("MedicationRepo", "Catalog file failed: ${e.message}")
+            }
+        }
+
+        if (!items.isNullOrEmpty()) {
+            _catalogMedications.value = items
         }
     }
 
@@ -144,38 +150,46 @@ class MedicationRepository @Inject constructor(
     // --- SCHEDULED MEDICATIONS ---
 
     private fun loadMedications() {
+        var json: String? = null
+        var items: List<Medication>? = null
+
         try {
-            var json = prefs.getString(KEY_MEDICATIONS, null)
-            var items: List<Medication>? = null
+            json = prefs.getString(KEY_MEDICATIONS, null)
             if (json != null) {
                 val type = object : TypeToken<List<Medication>>() {}.type
                 items = gson.fromJson(json, type)
             }
-            if (items.isNullOrEmpty()) {
-                try {
-                    json = if (medicationsFile.exists()) medicationsFile.readText() else null
-                    if (json != null) {
-                        val type = object : TypeToken<List<Medication>>() {}.type
-                        items = gson.fromJson(json, type)
-                        if (!items.isNullOrEmpty()) {
-                            prefs.edit().putString(KEY_MEDICATIONS, json).apply()
-                        }
-                    }
-                } catch (_: Exception) {}
-            }
-            if (!items.isNullOrEmpty()) {
-                val fixed = items.map { med ->
-                    if (!med.isEnabled && med.daysOfWeek.any { it }) med.copy(isEnabled = true) else med
-                }
-                _medications.value = fixed
-                if (fixed != items) {
-                    val fixedJson = gson.toJson(fixed)
-                    prefs.edit().putString(KEY_MEDICATIONS, fixedJson).commit()
-                    try { medicationsFile.writeText(fixedJson) } catch (_: Exception) {}
-                }
-            }
         } catch (e: Exception) {
-            _medications.value = emptyList()
+            android.util.Log.e("MedicationRepo", "SP deserialize failed: ${e.message}")
+        }
+
+        if (items.isNullOrEmpty()) {
+            try {
+                json = if (medicationsFile.exists()) medicationsFile.readText() else null
+                if (json != null) {
+                    val type = object : TypeToken<List<Medication>>() {}.type
+                    items = gson.fromJson(json, type)
+                    if (!items.isNullOrEmpty()) {
+                        prefs.edit().putString(KEY_MEDICATIONS, json).apply()
+                    }
+                }
+            } catch (e: Exception) {
+                android.util.Log.e("MedicationRepo", "File deserialize failed: ${e.message}")
+            }
+        }
+
+        if (!items.isNullOrEmpty()) {
+            val fixed = items.map { med ->
+                if (!med.isEnabled && med.daysOfWeek.any { it }) med.copy(isEnabled = true) else med
+            }
+            _medications.value = fixed
+            if (fixed != items) {
+                val fixedJson = gson.toJson(fixed)
+                prefs.edit().putString(KEY_MEDICATIONS, fixedJson).commit()
+                try { medicationsFile.writeText(fixedJson) } catch (_: Exception) {}
+            }
+        } else {
+            android.util.Log.w("MedicationRepo", "No medications found on disk")
         }
     }
 

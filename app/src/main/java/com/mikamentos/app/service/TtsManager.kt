@@ -33,8 +33,14 @@ class TtsManager(private val context: Context) {
         if (result != null && result >= TextToSpeech.LANG_AVAILABLE) {
             tts?.language = locale
         } else {
-            Log.w("TtsManager", "Language $languageCode not available (result=$result), using default")
-            tts?.language = Locale.getDefault()
+            val langOnly = Locale(languageCode)
+            val langResult = tts?.isLanguageAvailable(langOnly)
+            if (langResult != null && langResult >= TextToSpeech.LANG_AVAILABLE) {
+                tts?.language = langOnly
+            } else {
+                Log.w("TtsManager", "Language $languageCode not available (result=$result), using English fallback")
+                tts?.language = Locale.UK
+            }
         }
 
         val utteranceId = System.currentTimeMillis().toString()
@@ -63,8 +69,14 @@ class TtsManager(private val context: Context) {
         if (result != null && result >= TextToSpeech.LANG_AVAILABLE) {
             tts?.language = locale
         } else {
-            Log.w("TtsManager", "Language $languageCode not available (result=$result), using default")
-            tts?.language = Locale.getDefault()
+            val langOnly = Locale(languageCode)
+            val langResult = tts?.isLanguageAvailable(langOnly)
+            if (langResult != null && langResult >= TextToSpeech.LANG_AVAILABLE) {
+                tts?.language = langOnly
+            } else {
+                Log.w("TtsManager", "Language $languageCode not available (result=$result), using English fallback")
+                tts?.language = Locale.UK
+            }
         }
 
         val cleanText = text.lowercase(locale)
